@@ -2,48 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <meta name=”viewport” content=”initial-scale=1, width=device-width, height=device-height, viewport-fit=cover”>
-    <script src="//cdn.jsdelivr.net/npm/phaser@3.21.0/dist/phaser.min.js"></script>
+    <title>Portfolio</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            height: 100vh;
+        }
+
+        main {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-family: Arial, sans-serif;
-            user-select: none;
-            background-image: url("images/background.jpg");
-            background-position: center 0;
-            background-repeat: no-repeat;
-            background-size: cover;
         }
 
-        @font-face {
-            font-family: 'fusion';
-            src: url('fonts/fusion.ttf') format("truetype");
+        .projects {
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
-        .roulette {
-            position: relative;
-            margin-top: env(safe-area-inset-top); /* iOS 11.2 */
-            font-family: fusion, serif;
+        .projects section {
+            width: 400px;
+            height: 300px;
+            margin: 30px;
+            box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.5);
         }
 
+        .projects h2 {
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .projects a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .roulette a {
+            background: url("roulette/images/background.jpg") center no-repeat;
+            background-size: contain;
+        }
+
+        .race a {
+            background: url("race/images/race.png") center no-repeat;
+            background-size: contain;
+        }
+
+        .blobs a {
+            background: url("blobs/blobs.png") center no-repeat;
+            background-size: contain;
+        }
+
+        .flies a {
+            background: url("flies/flies.png") center no-repeat;
+            background-size: contain;
+        }
     </style>
 </head>
 <body>
-<section class="roulette" id="roulette">
-
-</section>
-<script src="api.js"></script>
-<script src="overlay.js"></script>
-<script src="animation.js"></script>
-<script src="field.js"></script>
-<script src="depositPopup.js"></script>
-<script src="menu.js"></script>
-<script src="test.js"></script>
+<main>
+    <h1>Мои проекты (коммерческие)</h1>
+    <article class="projects">
+        <section class="race">
+            <h2>Гонки</h2>
+            <a href="race/race.html"></a>
+        </section>
+        <section class="roulette">
+            <h2>Рулетка</h2>
+            <a href="roulette/index.html"></a>
+        </section>
+        <section class="blobs">
+            <h2>Колобки</h2>
+            <a href="blobs/index.html"></a>
+        </section>
+        <section class="flies">
+            <h2>Убей мух</h2>
+            <a href="flies/flies.html"></a>
+        </section>
+    </article>
+</main>
 </body>
 </html>
