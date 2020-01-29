@@ -1,0 +1,2270 @@
+{
+	"textures": [
+		{
+			"image": "lever-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1020,
+				"h": 1782
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ColumnSpin_00000.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 17,
+						"w": 125,
+						"h": 127
+					},
+					"frame": {
+						"x": 522,
+						"y": 1520,
+						"w": 125,
+						"h": 127
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00001.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 16,
+						"w": 126,
+						"h": 128
+					},
+					"frame": {
+						"x": 1,
+						"y": 1525,
+						"w": 126,
+						"h": 128
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00002.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 16,
+						"w": 127,
+						"h": 128
+					},
+					"frame": {
+						"x": 1,
+						"y": 1395,
+						"w": 127,
+						"h": 128
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00003.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 15,
+						"w": 129,
+						"h": 129
+					},
+					"frame": {
+						"x": 814,
+						"y": 1486,
+						"w": 129,
+						"h": 129
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00004.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 15,
+						"w": 130,
+						"h": 129
+					},
+					"frame": {
+						"x": 834,
+						"y": 1355,
+						"w": 130,
+						"h": 129
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00005.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 14,
+						"w": 131,
+						"h": 130
+					},
+					"frame": {
+						"x": 701,
+						"y": 1255,
+						"w": 131,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00006.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 13,
+						"w": 133,
+						"h": 131
+					},
+					"frame": {
+						"x": 279,
+						"y": 1256,
+						"w": 133,
+						"h": 131
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00007.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 13,
+						"w": 133,
+						"h": 131
+					},
+					"frame": {
+						"x": 137,
+						"y": 1259,
+						"w": 133,
+						"h": 131
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00008.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 13,
+						"w": 135,
+						"h": 131
+					},
+					"frame": {
+						"x": 564,
+						"y": 1252,
+						"w": 135,
+						"h": 131
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00009.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 12,
+						"w": 136,
+						"h": 132
+					},
+					"frame": {
+						"x": 703,
+						"y": 1121,
+						"w": 136,
+						"h": 132
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00010.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 12,
+						"w": 137,
+						"h": 132
+					},
+					"frame": {
+						"x": 564,
+						"y": 1118,
+						"w": 137,
+						"h": 132
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00011.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 138,
+						"h": 133
+					},
+					"frame": {
+						"x": 1,
+						"y": 1123,
+						"w": 138,
+						"h": 133
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00012.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 139,
+						"h": 133
+					},
+					"frame": {
+						"x": 423,
+						"y": 1118,
+						"w": 139,
+						"h": 133
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00013.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 140,
+						"h": 134
+					},
+					"frame": {
+						"x": 859,
+						"y": 1083,
+						"w": 140,
+						"h": 134
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00014.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 141,
+						"h": 134
+					},
+					"frame": {
+						"x": 576,
+						"y": 982,
+						"w": 141,
+						"h": 134
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00015.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 9,
+						"w": 141,
+						"h": 135
+					},
+					"frame": {
+						"x": 433,
+						"y": 981,
+						"w": 141,
+						"h": 135
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00016.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 143,
+						"h": 135
+					},
+					"frame": {
+						"x": 288,
+						"y": 844,
+						"w": 143,
+						"h": 135
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00017.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 143,
+						"h": 135
+					},
+					"frame": {
+						"x": 288,
+						"y": 981,
+						"w": 143,
+						"h": 135
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00018.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 8,
+						"w": 143,
+						"h": 136
+					},
+					"frame": {
+						"x": 145,
+						"y": 705,
+						"w": 143,
+						"h": 136
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00019.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 145,
+						"h": 136
+					},
+					"frame": {
+						"x": 591,
+						"y": 844,
+						"w": 145,
+						"h": 136
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00020.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 145,
+						"h": 136
+					},
+					"frame": {
+						"x": 738,
+						"y": 845,
+						"w": 145,
+						"h": 136
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00021.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 7,
+						"w": 145,
+						"h": 137
+					},
+					"frame": {
+						"x": 444,
+						"y": 842,
+						"w": 145,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00022.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 147,
+						"h": 137
+					},
+					"frame": {
+						"x": 446,
+						"y": 564,
+						"w": 147,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00023.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 147,
+						"h": 137
+					},
+					"frame": {
+						"x": 595,
+						"y": 565,
+						"w": 147,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00024.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 147,
+						"h": 137
+					},
+					"frame": {
+						"x": 446,
+						"y": 703,
+						"w": 147,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00025.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 6,
+						"w": 147,
+						"h": 138
+					},
+					"frame": {
+						"x": 297,
+						"y": 564,
+						"w": 147,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00026.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 149,
+						"h": 138
+					},
+					"frame": {
+						"x": 1,
+						"y": 424,
+						"w": 149,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00027.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 149,
+						"h": 138
+					},
+					"frame": {
+						"x": 152,
+						"y": 424,
+						"w": 149,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00028.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 149,
+						"h": 138
+					},
+					"frame": {
+						"x": 303,
+						"y": 424,
+						"w": 149,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00029.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 149,
+						"h": 138
+					},
+					"frame": {
+						"x": 454,
+						"y": 424,
+						"w": 149,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00030.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 305,
+						"y": 142,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00031.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 456,
+						"y": 142,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00032.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 607,
+						"y": 142,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00033.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00034.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 153,
+						"y": 1,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00035.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 305,
+						"y": 1,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00036.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 457,
+						"y": 1,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00037.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 609,
+						"y": 1,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00038.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 761,
+						"y": 1,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00039.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 1,
+						"y": 142,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00040.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 150,
+						"h": 139
+					},
+					"frame": {
+						"x": 153,
+						"y": 142,
+						"w": 150,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00041.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 758,
+						"y": 142,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00042.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 1,
+						"y": 283,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00043.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 152,
+						"y": 283,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00044.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 303,
+						"y": 283,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00045.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 149,
+						"h": 139
+					},
+					"frame": {
+						"x": 454,
+						"y": 283,
+						"w": 149,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00046.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 148,
+						"h": 139
+					},
+					"frame": {
+						"x": 605,
+						"y": 283,
+						"w": 148,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00047.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 148,
+						"h": 139
+					},
+					"frame": {
+						"x": 755,
+						"y": 283,
+						"w": 148,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00048.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 147,
+						"h": 139
+					},
+					"frame": {
+						"x": 605,
+						"y": 424,
+						"w": 147,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00049.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 5,
+						"w": 147,
+						"h": 139
+					},
+					"frame": {
+						"x": 754,
+						"y": 424,
+						"w": 147,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00050.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 146,
+						"h": 139
+					},
+					"frame": {
+						"x": 1,
+						"y": 564,
+						"w": 146,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00051.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 146,
+						"h": 139
+					},
+					"frame": {
+						"x": 149,
+						"y": 564,
+						"w": 146,
+						"h": 139
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00052.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 145,
+						"h": 138
+					},
+					"frame": {
+						"x": 297,
+						"y": 704,
+						"w": 145,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00053.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 144,
+						"h": 138
+					},
+					"frame": {
+						"x": 744,
+						"y": 565,
+						"w": 144,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00054.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 144,
+						"h": 138
+					},
+					"frame": {
+						"x": 595,
+						"y": 704,
+						"w": 144,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00055.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 143,
+						"h": 138
+					},
+					"frame": {
+						"x": 741,
+						"y": 705,
+						"w": 143,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00056.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 142,
+						"h": 138
+					},
+					"frame": {
+						"x": 1,
+						"y": 705,
+						"w": 142,
+						"h": 138
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00057.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 141,
+						"h": 137
+					},
+					"frame": {
+						"x": 145,
+						"y": 843,
+						"w": 141,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00058.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 140,
+						"h": 137
+					},
+					"frame": {
+						"x": 1,
+						"y": 845,
+						"w": 140,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00059.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 140,
+						"h": 137
+					},
+					"frame": {
+						"x": 143,
+						"y": 982,
+						"w": 140,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00060.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 7,
+						"w": 138,
+						"h": 137
+					},
+					"frame": {
+						"x": 1,
+						"y": 984,
+						"w": 138,
+						"h": 137
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00061.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 8,
+						"w": 138,
+						"h": 136
+					},
+					"frame": {
+						"x": 719,
+						"y": 983,
+						"w": 138,
+						"h": 136
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00062.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 136,
+						"h": 136
+					},
+					"frame": {
+						"x": 285,
+						"y": 1118,
+						"w": 136,
+						"h": 136
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00063.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 136,
+						"h": 136
+					},
+					"frame": {
+						"x": 141,
+						"y": 1121,
+						"w": 136,
+						"h": 136
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00064.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 9,
+						"w": 134,
+						"h": 135
+					},
+					"frame": {
+						"x": 885,
+						"y": 946,
+						"w": 134,
+						"h": 135
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00065.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 9,
+						"w": 134,
+						"h": 135
+					},
+					"frame": {
+						"x": 1,
+						"y": 1258,
+						"w": 134,
+						"h": 135
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00066.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 132,
+						"h": 135
+					},
+					"frame": {
+						"x": 886,
+						"y": 809,
+						"w": 132,
+						"h": 135
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00067.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 10,
+						"w": 131,
+						"h": 134
+					},
+					"frame": {
+						"x": 423,
+						"y": 1253,
+						"w": 131,
+						"h": 134
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00068.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 10,
+						"w": 130,
+						"h": 134
+					},
+					"frame": {
+						"x": 841,
+						"y": 1219,
+						"w": 130,
+						"h": 134
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00069.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 11,
+						"w": 129,
+						"h": 133
+					},
+					"frame": {
+						"x": 890,
+						"y": 674,
+						"w": 129,
+						"h": 133
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00070.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 11,
+						"w": 128,
+						"h": 133
+					},
+					"frame": {
+						"x": 556,
+						"y": 1385,
+						"w": 128,
+						"h": 133
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00071.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 11,
+						"w": 126,
+						"h": 133
+					},
+					"frame": {
+						"x": 686,
+						"y": 1387,
+						"w": 126,
+						"h": 133
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00072.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 12,
+						"w": 124,
+						"h": 132
+					},
+					"frame": {
+						"x": 272,
+						"y": 1389,
+						"w": 124,
+						"h": 132
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00073.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 12,
+						"w": 124,
+						"h": 132
+					},
+					"frame": {
+						"x": 137,
+						"y": 1392,
+						"w": 124,
+						"h": 132
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00074.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 13,
+						"w": 122,
+						"h": 131
+					},
+					"frame": {
+						"x": 398,
+						"y": 1389,
+						"w": 122,
+						"h": 131
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00075.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 13,
+						"w": 120,
+						"h": 131
+					},
+					"frame": {
+						"x": 398,
+						"y": 1522,
+						"w": 120,
+						"h": 131
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00076.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 118,
+						"h": 130
+					},
+					"frame": {
+						"x": 649,
+						"y": 1522,
+						"w": 118,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00077.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 118,
+						"h": 130
+					},
+					"frame": {
+						"x": 520,
+						"y": 1649,
+						"w": 118,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00078.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 15,
+						"w": 116,
+						"h": 129
+					},
+					"frame": {
+						"x": 903,
+						"y": 543,
+						"w": 116,
+						"h": 129
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00079.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 15,
+						"w": 114,
+						"h": 129
+					},
+					"frame": {
+						"x": 905,
+						"y": 283,
+						"w": 114,
+						"h": 129
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00080.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 16,
+						"w": 112,
+						"h": 128
+					},
+					"frame": {
+						"x": 886,
+						"y": 1617,
+						"w": 112,
+						"h": 128
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00081.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 17,
+						"w": 111,
+						"h": 127
+					},
+					"frame": {
+						"x": 640,
+						"y": 1654,
+						"w": 111,
+						"h": 127
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00082.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 17,
+						"w": 113,
+						"h": 127
+					},
+					"frame": {
+						"x": 905,
+						"y": 414,
+						"w": 113,
+						"h": 127
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00083.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 18,
+						"w": 115,
+						"h": 126
+					},
+					"frame": {
+						"x": 769,
+						"y": 1617,
+						"w": 115,
+						"h": 126
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00084.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 18,
+						"w": 116,
+						"h": 126
+					},
+					"frame": {
+						"x": 376,
+						"y": 1655,
+						"w": 116,
+						"h": 126
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00085.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 19,
+						"w": 118,
+						"h": 125
+					},
+					"frame": {
+						"x": 1,
+						"y": 1655,
+						"w": 118,
+						"h": 125
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00086.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 19,
+						"w": 119,
+						"h": 125
+					},
+					"frame": {
+						"x": 129,
+						"y": 1654,
+						"w": 119,
+						"h": 125
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00087.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 19,
+						"w": 121,
+						"h": 125
+					},
+					"frame": {
+						"x": 253,
+						"y": 1652,
+						"w": 121,
+						"h": 125
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00088.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 18,
+						"w": 122,
+						"h": 126
+					},
+					"frame": {
+						"x": 129,
+						"y": 1526,
+						"w": 122,
+						"h": 126
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "ColumnSpin_00089.png.webp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 17,
+						"w": 123,
+						"h": 127
+					},
+					"frame": {
+						"x": 263,
+						"y": 1523,
+						"w": 123,
+						"h": 127
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:46f28ebc74894a2b294b4eb60afe4444:5debb3e01948a9be8696bcc6fec9126a:579aef2ef87fefc32aa2f60999097ef7$"
+	}
+}
