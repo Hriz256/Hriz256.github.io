@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/race.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roulette/images/roulette.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580324723490</updated>
       <workItem from="1580324739086" duration="800000" />
-      <workItem from="1580327966539" duration="2980000" />
+      <workItem from="1580327966539" duration="3234000" />
     </task>
     <task id="LOCAL-00001" summary="Release">
       <created>1580324842868</created>
@@ -78,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580330474227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сборка проектов">
+      <created>1580330959769</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580330959769</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Сборка проектов">
+      <created>1580331009120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580331009120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
