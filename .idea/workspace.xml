@@ -2,176 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/depositPopup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/field.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fusion.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/readme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3droulette_ingame_replay_dialogue_2_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3droulette_ingame_stats_black_rhombus_icon_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3droulette_ingame_stats_red_rhombus_icon_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/UpperWheel.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/balance_display.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ball.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bet_chips_scrolling_arrow_left_lower_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bet_chips_scrolling_arrow_left_upper_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bet_chips_scrolling_arrow_right_lower_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bet_chips_scrolling_arrow_right_upper_sdk.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blank-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blank-green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/button-deposit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chips/chip_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clearAllBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/close-popup-deposit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cold_emblem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/deposit-field.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/deposit-popup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/depositSlider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/errorBg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/exitBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/goodLuckText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gt_glow.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hot_emblem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/informationBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lever-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lever.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lobby-panel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/min&amp;max_bet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/move.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/musicBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/next_chip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/openHistoryBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pict.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/placeYourBets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/previous_chip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/progress-slider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/quickspinBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rebetBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/roulette.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliderHandlerBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/spinBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/splashscreen.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/10.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/23.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/26.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/tiers.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/voisins.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/table_en.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/text_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/undoBttn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/win_ball-display.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/win_display.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/windowBtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/winningIndicator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/winningNumberBannerBlack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/winningNumberBannerGreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/winningNumberBannerRed.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/race.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/background-music.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/chip_add.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/chip_remove.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/clear_chips.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/good_luck.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/metal_1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/metal_2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/metal_3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/navigation_arrows.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/place_your_bets.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/plastic_1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/plastic_2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/smallWin.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_00.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_01.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_010.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_011.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_012.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_013.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_014.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_015.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_016.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_017.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_018.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_019.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_02.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_020.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_021.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_022.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_023.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_024.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_025.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_026.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_027.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_028.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_029.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_03.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_030.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_031.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_032.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_033.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_034.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_035.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_036.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_04.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_05.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_06.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_07.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_08.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/sounds/sound_09.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/statistics_button.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/statistics_hover.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/statistics_panel_transition.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/system_button.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/wheel_roll.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/overlay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,8 +22,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X58i4h0fTMmOpBw6UstnPJk1LK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -220,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580324723490</updated>
       <workItem from="1580324739086" duration="800000" />
-      <workItem from="1580327966539" duration="2296000" />
+      <workItem from="1580327966539" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="Release">
       <created>1580324842868</created>
@@ -229,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580324842868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сборка проектов">
+      <created>1580330373488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580330373488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сборка проектов">
+      <created>1580330474227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580330474227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +98,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Release" />
+    <MESSAGE value="Сборка проектов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сборка проектов" />
   </component>
 </project>
