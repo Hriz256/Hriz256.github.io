@@ -54,6 +54,7 @@
       <updated>1580324723490</updated>
       <workItem from="1580324739086" duration="800000" />
       <workItem from="1580327966539" duration="3873000" />
+      <workItem from="1580650902850" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="Release">
       <created>1580324842868</created>
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580331207963</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавлена новая работа (Анимация)">
+      <created>1580651042968</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580651042968</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Release" />
     <MESSAGE value="Сборка проектов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сборка проектов" />
+    <MESSAGE value="Добавлена новая работа (Анимация)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена новая работа (Анимация)" />
   </component>
 </project>
