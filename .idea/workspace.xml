@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/roulette/images/roulette.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -55,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580324723490</updated>
       <workItem from="1580324739086" duration="800000" />
-      <workItem from="1580327966539" duration="3234000" />
+      <workItem from="1580327966539" duration="3873000" />
     </task>
     <task id="LOCAL-00001" summary="Release">
       <created>1580324842868</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580331009120</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Сборка проектов">
+      <created>1580331207963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580331207963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
