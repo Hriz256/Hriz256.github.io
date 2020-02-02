@@ -10,6 +10,7 @@ class MeetTheCharacters extends Phaser.Scene {
         };
 
         this.allowCrop = false;
+        this.isVisible = false;
     }
 
 
@@ -68,12 +69,14 @@ class MeetTheCharacters extends Phaser.Scene {
         });
         this.findOutMore.x += this.findOutMore.width;
         this.movePanels(true);
-
-        setTimeout(() => this.allowCrop = true, 1000);
     }
 
     update() {
-        this.allowCrop && this.cropAnim();
+        this.allowCrop && this.isVisible && this.cropAnim();
+    }
+
+    doAllowCrop() {
+        setTimeout(() => this.allowCrop = true, 1000);
     }
 
     cropAnim() {

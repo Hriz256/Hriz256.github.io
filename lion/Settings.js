@@ -82,7 +82,7 @@ class Settings extends Phaser.Scene {
                             self.allowMove = true;
                             self.timeout = setTimeout(() => {
                                 game.scene.keys['secondWindow'].movePanels(true);
-                                setTimeout(() =>  game.scene.keys['secondWindow'].allowCrop = true, 1000);
+                                game.scene.keys['secondWindow'].doAllowCrop();
                             }, 150);
                         }
                     });
@@ -124,7 +124,7 @@ class Settings extends Phaser.Scene {
                             self.allowMove = true;
                             self.timeout = setTimeout(() => {
                                 game.scene.keys['secondWindow'].movePanels(true);
-                                setTimeout(() =>  game.scene.keys['secondWindow'].allowCrop = true, 1000);
+                                game.scene.keys['secondWindow'].doAllowCrop();
                             }, 150);
                         }
                     });
@@ -134,12 +134,14 @@ class Settings extends Phaser.Scene {
             }
 
             if (name === 'goBack') {
-                link.scene.stop();
-                self.scene.start('MainWindow')
+                link.scene.moveDown();
+                game.scene.keys['secondWindow'].isVisible = false;
             }
 
             if (name === 'meet') {
-                self.scene.launch('secondWindow')
+                link.scene.moveDown();
+                game.scene.keys['secondWindow'].isVisible = true;
+                game.scene.keys['secondWindow'].doAllowCrop();
             }
 
             if (name === 'lamp') {

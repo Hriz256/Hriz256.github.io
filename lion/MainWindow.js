@@ -18,6 +18,8 @@ class MainWindow extends Phaser.Scene {
 
     create() {
         this.scene.launch('Settings');
+        this.scene.launch('secondWindow');
+        this.scene.moveUp();
         this.bg = this.add.image(0, 0, 'bg').setOrigin(0).setPipeline('Light2D');
         this.tint = this.add.image(350, 0, 'tint').setOrigin(0).setInteractive({cursor: 'pointer'}).setDepth(50).setAlpha(0);
         this.logo = this.add.image(385, 35, 'logo').setOrigin(0).setAlpha(0);
