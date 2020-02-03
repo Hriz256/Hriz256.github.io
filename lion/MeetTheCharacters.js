@@ -6,7 +6,8 @@ class MeetTheCharacters extends Phaser.Scene {
         this.charactersName = ['nala', 'mufasa', 'zazu', 'rafiki', 'scar', 'pumba', 'timon', 'simba'];
         this.posters = {
             currentPoster: 0,
-            array: null
+            staticArray: [],
+            dynamicArray: []
         };
 
         this.allowCrop = false;
@@ -30,28 +31,35 @@ class MeetTheCharacters extends Phaser.Scene {
     }
 
     create() {
-        this.posters.array = this.charactersName.map((i, index) => {
-            const cropText = this.add.image(450, 50, `${i}Text`).setOrigin(0).setTint(0xfdb914).setCrop(0, 0, 0, 0).setDepth(100);
+        this.posters.staticArray = this.charactersName.map((i, index) => {
+            const bg = this.add.image(0, 0, `${i}Bg`).setOrigin(0).setAlpha(index === 0 ? 1 : 0);
+            bg.isBg = true;
+
+            const text = this.add.image(450, 50, `${i}Text`).setOrigin(0).setAlpha(index === 0 ? 1 : 0).setDepth(50);
+            text.isName = true;
+
+            const cropText = this.add.image(450, 50, `${i}Text`).setOrigin(0).setTint(0xfdb914).setCrop(0, 0, 0, 0).setAlpha(index === 0 ? 1 : 0).setDepth(100);
             cropText.deleteCrop = false;
 
-            return this.add.container(800 * index, 0, [
-                this.add.image(0, 0, `${i}Bg`).setOrigin(0),
-                this.add.image(450, 50, `${i}Text`).setOrigin(0),
-                cropText,
-                this.add.image(585, 240, `${i}Description`).setOrigin(0.5),
-                game.scene.keys['Settings'].buttonSettings({
-                    link: this,
-                    target: this.add.image(410, 235, 'leftArrow').setOrigin(0.5),
-                    name: 'leftArrow'
-                }),
-                game.scene.keys['Settings'].buttonSettings({
-                    link: this,
-                    target: this.add.image(755, 235, 'rightArrow').setOrigin(0.5),
-                    name: 'rightArrow'
-                }),
-            ]);
+            return [bg, text, cropText];
         });
 
+        this.posters.dynamicArray = this.charactersName.map((i, index) => {
+            return this.add.image(585 + (gameWidth * index), 240, `${i}Description`)
+                .setOrigin(0.5)
+                .setDepth(50);
+        });
+
+        game.scene.keys['Settings'].buttonSettings({
+            link: this,
+            target: this.add.image(410, 235, 'leftArrow').setOrigin(0.5),
+            name: 'leftArrow'
+        });
+        game.scene.keys['Settings'].buttonSettings({
+            link: this,
+            target: this.add.image(755, 235, 'rightArrow').setOrigin(0.5),
+            name: 'rightArrow'
+        });
         this.goBackTint = this.add.image(0, 0, 'goBackTint').setOrigin(0).setInteractive({cursor: 'pointer'}).setDepth(50).setAlpha(0);
         this.findOutMoreTint = this.add.image(0, 0, 'findOutMoreTint').setOrigin(0).setInteractive({cursor: 'pointer'}).setDepth(50).setAlpha(0);
 
@@ -68,11 +76,24 @@ class MeetTheCharacters extends Phaser.Scene {
             name: 'findOutMore'
         });
         this.findOutMore.x += this.findOutMore.width;
-        this.movePanels(true);
     }
 
     update() {
         this.allowCrop && this.isVisible && this.cropAnim();
+    }
+
+    showAllElems() {
+        this.movePanels(true);
+        this.isVisible = true;
+        this.doAllowCrop();
+        // this.textVisibility(true);
+    }
+
+    hideAllElems() {
+        this.movePanels(false);
+        this.isVisible = false;
+        this.deleteCrop();
+        this.textVisibility(false);
     }
 
     doAllowCrop() {
@@ -80,7 +101,7 @@ class MeetTheCharacters extends Phaser.Scene {
     }
 
     cropAnim() {
-        const cropText = this.posters.array[this.posters.currentPoster].list.filter(i => i.isCropped)[0];
+        const cropText = this.posters.staticArray[this.posters.currentPoster].filter(i => i.isCropped)[0];
 
         if (cropText._crop.cw >= cropText.width) cropText.deleteCrop = true;
 
@@ -90,10 +111,38 @@ class MeetTheCharacters extends Phaser.Scene {
     }
 
     deleteCrop() {
-        const cropText = this.posters.array[this.posters.currentPoster].list.filter(i => i.isCropped)[0].setCrop(0, 0, 0, 0);
+        const cropText = this.posters.staticArray[this.posters.currentPoster].filter(i => i.isCropped)[0].setCrop(0, 0, 0, 0);
 
         cropText.deleteCrop = false;
         this.allowCrop = false;
+    }
+
+    textVisibility(show) {
+        const text = this.posters.dynamicArray[this.posters.currentPoster];
+
+        game.scene.keys['Settings'].alphaAnim({
+            target: text,
+            duration: show ? 200 : 300,
+            alpha: show ? 1 : 0,
+        });
+    }
+
+    staticElemsVisibility() {
+        this.posters.staticArray.forEach(array => {
+                game.scene.keys['Settings'].alphaAnim({
+                    target: array,
+                    duration: 100,
+                    alpha: 0,
+                });
+        });
+
+        const array = this.posters.staticArray[this.posters.currentPoster];
+
+        game.scene.keys['Settings'].alphaAnim({
+            target: array,
+            duration: 300,
+            alpha: 1,
+        });
     }
 
     movePanels(show) {

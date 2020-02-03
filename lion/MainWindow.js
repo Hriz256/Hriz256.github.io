@@ -26,7 +26,7 @@ class MainWindow extends Phaser.Scene {
         this.text2 = this.add.image(470, 175, 'text2').setOrigin(0).setAlpha(0);
         this.text1 = this.add.image(415, 200, 'text1').setOrigin(0).setAlpha(0);
 
-        const lamp = game.scene.keys['Settings'].buttonSettings({
+        this.lamp = game.scene.keys['Settings'].buttonSettings({
             link: this,
             target: this.add.image(30, 0, 'lamp').setOrigin(0).setScale(0.2),
             name: 'lamp'
@@ -47,52 +47,102 @@ class MainWindow extends Phaser.Scene {
     }
 
     createButtons() {
-        const playBtn = game.scene.keys['Settings'].buttonSettings({
+        this.playBtn = game.scene.keys['Settings'].buttonSettings({
             link: this,
             target: this.add.image(800, 230, 'play').setOrigin(0).setDepth(100),
             name: 'play'
         });
-        const meetBtn = game.scene.keys['Settings'].buttonSettings({
+        this.meetBtn = game.scene.keys['Settings'].buttonSettings({
             link: this,
             target: this.add.image(800, 295, 'meet').setOrigin(0).setDepth(100),
             name: 'meet'
         });
-        const findBtn = game.scene.keys['Settings'].buttonSettings({
+        this.findBtn = game.scene.keys['Settings'].buttonSettings({
             link: this,
             target: this.add.image(800, 365, 'find').setOrigin(0).setDepth(100),
             name: 'find'
         });
 
-        this.moveAnim([playBtn, meetBtn, findBtn]);
+        this.showDisplay({});
     }
 
-    moveAnim(array) {
+    delayAnim(ms) {
+        return new Promise(resolve => {
+            setTimeout(() => resolve(), ms)
+        });
+    };
+
+    showDisplay({array = [this.playBtn, this.meetBtn, this.findBtn], afterSecondWindow = false}) {
         const self = this;
 
-        game.scene.keys['Settings'].moveAnim({
-            targets: array,
-            duration: 400,
-            x: 350,
-            delay: 400,
-            callback: function(targets) {
-                targets.forEach(i => game.scene.keys['Settings'].buttonSettings({
-                    link: self,
-                    target: i
-                }));
-
-                setTimeout(() => {
-                    game.scene.keys['Settings'].alphaAnim({
-                        target: self.logo, duration: 800
-                    });
-                }, 400);
-
-                setTimeout(() => {
-                    game.scene.keys['Settings'].alphaAnim({
-                        target: [self.text1, self.text2], duration: 800
-                    });
-                }, 1200);
-            }
+        game.scene.keys['Settings'].alphaAnim({
+            target: [this.bg, this.lamp],
+            duration: afterSecondWindow ? 800 : 0,
         });
+
+        this.delayAnim(afterSecondWindow ? 500 : 0)
+            .then(() => {
+                game.scene.keys['Settings'].moveAnim({
+                    targets: array,
+                    duration: 400,
+                    x: 350,
+                    delay: 220,
+                    callback: function (targets) {
+                        targets.forEach(i => game.scene.keys['Settings'].buttonSettings({
+                            link: self,
+                            target: i
+                        }));
+
+                        game.scene.keys['Settings'].alphaAnim({
+                            target: self.logo, duration: 800
+                        });
+
+                        setTimeout(() => {
+                            game.scene.keys['Settings'].alphaAnim({
+                                target: [self.text1, self.text2], duration: 800
+                            });
+                        }, 300);
+                    }
+                });
+            })
+    }
+
+    hideDisplay(array = [this.playBtn, this.meetBtn, this.findBtn]) {
+        this.tint.x = 800;
+
+        game.scene.keys['Settings'].alphaAnim({
+            target: this.logo, duration: 800, alpha: 0
+        });
+
+        this.delayAnim(300)
+            .then(() => {
+                game.scene.keys['Settings'].alphaAnim({
+                    target: [this.text1, this.text2],
+                    duration: 800,
+                    alpha: 0,
+                });
+            });
+
+        this.delayAnim(1100)
+            .then(() => {
+                game.scene.keys['Settings'].moveAnim({
+                    targets: array,
+                    duration: 400,
+                    x: 800,
+                    delay: 220
+                });
+            })
+            .then(() => {
+                game.scene.keys['Settings'].alphaAnim({
+                    target: [this.bg, this.lamp],
+                    duration: 800,
+                    alpha: 0,
+                    delay: 500,
+                    callback: function () {
+                        game.scene.keys['secondWindow'].showAllElems()
+                    }
+                });
+            });
     }
 }
 

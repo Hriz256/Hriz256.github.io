@@ -20,7 +20,8 @@ class Settings extends Phaser.Scene {
                 })
             } else if (name === 'play' || name === 'meet' || name === 'find') {
                 game.scene.keys['MainWindow'].tint.setAlpha(1);
-                game.scene.keys['MainWindow'].tint.y = this.y
+                game.scene.keys['MainWindow'].tint.y = this.y;
+                game.scene.keys['MainWindow'].tint.x = this.x;
             } else if (name === 'goBack') {
                 game.scene.keys['secondWindow'].goBackTint.setAlpha(1);
                 game.scene.keys['secondWindow'].goBackTint.y = this.y;
@@ -51,43 +52,46 @@ class Settings extends Phaser.Scene {
         target.on('pointerdown', function () {
             if (name === 'leftArrow' && self.allowMove) {
                 const posters = game.scene.keys['secondWindow'].posters;
+
                 let allow = true;
                 self.allowMove = false;
 
                 if (posters.currentPoster === 0) {
                     allow = false;
 
-                    posters.array.forEach((i, index) => {
+                    posters.dynamicArray.forEach((i, index) => {
                         if (index !== 0) {
-                            i.x = -gameWidth * posters.array.length + gameWidth * index;
+                            i.x = (585 + (-gameWidth * posters.dynamicArray.length)) + gameWidth * index;
                             allow = true;
                         }
                     })
                 }
 
                 if (allow) {
-                    game.scene.keys['secondWindow'].movePanels(false);
-                    game.scene.keys['secondWindow'].deleteCrop();
+                    game.scene.keys['secondWindow'].hideAllElems(false);
                     clearInterval(self.timeout);
 
                     self.moveAnim({
                         targets: posters,
-                        x: `+=800`,
+                        x: `+=${gameWidth}`,
                         duration: 500,
+                        startCallback: function () {
+                            game.scene.keys['secondWindow'].textVisibility(true);
+                            game.scene.keys['secondWindow'].staticElemsVisibility(true);
+                        },
                         callback: function (targets) {
-                            if (targets.currentPoster === targets.array.length - 1) {
-                                targets.array[0].x = -gameWidth * (posters.array.length - 1);
+                            if (targets.currentPoster === targets.dynamicArray.length - 1) {
+                                targets.dynamicArray[0].x = 585 -gameWidth * (posters.dynamicArray.length - 1);
                             }
 
                             self.allowMove = true;
                             self.timeout = setTimeout(() => {
-                                game.scene.keys['secondWindow'].movePanels(true);
-                                game.scene.keys['secondWindow'].doAllowCrop();
+                                game.scene.keys['secondWindow'].showAllElems(true);
                             }, 150);
                         }
                     });
 
-                    posters.currentPoster > 0 ? posters.currentPoster-- : posters.currentPoster = posters.array.length - 1
+                    posters.currentPoster > 0 ? posters.currentPoster-- : posters.currentPoster = posters.dynamicArray.length - 1
                 }
             }
 
@@ -96,52 +100,54 @@ class Settings extends Phaser.Scene {
                 let allow = true;
                 self.allowMove = false;
 
-                if (posters.currentPoster === posters.array.length - 1) {
+                if (posters.currentPoster === posters.dynamicArray.length - 1) {
                     allow = false;
 
-                    posters.array.forEach((i, index) => {
-                        if (index !== posters.array.length - 1) {
-                            i.x = gameWidth * (index + 1);
+                    posters.dynamicArray.forEach((i, index) => {
+                        if (index !== posters.dynamicArray.length - 1) {
+                            i.x = 585 + gameWidth * (index + 1);
                             allow = true;
                         }
                     })
                 }
 
                 if (allow) {
-                    game.scene.keys['secondWindow'].movePanels(false);
-                    game.scene.keys['secondWindow'].deleteCrop();
+                    game.scene.keys['secondWindow'].hideAllElems(false);
                     clearInterval(self.timeout);
 
                     self.moveAnim({
                         targets: posters,
-                        x: `-=800`,
+                        x: `-=${gameWidth}`,
                         duration: 500,
+                        startCallback: function () {
+                            game.scene.keys['secondWindow'].textVisibility(true);
+                            game.scene.keys['secondWindow'].staticElemsVisibility(true);
+                        },
                         callback: function (targets) {
                             if (targets.currentPoster === 0) {
-                                targets.array[targets.array.length - 1].x = gameWidth * (targets.array.length - 1);
+                                targets.dynamicArray[targets.dynamicArray.length - 1].x = 585 + (gameWidth * (targets.dynamicArray.length - 1));
                             }
 
                             self.allowMove = true;
                             self.timeout = setTimeout(() => {
-                                game.scene.keys['secondWindow'].movePanels(true);
-                                game.scene.keys['secondWindow'].doAllowCrop();
+                                game.scene.keys['secondWindow'].showAllElems(true);
                             }, 150);
                         }
                     });
 
-                    posters.currentPoster < posters.array.length - 1 ? posters.currentPoster++ : posters.currentPoster = 0;
+                    posters.currentPoster < posters.dynamicArray.length - 1 ? posters.currentPoster++ : posters.currentPoster = 0;
                 }
             }
 
             if (name === 'goBack') {
-                link.scene.moveDown();
-                game.scene.keys['secondWindow'].isVisible = false;
+                game.scene.keys['secondWindow'].hideAllElems();
+                game.scene.keys['secondWindow'].textVisibility(false);
+                game.scene.keys['MainWindow'].showDisplay({afterSecondWindow: true});
             }
 
             if (name === 'meet') {
-                link.scene.moveDown();
-                game.scene.keys['secondWindow'].isVisible = true;
-                game.scene.keys['secondWindow'].doAllowCrop();
+                link.hideDisplay();
+                game.scene.keys['secondWindow'].textVisibility(true);
             }
 
             if (name === 'lamp') {
@@ -167,23 +173,30 @@ class Settings extends Phaser.Scene {
         });
     }
 
-    alphaAnim({target, duration}) {
+    alphaAnim({target, duration, alpha = 1, delay = 0, callback = false}) {
         this.tweens.add({
             targets: target,
-            alpha: 1,
+            alpha: alpha,
             duration: duration,
             ease: 'Sine.easeInOut',
+            delay: delay,
+            onComplete() {
+                callback && callback()
+            }
         });
     }
 
-    moveAnim({targets, duration, x, callback = false, delay = 0}) {
+    moveAnim({targets, duration, x, callback = false, delay = 0, startCallback = false}) {
         this.tweens.add({
-            targets: targets.array ? targets.array : targets,
+            targets: targets.dynamicArray ? targets.dynamicArray : targets,
             x: x,
             duration: duration,
             ease: 'Sine.easeInOut',
             delay: function (target, targetKey, value, targetIndex) {
                 return targetIndex * delay;
+            },
+            onUpdate() {
+                startCallback && startCallback()
             },
             onComplete() {
                 callback && callback(targets)
