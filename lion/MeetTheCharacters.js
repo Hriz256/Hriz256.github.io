@@ -33,13 +33,8 @@ class MeetTheCharacters extends Phaser.Scene {
     create() {
         this.posters.staticArray = this.charactersName.map((i, index) => {
             const bg = this.add.image(0, 0, `${i}Bg`).setOrigin(0).setAlpha(index === 0 ? 1 : 0);
-            bg.isBg = true;
-
             const text = this.add.image(450, 50, `${i}Text`).setOrigin(0).setAlpha(index === 0 ? 1 : 0).setDepth(50);
-            text.isName = true;
-
             const cropText = this.add.image(450, 50, `${i}Text`).setOrigin(0).setTint(0xfdb914).setCrop(0, 0, 0, 0).setAlpha(index === 0 ? 1 : 0).setDepth(100);
-            cropText.deleteCrop = false;
 
             return [bg, text, cropText];
         });
@@ -129,11 +124,11 @@ class MeetTheCharacters extends Phaser.Scene {
 
     staticElemsVisibility() {
         this.posters.staticArray.forEach(array => {
-                game.scene.keys['Settings'].alphaAnim({
-                    target: array,
-                    duration: 100,
-                    alpha: 0,
-                });
+            game.scene.keys['Settings'].alphaAnim({
+                target: array,
+                duration: 90,
+                alpha: 0,
+            });
         });
 
         const array = this.posters.staticArray[this.posters.currentPoster];
