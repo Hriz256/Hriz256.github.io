@@ -1,0 +1,17 @@
+:Base LIBRARY.HLP
+1 OrCAD supplied libraries=IDH_CONTENTS
+1 Standard libraries included with Capture
+2 OrCAD standard libraries=OrCAD_Main_libs
+2 Actel libraries=Actel_libs
+2 Altera libraries=Altera_libs
+2 AMD libraries=AMD_libs
+2 Lattice libraries=Lattice_libs
+2 IEC libraries=IEC_libs
+2 IEEE libraries=IEEE_libs
+2 Lucent libraries=Lucent_libs
+2 Phillips library=Phillips_libs
+2 PSpice libraries=PSpice_libs
+2 SPLD library=SPLD_libs
+2 Xilinx M1 libraries=Xilinx_M1_libs
+2 Xilinx libraries=Xilinx _libs
+2 OrCAD 7.20 libraries=OldLibs_libs

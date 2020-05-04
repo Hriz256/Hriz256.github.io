@@ -1,0 +1,7 @@
+(Format Gerber)
+(DefaultUnit MIL)
+(CreateApertures On)
+(OptimizeGerber No)
+(StepSize 1.0 1.0)
+(Shift AUTO)
+(Table 24000 16000)

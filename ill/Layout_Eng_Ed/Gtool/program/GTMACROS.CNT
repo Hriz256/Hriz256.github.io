@@ -1,0 +1,25 @@
+:Base gtmacros.HLP
+1 GerbTool Macro Developer
+2 About the Macro Developer=Macro_Developer
+2 Opening the Macro Developer=Opening_the_Macro_Developer
+2 Macro Developer Main Screen=Macro_Developer_Main_Screen
+2 Macro Developer Command Reference
+3 Macro Developer Main menu=Macro_Developer_Menus
+3 File Menu=File_Menu
+3 Edit Menu=Edit_Menu
+3 View Menu=View_Menu
+3 Options Menu=Options_Menu
+3 Debug Menu=Debug_Menu
+3 Tools Menu=Tools_Menu
+3 Help Menu=Help_Menu
+1 Creating GerbTool macros
+2 Creating Macros=Creating_Macros
+2 Using Variables=Using_Variables
+2 Coordinate lists=Coordinate_lists
+2 Repeating Blocks of Commands=Repeating_Blocks_of_Commands
+2 Making Decisions=Making_Decisions
+1 GerbTool Macro Language
+2 Alphabetical listing of GerbTool Macro commands=Alphabetical_listing_of_GerbTool_Macro_commands
+2 Macro commands listed by functionality=Macro_commands_listed_by_functionality
+2 System Variables=System_Variables
+2 Possible $$STATUS return values=Possible_STATUS_return_values

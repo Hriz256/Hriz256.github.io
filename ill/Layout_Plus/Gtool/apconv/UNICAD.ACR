@@ -1,0 +1,22 @@
+# Aperture converter for Unicad
+# $Revision:   1.0  $
+
+NAME Unicad
+VERSION 1.0
+EXTENSION apt 
+
+CUSTOM $$YES
+
+DEFAULT_UNITS $$MIL
+
+HEADER 4
+
+FORMAT_ROUND G4APT +$skip +$dcode CIRCLE   LINE +$xsize
+FORMAT_ROUND G4APT +$skip +$dcode CIRCLE   FLASH $skip +$xsize
+FORMAT_SQUARE G4APT +$skip +$dcode SQUARE   FLASH $skip +$xsize
+FORMAT_RECT G4APT +$skip +$dcode RECT     FLASH $skip +$xsize +$ysize
+FORMAT_TARGET G4APT +$skip +$dcode TARGET   FLASH $skip +$xsize
+FORMAT_THERMAL G4APT +$skip +$dcode 0-ISO    FLASH $skip +$xsize +$ysize
+FORMAT_THERM45 G4APT +$skip +$dcode 45-ISO   FLASH $skip +$xsize +$ysize
+FORMAT_CUSTOM G4APT +$skip +$dcode SHAPE    FLASH $custom +$xsize +$ysize
+

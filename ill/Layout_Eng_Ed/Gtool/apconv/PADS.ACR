@@ -1,0 +1,23 @@
+# Aperture converter for Pads
+# $Revision:   1.0  $
+
+NAME Pads
+VERSION 1.0
+EXTENSION rep 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 0
+SKIP   =
+
+FORMAT_ROUND  +$dcode +$xsize +$ysize +LINE
+FORMAT_ROUND  +$dcode +$xsize +$ysize +RND
+FORMAT_ROUND  +$dcode +$xsize +$ysize +ODD
+FORMAT_DONUT  +$dcode +$xsize +$ysize +ANNL
+FORMAT_OBLONG  +$dcode +$xsize +$ysize +OVAL
+FORMAT_RECT  +$dcode +$xsize +$ysize +RECT
+FORMAT_SQUARE  +$dcode +$xsize +$ysize +SQR
+FORMAT_SQUARE  +$dcode +$xsize +$ysize +SQRL
+FORMAT_THERMAL  +$dcode +$xsize +$ysize +THER

@@ -1,0 +1,24 @@
+# Aperture converter for Consultek
+# $Revision:   1.0  $
+
+NAME Consultek
+VERSION 1.0
+EXTENSION apf 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+# may want to see if they are all this large
+HEADER 190
+
+SKIP   $
+
+FORMAT_ROUND  $dcode +1 +$xsize +$ysize
+FORMAT_RECT  $dcode +2 +$xsize +$ysize
+FORMAT_OBLONG  $dcode +6 +$xsize +$ysize
+FORMAT_THERMAL  $dcode +5 +$xsize +$ysize
+FORMAT_THERMAL  $dcode +11 +$xsize +$ysize
+FORMAT_DONUT  $dcode +9 +$xsize +$ysize
+FORMAT_TARGET  $dcode +10 +$xsize +$ysize
+

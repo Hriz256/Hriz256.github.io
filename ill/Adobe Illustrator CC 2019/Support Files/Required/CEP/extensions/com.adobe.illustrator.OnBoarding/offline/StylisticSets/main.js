@@ -1,0 +1,1 @@
+var CSLibrary=new CSInterface;function InformClientAboutPopupHeight(t){var e=new CSEvent("StylisticSetsOnBoardingEvent","APPLICATION"),n={Data:document.documentElement.offsetHeight.toString(),Type:t};e.data=JSON.stringify(n),CSLibrary.dispatchEvent(e)}

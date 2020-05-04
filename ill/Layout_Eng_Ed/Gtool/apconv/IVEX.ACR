@@ -1,0 +1,16 @@
+# Aperture converter for Ivex
+# $Revision:   1.0  $
+
+NAME Ivex
+VERSION 1.0
+EXTENSION pen 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 3
+SKIP   $
+
+FORMAT_ROUND  D$dcode	+C	+$xsize	+$ysize	+$rot
+FORMAT_SQUARE  D$dcode	+R	+$xsize	+$ysize	+$rot

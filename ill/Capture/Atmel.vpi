@@ -1,0 +1,102 @@
+(VPIFile 980127
+	(Vendor Atmel)
+	(CompileDefaults
+		(Speed None)
+		(WireLoad None)
+		(MaxFanout 10)
+		(AddIOPads 1)
+		(GlobalBuffers 1)
+		(WriteEQNSymbols 1)
+		(WriteFMAPSymbol 1)
+		(WriteFMAPHMAPSymbols 1)
+		(GenerateTimeSpec 1)
+		(IORegisters 1)
+		(UseQuadrantClockBuffers 0)
+		(PackLogicToCLBs 1)
+		(WriteCLBs 1)
+		(FastOutputBuffers 1)
+		(UseF5MAPSymbols 1)
+		(AssignGSR Auto)
+		(XmplrStateEncoding OneHot)
+		(PreserveHierarchy 0)
+		(OptimizeSingleHierarchy 0)
+		(ExtendOptEffort 0)
+		(ExtendedEffortPass1 1)
+		(ExtendedEffortPass2 1)
+		(ExtendedEffortPass3 1)
+		(ExtendedEffortPass4 1)
+		(ModuleGenerationCheck 0)
+		(OperatorSelect Auto)
+		(OperatorExtractClockEnables 1)
+		(OperatorExtractDecoders 1)
+		(OperatorExtractCounters 1)
+		(OperatorExtractRAMs 1)
+		(NetlistFormat EDIF)
+	)
+	(Family "AT40K Family"
+		(SimLib "\Atmel\COMP.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\FNCTIONL.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\RAM.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\TABLES.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\VITAL.vhd"	
+			(Folder IT))
+
+		(SymbolLib "\Atmel\AT40K.olb")
+		(AreaDelay 0)
+		(Effort 10)
+		(Retiming 1)
+		(Processing
+			(SynthEng
+				(ExemplarLib at40k)
+				(Choices:Speed None -3 -2 -1 STD)
+			)
+		)
+	)
+	(Family "AT6K02 Family"
+		(SimLib "\Atmel\AT6K02V.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\AT6K02VC.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\AT6K02VT.vhd"	
+			(Folder IT))
+
+		(SymbolLib "\Atmel\AT6K.olb")
+		(Processing
+			(SynthEng
+				(ExemplarLib at6k02)
+				(Choices:Speed None -2 -1 STD -F)
+			)
+		)
+	)
+	(Family "AT6K04 Family"
+		(SimLib "\Atmel\AT6K04V.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\AT6K04VC.vhd"	
+			(Folder IT))
+		(SimLib "\Atmel\AT6K04VT.vhd"	
+			(Folder IT))
+
+		(SymbolLib "\Atmel\AT6K.olb")
+		(Processing
+			(SynthEng
+				(ExemplarLib at6k04)
+				(Choices:Speed None -2 -1 STD -F)
+			)
+		)
+	)
+	(Processing
+		(CompiledNetlistPath project)
+		(EnableBuildMenuItem 0)
+		(SynthEng
+			(NeedIOs	True)
+			(CompileSetupTechnology	IDD_XMP_ATMEL)
+			(Choices:MaxFanoutLoad 10 12 14 16 18 20 22 24)
+			(Choices:Application Commercial Industrial Military)
+			(Choices:Approach "Best Case" "Typical Case" "Worst Case")
+		)
+	)
+)

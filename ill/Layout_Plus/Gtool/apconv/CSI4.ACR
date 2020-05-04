@@ -1,0 +1,26 @@
+# Aperture converter for CSI V4
+# $Revision:   1.0  $
+
+NAME CSI 4
+VERSION 1.0
+EXTENSION gap 
+
+CUSTOM $$NO
+DCODE  $$GERBER_ORDER
+
+DEFAULT_UNITS $$MILL
+
+HEADER 1
+
+FORMAT_ROUND 1 $xsize $ysize
+FORMAT_SQUARE 2 $xsize $ysize
+FORMAT_RECT 3 $xsize $ysize
+FORMAT_TARGET 4 $xsize $ysize
+FORMAT_THERMAL 5 $xsize $ysize
+FORMAT_CUSTOM 6 $xsize $ysize
+FORMAT_DONUT 7 $xsize $ysize
+FORMAT_OCTAGON 8 $xsize $ysize
+FORMAT_OBLONG 9 $xsize $ysize
+FORMAT_SPECIAL 0 $xsize $ysize
+
+

@@ -1,0 +1,3 @@
+NOTE: frqchk.cir is for customers WITHOUT Schematics.  frqchkx.sch is
+for those WITH schematics.  They are different so the comments in the
+.cir file are not overwritten by Schematics.

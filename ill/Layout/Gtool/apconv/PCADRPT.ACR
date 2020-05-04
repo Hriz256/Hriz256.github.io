@@ -1,0 +1,24 @@
+# Aperture converter for PCad aperture reports.
+# now there are 2 formats for these reports
+# $Revision:   1.0  $
+
+NAME PCAD Report
+VERSION 1.0
+EXTENSION rpt 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 3
+SKIP   $
+
+FORMAT_ROUND  D-$dcode +Round +$xsize x $ysize
+FORMAT_SQUARE  D-$dcode +Square +$xsize x $ysize
+FORMAT_THERMAL  D-$dcode +Therm +$xsize x $ysize
+
+# and format #2
+
+FORMAT_ROUND  $skip +D-$dcode +Round +$xsize x $ysize
+FORMAT_SQUARE  $skip +D-$dcode +Square +$xsize x $ysize
+FORMAT_THERMAL  $skip +D-$dcode +Therm +$xsize x $ysize

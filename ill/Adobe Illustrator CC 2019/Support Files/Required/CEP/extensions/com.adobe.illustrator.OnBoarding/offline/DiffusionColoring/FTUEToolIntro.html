@@ -1,0 +1,78 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Diffusion Gradient</title><link rel="stylesheet" type="text/css" href="style.css"><link rel="stylesheet" href="../../fonts/adobe-clean.css"><style>.coach
+    {
+            border-radius:0;
+            border:1px solid #888;
+    }</style><script type="text/javascript" src="../../js/CSInterface.js"></script><script src="../../js/lib/ResizeSensor.js"></script><script type="text/javascript" src="./main.js"></script></head><body><div class="coach" id="popupContainer"><div><img class="img-radius" src="Freeform_Gradients_Combined_280x255_v4.gif"></div><div class="content"><span style="font-size:16px; font-weight:bold;" data-locale="DCToolIntroPage1Text1"></span> <span class="featureTag" data-locale="New"></span><div class="show" id="div1"><p data-locale="DCToolIntroPage1Text2" class="text"></p></div><div class="hide" id="div2"><p data-locale="DCToolIntroPage2Text2" class="text"></p></div><div class="hide" id="div3"><p data-locale="DCToolIntroPage3Text2" class="text"></p></div><div class="hide" id="div4"><p data-locale="DCToolIntroPage4Text2" class="text"></p></div></div><div class="learn"><p class="text"><a onclick="LearnMoreClicked()" data-locale="ButlerCardLearnMore"></a></p></div><div class="actions"><p class="skip" onclick="SkipTourClicked()" data-locale="SkipTourTag"></p><button class="button" onclick="OkayClicked()"><label data-locale="ButlerCardOkay"></label></button></div></div><script>var resizeSensorCall = false;
+function SkipTourClicked()
+{
+    var rsp_event = new CSEvent("GradientToolOnBoardingEvent", "APPLICATION");
+    var jsonObj = {
+        "Data": '',
+        "Type": "DCSkipTourClicked"
+    };
+    rsp_event.data = JSON.stringify(jsonObj);
+    CSLibrary.dispatchEvent(rsp_event);
+}
+
+function OkayClicked()
+{
+    var rsp_event = new CSEvent("GradientToolOnBoardingEvent", "APPLICATION");
+    var jsonObj = {
+        "Data": '',
+        "Type": "DCOkayClicked"
+    };
+    rsp_event.data = JSON.stringify(jsonObj);
+    CSLibrary.dispatchEvent(rsp_event);
+}
+
+window.onload=function()
+{
+	resizeSensorCall = true;
+    setTimeout(func1, 7330);
+    setTimeout(func2, 11310);
+    setTimeout(func3, 19010);
+    setTimeout(func4, 27410);
+	var cs = new CSInterface();
+    var resourceBundle = cs.initResourceBundle();
+};
+function func1()
+{
+	document.getElementById("div2").className="show";
+	document.getElementById("div1").className="hide";
+	document.getElementById("div3").className="hide";
+	document.getElementById("div4").className="hide";
+}
+function func2()
+{
+	document.getElementById("div3").className="show";
+	document.getElementById("div1").className="hide";
+	document.getElementById("div2").className="hide";
+	document.getElementById("div4").className="hide";
+}
+function func3()
+{
+	document.getElementById("div4").className="show";
+	document.getElementById("div1").className="hide";
+	document.getElementById("div2").className="hide";
+	document.getElementById("div3").className="hide";
+}
+function func4()
+{
+	document.getElementById("div1").className="show";
+	document.getElementById("div2").className="hide";
+	document.getElementById("div3").className="hide";
+	document.getElementById("div4").className="hide";
+	
+    setTimeout(func1, 7330);
+    setTimeout(func2, 11310);
+    setTimeout(func3, 19010);
+    setTimeout(func4, 27410);
+}
+var element = document.getElementById('popupContainer');
+new ResizeSensor(element, function() {
+	if(resizeSensorCall){
+          InformClientAboutPopupHeight("ToolIntroCoachHeightUpdate");
+		ResizeSensor.detach(element);
+		resizeSensorCall = false;
+	}
+});</script></body></html>

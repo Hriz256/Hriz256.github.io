@@ -1,0 +1,233 @@
+:Base GERBTOOL.HLP
+:Title GerbTool for Windows
+1 About GerbTool
+2 Introduction
+3 About GerbTool=About_GerbTool_WIN
+3 Features=Features
+3 Using this help=Using_this_Manual
+2 Quick Start
+3 Starting Up GerbTool=Starting_Up_GerbTool_WIN
+3 Creating a new Aperture list=Creating_a_new_Aperture_list
+3 Converting CAD Aperture lists=Converting_CAD_Aperture_lists
+3 Creating a new Design=Creating_a_new_Design
+3 Loading an existing design=Loading_an_existing_design
+3 Saving modified layers=Saving_modified_layers
+3 Merging designs=Merging_designs
+3 Exiting GerbTool=Exiting_GerbTool_WIN
+2 GerbTool Basics
+3 The GerbTool Desktop=The_GerbTool_WIN_Desktop
+3 Design Files=Design_Files
+3 Aperture List Files=Aperture_List_Files
+3 Invoking GerbTool commands=Invoking_GerbTool_WIN_commands
+3 Mouse and Function key commands=Mouse_and_Function_key_commands
+3 Selecting from the main menu=Selecting_from_the_main_menu
+3 Using  the ToolBars=Using_the_ToolBars
+3 Nested Commands=Nested_Commands
+3 Interrupting a Redraw=Interrupting_a_Redraw
+3 Terminating a command=Terminating_a_command
+3 About_Dialog boxes=About_Dialog_boxes
+2 Example uses of GerbTool
+3 Automatic Silkscreen Clean-up=Automatic_Silkscreen_Clean_up
+3 Creating NC Drill Files=Creating_NC_Drill_Files
+3 Creating a Soldermask=Creating_a_Soldermask
+3 Drawn Pad Conversion=Drawn_Pad_Conversion
+3 Layer Registration=Layer_Registration
+3 Loading NC Drill Files=Loading_NC_Drill_Files
+3 Panelizing=Panelizing
+3 Snoman, Filleting and Teardroping=Snoman_Filleting_and_Teardroping
+3 Transcoding=Transcoding
+3 Viewing/Plotting Non 274-X Composite Layers=Viewing_Plotting_Non_274_X_Composite_Layers
+1 GerbTool Command Reference
+2 Traverse by menus=Command_Reference
+2 File Menu
+3 New=New
+3 Open=Open
+3 Close=file_Close
+3 Save=files_Save
+3 Save As=File_Save_As
+3 Save All=Save_All
+3 Page Setup=Page_Setup
+3 Print=Print
+3 Print Preview=Print_Preview
+3 Print Setup=Printer_Setup
+3 Document list=Document_list
+3 Exit=Exit
+3 Format
+4 Gerber=File_Format_Gerber
+4 Drill=ff_NC_Drill
+4 Mill/Rout=ff_Mill
+3 Merge
+4 Design=merge_Design
+4 Gerber=merge_Gerber
+3 Import
+4 Barco DPF=Barco_DPF_import
+4 HPGL=merge_HPGL
+4 IPC-D-356=IPC_D_356_import
+4 Drill=Drill_Import
+4 Mill/Rout (import)=Mill_Rout_import
+4 DXF=DXF_Import
+3 Export
+4 BARCO DPF=BARCO_DPF
+4 IPC-D-350=IPC_D_350
+4 IPC-D-356=IPC_D_356_export
+4 DXF=DXF_export
+4 HPGL=plot_HPGL
+4 PostScript=PostScript
+2 Edit Menu
+3 Undo=edit_Undo
+3 Item=Item
+3 Copy=Copy
+3 Move=Move
+3 Delete=Delete
+3 Clip=Clip
+3 Join=Join
+3 Rotate=Rotate
+3 Mirror=Mirror
+3 Scale=edit_Scale
+3 Align Layers=Align
+3 Origin=Origin
+3 Purge=Purge
+3 Select
+4 New Group=New_Group
+4 Add To=Add_To
+4 Remove From=Remove_From
+4 Invert=Invert
+4 Off=select_Off
+3 D-Code
+4 Transcode=Transcode
+4 Expand=Expand
+4 Scale=Scale
+4 Polarity=Polarity
+2 View Menu
+3 Window=Window
+3 Zoom In=Zoom_In
+3 Zoom Out=Zoom_Out
+3 Pan=Pan
+3 All=All
+3 Film Box=view_Film_Box
+3 Redraw=Redraw
+3 Sketch=Sketch
+3 Overlay=Overlay
+3 Grid=Options_Grid
+3 Composites=Composites_View
+3 Virtual Panel=Virtual_Panel_View
+3 Clear Highlights=Clear_Highlights_View
+3 Highlights=Highlights_View
+3 Selections=Selections_View
+3 Errors=Errors
+3 Save=view_Save
+3 Recall=Recall
+3 Previous=Previous
+3 Split=Split
+3 ToolBars
+4 Main Bar=Main_Bar
+4 Status Bar=Status_Bar
+4 Birdseye Bar=Birdseye_Bar
+4 Layer Bar=Layer_Bar
+4 Color Bar=Color_Bar
+4 XY Bar=XY_Bar
+4 Query Bar=Query_Bar
+4 Settings Bar=Settings_Bar
+4 View Bar=View_Bar
+4 Edit Bar=Edit_Bar
+4 Tools Bar=Tools_Bar
+4 Restore Defaults=Restore_Defaults
+2 Add menu
+3 Flash=Flash
+3 Draw=Draw
+3 Rectangle=Rectangle
+3 Vertex=Vertex
+3 Circle=Circle
+3 Arc Ctr=Arc_Ctr
+3 Arc 3 Pt=Arc_3_Pt
+3 Polygon=Polygon
+3 Text=Text
+2 Layers Menu
+3 Edit=layers_Edit
+3 Colors=Colors
+3 Create=Create
+3 Redline
+4 Add Text=COMMANDS_Add_Text
+4 Add Balloon Text=COMMANDS_Add_Balloon_Text
+4 Add Arrow=COMMANDS_Add_Arrow
+4 Sketch=COMMANDS_Sketch
+4 Delete=Redline_Delete
+4 Properties=COMMANDS_Properties
+4 View Redlining=COMMANDS_View_Redlining
+2 Aperture Menu
+3 Edit=apt_Edit
+3 Report=Report
+3 Load=apt_Load
+3 Unload=Unload
+3 Merge=apt_Merge
+3 Compact=Compact
+3 Convert=apt_Convert
+3 Save=apt_Save
+2 Query Menu
+3 Item=Item
+3 Net=Net_Query
+3 User Data=User_Data_Query
+3 Highlight=Highlight
+3 Copper=Copper
+3 Extents=Extents
+3 Measure
+4 Point  to Point=Point_to_Point
+4 Edge to Edge=Edge_to_Edge
+4 Center to Center=Center_to_Center
+2 Options Menu
+3 Grid Snap=optGrid_Snap
+3 Ortho Line Snap=Ortho_Line_Snap
+3 Arcs 360=Arcs_360
+3 Metric=Metric
+3 Configure=Configure
+2 Macro Menu
+3 Run=_Run
+3 Load=Macros_Load
+3 Developer=Developer
+3 Record=Record
+2 Tools Menu
+3 Panelize=tools_Panelize
+3 DRC=DRC
+3 Snoman=Snoman
+3 Teardrops=Teardrops
+3 Fix SS=Fix_SS
+3 Layer Spread=Lyr_Spread
+3 Vent/Thieving=Vent
+3 Netlist
+4 Generate=Netlist_Generate
+4 Save=Save_Netlist
+3 Pad Removal
+4 Isolated=Isolated
+4 Stacked=Stacked
+3 Drill
+4 Drawing=Drawing
+4 Save=NC_drill_Write
+3 Convert
+4 Drawn Pads=Drawn_Pads
+4 Arcs=Circles
+2 User Menu
+3 User Menu=User_MenuMenu
+2 Help Menu
+3 Help Topics=Contents
+3 About GerbTool=About_GerbTool
+2 OrCAD technical support
+3 How to Reach OrCAD
+4 OrCAD technical support=technical_support
+4 OrCAD's 24-hour bulletin board system=bulletin_board_system
+4 OrCAD corporate offices=Administration
+4 OrCAD fax=fax
+4 OrCAD Direct sales=sales
+4 OrCAD Maintenance sales=maintenance_sales
+4 OrCAD international sales and service=international
+4 OrCAD technical support=technical_support
+3 Bulletin Board System
+4 BBS system requirements and configuration=BBS_system_requirements
+4 BBS availability=BBS_availability
+4 BBS logon instructions=BBS_logon_instructions
+4 Registering on the BBS=registering_on_the_BBS
+4 Downloading files from the BBS=downloading_files_from_tech_support
+4 Uploading files to the BBS=uploading_files_to_tech_support
+3 OrCAD's Web Site
+4 Changing your default web browser=changing_your_default_web_browser
+4 Technical support=!INET("http://www.orcad.com/asp/form/techsupp.htm"):exit()
+4 OrCAD's Home Page=!INET("http://www.orcad.com"):exit()

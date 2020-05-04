@@ -1,0 +1,20 @@
+# Aperture converter for  Prance
+# $Revision:   1.1  $
+
+NAME Prance
+VERSION 1.0
+EXTENSION apt 
+
+CUSTOM $$YES
+
+DEFAULT_UNITS $$MILL
+
+HEADER 7
+SKIP   %
+
+FORMAT_ROUND $skip   $skip  Round $xsize +$skip +D$dcode
+FORMAT_ROUND $skip   $skip  Plated $xsize$skip +$skip +D$dcode
+FORMAT_ROUND $skip   $skip  Non-Plated $xsize$skip +$skip +D$dcode
+FORMAT_SQUARE $skip   $skip  Square $xsize/$ysize +$skip +D$dcode
+FORMAT_RECT $skip   $skip  Rect +$xsize/$ysize +$skip +D$dcode
+FORMAT_CUSTOM $skip   $skip  Custom $custom +$skip +D$dcode

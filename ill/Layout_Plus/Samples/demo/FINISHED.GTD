@@ -1,0 +1,140 @@
+{Environment
+	{FilesPath  C:\ORCADWIN\LAYDEMO\SAMPLES\DEMO}
+}
+{Layers
+	{Layer  1
+		{File        FINISHED.TOP}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  red}
+		{DrawColor   red}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        FINISHED.BOT}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  yellow}
+		{DrawColor   yellow}
+		{Type        Bottom}
+	}
+	{Layer  3
+		{File        FINISHED.GND}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  tan}
+		{DrawColor   tan}
+		{Type        Plane}
+	}
+	{Layer  4
+		{File        FINISHED.PWR}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  green}
+		{DrawColor   green}
+		{Type        Plane}
+	}
+	{Layer  5
+		{File        FINISHED.IN1}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  orange}
+		{DrawColor   orange}
+		{Type        Inner}
+	}
+	{Layer  6
+		{File        FINISHED.IN2}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  blue}
+		{DrawColor   blue}
+		{Type        Inner}
+	}
+	{Layer  7
+		{File        FINISHED.SMT}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  DarkOliveGreen}
+		{DrawColor   DarkOliveGreen}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        FINISHED.SMB}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  turquoise}
+		{DrawColor   turquoise}
+		{Type        Other}
+	}
+		{Layer  9
+		{File        FINISHED.SST}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  LightSalmon}
+		{DrawColor   LightSalmon}
+		{Type        Other}
+	}
+	{Layer  10
+		{File        FINISHED.SSB}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  olive drab}
+		{DrawColor   olive drab}
+		{Type        Other}
+	}
+	{Layer  11
+		{File        FINISHED.AST}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  coral}
+		{DrawColor   coral}
+		{Type        Other}
+	}
+	{Layer  12
+		{File        FINISHED.ASB}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  HotPink}
+		{DrawColor   HotPink}
+		{Type        Other}
+	}
+	{Layer  13
+		{File        FINISHED.DRD}
+		{LyrName     -}
+		{ApList      FINISHED.app}
+		{Visibility  On}
+		{FlashColor  tomato}
+		{DrawColor   tomato}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274D}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}

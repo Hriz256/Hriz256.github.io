@@ -1,0 +1,62 @@
+(VPIFile 970326
+	(Vendor AMD)
+	(DisplayVendor Vantis)
+	(CompileDefaults
+		(Speed None)
+		(WireLoad None)
+		(MaxFanout 10)
+		(AddIOPads 1)
+		(GlobalBuffers 1)
+		(WriteEQNSymbols 1)
+		(WriteFMAPSymbol 1)
+		(WriteFMAPHMAPSymbols 1)
+		(GenerateTimeSpec 1)
+		(IORegisters 1)
+		(PackLogicToCLBs 1)
+		(WriteCLBs 1)
+		(FastOutputBuffers 1)
+		(UseF5MAPSymbols 1)
+		(AssignGSR Auto)
+		(XmplrStateEncoding OneHot)
+		(PreserveHierarchy 0)
+		(OptimizeSingleHierarchy 0)
+		(ExtendOptEffort 0)
+		(ExtendedEffortPass1 1)
+		(ExtendedEffortPass2 1)
+		(ExtendedEffortPass3 1)
+		(ExtendedEffortPass4 1)
+		(ModuleGenerationCheck 1)
+		(OperatorSelect Auto)
+		(OperatorExtractClockEnables 1)
+		(OperatorExtractDecoders 1)
+		(OperatorExtractCounters 1)
+		(OperatorExtractRAMs 1)
+		(NetlistFormat EDIF)
+	)
+	(Family "MACH Family"
+		(SimLib "\amd\amd_ls.vhd"	
+			(Folder IC))
+		(SimLib "\amd\pldprims.vhd"
+			(Folder IC))
+		(SimLib "\orcomp.vhd"
+			(Folder IC))
+
+		(SymbolLib "\amd\pldprims.olb")
+		(SymbolLib "\amd\amd_ls.olb")
+		(AreaDelay 0)
+		(Effort 10)
+		(Retiming 1)
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_VANTIS)
+				(ExemplarLib minc)
+			)
+		)
+	)
+	(Processing
+		(CompiledNetlistPath project)
+		(SynthEng
+			(NeedIOs	True)
+		)
+	)
+)

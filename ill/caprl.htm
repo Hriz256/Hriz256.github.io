@@ -1,0 +1,486 @@
+<!DOCTYPE html public "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE>Notes for Capture Release 9.2</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<CENTER>
+<TABLE width="600">
+	<TR align="LEFT">
+		<TD align="LEFT">
+		<CENTER><FONT face="arial" size="7" color="#990000">
+<B>		Capture Release 9.2<BR>Release Notes
+</B></FONT></CENTER>
+<P align="center">
+		<CENTER><FONT face="arial" size="4" color="#990000">		May, 2000
+</FONT></CENTER>
+<P><FONT face="Arial" size="2">		
+		<!---
+<P><B>You have installed an OrCAD Capture web update. Click <A href="caprlwe.htm">		here 
+</A>		to view release notes covering the changes made with the web update installation. The Capture Release 9.1 release notes below are still valid for your current installation of Capture.
+</B>		--->
+		
+		Most of the information contained in these release notes is not included in the Capture manual or online help. Please read the notes carefully to see if any apply to your designs.<BR><BR>
+
+To obtain the very latest information about workarounds or solutions to problems that you may encounter, visit the Customer Support page on the Orcad web site at <A href="http://www.orcad.com/technical/technical.asp">		http://www.orcad.com/technical/technical.asp
+</A>		.<BR><BR>If you want to read release notes for an earlier release, click one of the following links:
+</FONT>
+
+<P>
+			<TABLE align="CENTER" cellspacing="0" border="0" cellpadding="0" width="600">
+				<TR valign="TOP">
+					<TD align="LEFT" width="50%">
+					<CENTER><FONT face="Arial" size="2"><ul><li><A href="http://www.orcad.com/technical/base/kbarticles/cap02412.asp">					Release 9.1 Release Notes
+</A></li></ul></FONT></CENTER>
+						<TD>
+						<CENTER><FONT face="Arial" size="2"><ul><li><A href="http://www.orcad.com/technical/base/kbarticles/cap02674.asp">						Release 9 Release Notes
+</A></li></ul></FONT></CENTER>
+				</TR>
+		</TD>
+</TABLE>
+
+<P><FONT face="ARIAL" size="2">
+These release notes are divided into the following sections:<BR><BR>
+<TABLE align="CENTER" cellspacing="0" border="0" cellpadding="0" width="600">
+	<TR valign="TOP">
+		<TD align="LEFT" width="50%">
+			<UL><FONT face="Arial" size="3">
+				<LI><B><A href="#install">			Installation notes
+</A></B>
+				<LI><B><A href="#new">			What's new
+</A></B>
+   </FONT>
+			</UL>
+		</TD>
+		<TD align="LEFT" width="50%">
+			<UL><FONT face="Arial" size="3">
+				<LI><B><A href="#probs">			Known problems
+</A></B>
+				<LI><B><A href="#notes">			General notes
+</A></B>
+	
+         </FONT>
+			</UL>
+		</TD>
+	</TR>
+</TABLE>
+<P align="CENTER">
+<HR align="CENTER" noshade width="500" size="3"></CENTER>
+<P>
+<CENTER><FONT face="Arial" size="3" color="#990000">
+<H2><A name="install">Installation notes
+</A></FONT></H2></CENTER>
+<P><FONT face="Arial"><FONT size="-1">When you invoke Capture installed as a remote client, you may get a message that the CAPTURE.INI file cannot be opened for writing. To correct this problem, create a Capture directory in Program Files in your local directory structure so that it is the same as the path in the error message. The next time you start Capture, a CAPTURE.INI file is created.<p>
+See the <A href="rel92rl.htm">Release 9.2 
+</A>release notes for information that applies to all Orcad family release 9.2 products.
+</FONT></FONT></P>
+<P align="CENTER">
+<HR align="CENTER" noshade width="500" size="3">
+<P>
+<CENTER><FONT face="Arial" size="3" color="#990000">
+<H2><A name="new">What's new
+</A></H2></FONT></CENTER>
+<P><FONT face="Arial"><FONT size="-1">This section gives you information
+concerning:
+</FONT></FONT></P>
+<P align="Left">
+<CENTER>
+<TABLE align="CENTER" cellspacing="0" border="0" cellpadding="7" width="600">
+	<TR align="LEFT">
+		<TD width="400" valign="TOP">
+			<UL>
+				<LI><FONT face="Arial" size="2"><B><A href="#prop_ed">			Property editor improvements
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#impex">			Import/export properties improvements
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#placepart">			Part placement enhancements
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#pspice_temp">			PSpice project template
+</A></B></FONT></LI>
+<P>
+					<LI><FONT face="Arial" size="2"><B><A href="#cap_expr">			Using Capture with Express
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#fpga_lib">			FPGA libraries in Capture
+</A></B></FONT></LI>
+<P>
+			<LI><FONT face="Arial" size="2"><B><A href="#shortcuts">			New shortcuts
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#rmb">			New menu items on the right mouse button
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#hier">			Hierarchy reporting
+</A></B></FONT></LI>
+			</UL>
+		</TD>
+	</TR>
+</TABLE></CENTER></P>
+<P>&nbsp;
+<P>
+<P><H3><A name="prop_ed"><FONT face="Arial" color="99000">Property editor improvements
+</FONT></A></H3></P>
+<UL>
+	<LI><FONT face="Arial">Save yourself the effort of scrolling across columns to view or edit a property by pivoting the property editor spreadsheet. Pivot the spreadsheet (invert objects and properties placement) to show objects across the top row and properties down the left-hand column.
+</FONT></LI>
+</UL>
+<TABLE align="center">
+	<TR>
+		<TD align="center"><IMG src="pivot.gif" align="middle" width="600" height="190"><BR><FONT size="-2">		The property editor spreadsheet
+</FONT>
+		</TD>
+	</TR>
+</TABLE>
+<UL>
+	<LI>Now you can make edits to all object properties on a schematic page. When you select the entire property editor spreadsheet using the top-leftmost cell, right-click a cell, then choose Edit, any value you enter in a cell of the Edit Property Values dialog box will apply to all cells in that column. Changes take effect after you click the property editor's Apply button or close the property editor.
+<P></P></LI>
+	<LI>Select one or more object rows or property cells in the property editor spreadsheet, right-click and choose Edit to change the value of any property on all selected objects.
+<P></P></LI>
+	<LI>The New Column button (New Row button when the spreadsheet is pivoted) replaces the New button. Use it to add a new property name to the spreadsheet. The newly formatted dialog box makes adding new property columns and rows more intuitive.
+<P></P></LI>
+	<LI>When you click the New Column/Row button with one or more columns or rows selected, the value you add to the new column or row is applied to the selected objects (columns/rows).
+<P></P></LI>
+	<LI>Quickly resize all column widths simultaneously in the spreadsheet by holding down the SHIFT key while resizing a column.</LI>
+</UL>
+<P><H3><FONT face="Arial" color="990000"><A name="impex">Import/export properties improvements
+</A></FONT></H3></P>
+<UL>
+	<LI><FONT face="Arial">The property file provides more flexibility for importing and exporting properties. Now a single header applies to the entire design, with no differences between pages, so you can process multiple pages or the entire design at one time.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">Property lines in the property file are no longer order dependent, so part and pin property lines can be in arbitrary order when importing properties into a project.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">Now you can import and export flat net properties using the Export Properties and Import Properties commands.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">You can delete properties from the schematic design using &lt;null&gt; in place of the property value in a property file.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">You can use the Export Properties and Import Properties commands for backannotation, or to correct Layout-to-Capture property errors like PCB footprint or part reference mismatches.
+</FONT>
+<P></P></LI>
+</UL>
+<P><FONT face="Arial" color="990000"><H3><A name="placepart">Part placement enhancements
+</A></H3></FONT></P>Improvements to part placement functionality in Capture Release 9.2 include ehnahcements to the following:
+<P align="Left">
+<CENTER>
+<TABLE align="CENTER" cellspacing="0" border="0" cellpadding="0" width="550">
+	<TR valign="TOP">
+		<TD align="LEFT" width="275">
+			<UL>
+				<LI><FONT face="Arial"><B><A href="#wu2_ppi_eppdb">			Place Part dialog box
+</A></B></FONT>
+<P></P></LI>
+			</UL>
+		</TD>
+		<TD align="LEFT" width="275">
+			<UL>
+				<LI><FONT face="Arial"><B><A href="#wu2_ppi_mvm">			Most Recently Used part list (MRU)
+</A></B></FONT></LI>
+			</UL>
+		</TD>
+	</TR>
+</TABLE></CENTER></P>
+<CENTER>
+<P><H4><FONT face="Arial" color="#800000"><A name="wu2_ppi_eppdb">Enhancements to the Place Part dialog box
+</A></FONT></H4></P></CENTER>
+<UL>
+	<LI><FONT face="Arial">When you position the pointer over a library name in the Library list, the full path of the library appears. When you position the pointer over a part or library name in the part list, the full path to the related library appears.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">When you type a portion of a part or symbol name in the Part text box, Capture  automatically completes the name for you. This feature works only with parts contained within libraries you select in the Place Part dialog box. Parts contained within configured but unselected libraries are not available for automatic completion.
+</FONT></LI>
+</UL>
+<TABLE align="center">
+	<TR>
+		<TD align="center"><IMG src="PP_DB.gif" align="middle" width="455" height="405"><BR><FONT size="-2">		The Place Part dialog box
+</FONT>
+		</TD>
+	</TR>
+</TABLE>
+<UL>
+	<LI><FONT face="Arial">If you type a part name into the Part text box and it is not automatically completed, press Enter. Capture searches all configured libraries, not just the libraries libraries you selected in the Libraries box. If a part is found, a dialog box appears stating that the part is in an unselected library. If you want to place this part, click OK. If you do not want to search unselected libraries when you use the Place Part dialog box, select the option labeled Don't search unselected libraries anymore.
+</FONT></LI>
+</UL>
+<TABLE align="center">
+	<TR>
+		<TD align="center"><IMG src="PPFUL_DB.gif" align="middle" width="450" height="140"><BR><FONT size="-2">		The Place Part From Unselected Library dialog box
+</FONT>
+		</TD>
+	</TR>
+</TABLE>
+<UL>
+	<LI><FONT face="Arial">When you select a part in the Place Part dialog box, icons indicating the  simulation properties of that part appear below the part preview area. If you place the pointer over these icons, the name of a relevant downstream tool appears in a tip.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">The Packaging group box includes information on the package type of the  homogeneous or heterogeneous part.
+</FONT></LI>
+</UL>
+<CENTER>
+<P><H4><FONT face="Arial" color="#800000"><A name="wu2_ppi_mvm">Enhancements to the Most Recently Used part list (MRU)
+</A></FONT></H4></P></CENTER>
+<UL>
+	<LI><FONT face="Arial">The MRU now supports the placement of symbols as well as parts.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">You can type a part or symbol name directly into the MRU text box without having to use the pointer to specify a listed object.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">Capture automatically completes the name of a part or symbol you type in the MRU text box, just as in the <A href="#wu2_ppi_eppdb">Place Part dialog box
+</A>. If the object name you type represents a part or symbol that is within the set of configured libraries, it appears under the pointer only after you type its name and press the Enter.
+</FONT>
+<P></P></LI>
+	<LI><FONT face="Arial">You can now access the MRU list via the keyboard by pressing CTRL+M.
+</FONT></LI>
+</UL>
+<TABLE align="center">
+	<TR>
+		<TD align="center"><IMG src="MRU.gif" align="middle" width="160" height="156"><BR><FONT size="-2">		The MRU (Most Recently Used) list
+		
+</FONT>
+		</TD>
+	</TR>
+</TABLE>
+<P><FONT face="Arial" color="990000"><H3><A name="pspice_temp">PSpice project template
+</A></H3></FONT></P><FONT face="Arial">Now when you create a PSpice project, you have the option of starting with a copy of an existing project, including its design file and required PSpice files for simulation and optimization.
+</FONT>
+<P><FONT face="Arial">
+As in earlier releases, point to the New command on the File menu and choose Project to start a  PSpice project in Capture. 
+</FONT>
+<P>
+<TABLE align="center">
+	<TR>
+		<TD align="center"><IMG src="CPP_DB.gif" align="middle" width="465" height="163"><BR><FONT size="-2">		The Create PSpice Project dialog box
+</FONT>
+		</TD>
+	</TR>
+</TABLE>
+<P><FONT face="Arial">
+Select Create it based upon an existing project and then specify a project 
+(.OPJ) file to create a new project that includes all of the elements of the template project such as simulation profiles, local simulation files, model libraries, include files, marker files, configured 
+libraries, and designs.
+</FONT>
+
+<P><FONT face="Arial" color="990000"><H3><A name="cap_expr">Using Capture with Express
+</A></H3></FONT></P><FONT face="Arial">Capture Release 9.2 is licensed to work with Orcad Express Release 9.1 (only).  To use Capture Release 9.2 with Express Release 9.1, install Capture into your existing Express Release 9.1 directory. Dismiss any warnings about targeting an existing installation or needing to choose a different target directory. No Express license need be installed when you use this method.
+
+<p>
+
+<table width="400" border="0" cellspacing="0" cellpadding="0" align="center"><HR align="CENTER" noshade width="500" size="2">
+<b><font size=3>Important:</b> If you are updating an Express 9.1 installation, <b>do not</b> install the new FPGA libraries available with Capture Release 9.2. Instead, continue to use the libraries that were shipped with Express. You should only use these new FPGA libraries if you are installing Capture for use with the FPGA Studio suite.</font>
+<HR align="CENTER" noshade width="500" size="2"></table>
+
+<p>
+Note that the VHDL libraries in Express are not updated when you install Capture Release 9.2. For information on simulation resources when using Capture 9.2 with other CDS products, see <a href="http://mainstream.pcb.cadence.com/fpga/fpgastudio.htm">http://mainstream.pcb.cadence.com/fpga/fpgastudio.htm</a>.
+<p>
+Capture Release 9.2 Xilinx FPGA libraries are installed in this directory: 
+<p><tt><ul><font size="+1">
+../Capture/Library/Xilinx</font></tt><p></ul>
+
+rather than the ../Capture/Library/Xil_m1 directory that Express used. Because the new Xilinx FPGA libraries (in the Xilinx directory) include modifications to the library (.OLB) files and the place and route EDIF macro (.EDN) files, you should use them in favor of the libraries in the Xil_m1 directory.
+
+</FONT>
+
+<P><FONT face="Arial" color="990000"><H3><A name="fpga_lib">FPGA libraries in Capture
+</A></H3></FONT></P><FONT face="Arial">When you install Capture Release 9.2, you have the option to install FPGA libraries that will enable you to use Capture to design programmable logic for Actel, AMD (Vantis), Atmel, Altera, Lattice, Lucent and Xilinx devices. To install any of these libraries, you must perform a custom install and select them from the list of available libraries.
+<p>
+<table width="400" border="0" cellspacing="0" cellpadding="0" align="center"><HR align="CENTER" noshade width="500" size="2">
+<b><font size=3>Important:</b> If you are updating an Express 9.1 installation, <b>do not</b> install the new FPGA libraries available with Capture Release 9.2. Instead, continue to use the libraries that were shipped with Express. You should only use these new FPGA libraries if you are installing Capture for use with the FPGA Studio suite.</font>
+<HR align="CENTER" noshade width="500" size="2"></table>
+<p>
+To learn more about using Capture with other Cadence products to design FPGAs, see <a href="http://mainstream.pcb.cadence.com/fpga/fpgastudio.htm">http://mainstream.pcb.cadence.com/fpga/fpgastudio.htm</a>. 
+
+</FONT>
+
+<P><FONT face="Arial" color="990000"><H3><A name="shortcuts">New shortcuts
+</A></H3></FONT></P>For a complete listing of shortcut keys, see the Orcad Capture Quick Reference online manual available in portable document format (PDF) on the Orcad installation CD.  Here's what's new:
+<P>
+<UL>
+	<UL>In the property editor:
+		<UL>
+			<LI>Ctrl+N to add a new column or row</LI>
+			<LI>Ctrl+P to apply a change made</LI>
+			<LI>Ctrl+D to edit the Display Properties for a selected cell</LI>
+			<LI>Ctrl+L to delete a property</LI>
+			<LI>Ctrl+B to give focus to the Filter by drop-down list</LI>
+			<LI>Ctrl+E to edit a cell</LI>
+			<LI>Ctrl+F to fine a value in a column</LI>
+			<LI>Delete to delete the contents of a cell</LI>
+		</UL>
+	</UL>
+<P>
+	<UL>In the schematic page editor:
+		<UL>
+			<LI>Ctrl+M to enter part or symbol names in the Most Recently Used list box (MRU)</LI>
+			<LI>Ctrl+A to select all configured libraries visible in the Place Part dialog box.</LI>
+		</UL>
+	</UL>
+</UL>
+<P><FONT face="Arial" color="990000"><H3><A name="rmb">New menu items on the right mouse button
+</A></H3></FONT></P>The following menu items have been added to the pop-up menu when you click the right mouse button in the schematic page editor.  Use these commands on selected objects:
+<UL>
+	<LI>Cut</LI>
+	<LI>Copy</LI>
+	<LI>Delete</LI>
+	<LI>Edit PSpice Model</LI>
+	<LI>Edit PSpice Stimulus</LI>
+	<LI>Edit the attachment implementation</LI>
+</UL>
+<P><FONT face="Arial" color="990000"><H3><A name="hier">Hierarchy reporting
+</A></H3></FONT></P>The Hierarchy Report command on the Accessories menu produces a text format report of your design’s schematic page hierarchy, similar to the hierarchy tab. This command give you the option to include information on the parts on each page.
+
+<P align="CENTER">
+<HR align="CENTER" noshade width="500" size="3">
+<P>
+<CENTER><FONT face="Arial" size="3" color="#990000">
+<H2><A name="probs">Known problems
+</A></H2></FONT>
+<P><FONT face="Arial"><FONT size="-1">This section gives you information
+concerning:
+</FONT></FONT></P>
+<P align="Left">
+<CENTER>
+<TABLE align="CENTER" cellspacing="0" border="0" cellpadding="7" width="600">
+	<TR align="LEFT">
+		<TD width="100%" valign="TOP">
+			<UL>
+				<LI><FONT face="Arial" size="2"><B><A href="#ProjectManager">			Known project manager issues
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#SchPgEditor">			Known schematic page editor problems
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#PartAndSymbol">			Known part and symbol editor problems
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#Translate">			Known translation problems
+</A></B></FONT></LI>
+<P>
+				<LI><FONT face="Arial" size="2"><B><A href="#Misc">			Miscellaneous problems
+</A></B></FONT></LI>
+<P>
+			</UL>
+		</TD>
+	</TR>
+</TABLE>
+</CENTER></CENTER></P>
+<P><A name="ProjectManager"><FONT face="Arial" color="990000"><H3>Known project manager problems
+</H3></FONT></A></P>
+<UL><!--SCR10248, 4938, 1797 fixed in Cheetah-->
+	<LI><B>Export/Import Selection does not include title blocks.
+</B> When you place imported objects, including a title block, into a design using Import Selection on the File menu, the title block does not come with the rest of the design. Place the title block manually after importing the design, or use the default title block included on the new page.</LI>
+<P><!--SCR10228-->
+	<LI><B>Don't select Update Occurrences option when using the Update Properties command on a library.
+</B> Capture suggests preferred modes to help you process your designs. When you choose Update Properties from the Tools menu to update a library, you should select the preferred mode, Update Instances, to avoid a crash in Capture.</LI>
+<P><!--SCR8473-->
+	<LI><B>Design Rules Check ignores scope in hierarchical designs.
+</B> For hierarchical designs, Design Rules Check descends through any hierarchical block in the selected schematics, ignoring the fact that you've selected Check Selection.</LI>
+<P><!--SCR11758-->
+	<LI><B>Replace Cache on all the parts in the design cache can cause a crash in older designs.
+</B> Using Replace Cache on all the parts in a design can cause a crash in older designs. When this happens, Capture encounters one or more parts that are no longer used in the design. Before doing a Replace Cache command on multiple parts in the design cache, clean up the cache using the Cleanup Cache command on the Design menu.</LI>
+<P><!--SCR12479-->
+	<LI><B>Import properties produces an ERROR [IMP0007] (Line 8)  Part not found in design or library.
+</B> When Import properties produces an ERROR [IMP0007] (Line 8) Part not found in design/library message, you have a design with multiple schematics that all have the same name, such as PAGE1. You must uniquely name each of the pages in the design before using Export Properties. This will produce a file containing all the properties of the parts and pins in the design. Notice that these are grouped by page.</LI>
+</UL>
+<P><A name="SchPgEditor"><FONT face="Arial" color="990000"><H3>Known schematic page editor problems
+</H3></FONT></A></P>
+<UL><!--SCR10702 fixed in Cheetah-->
+	<LI><B>Power symbols, ground symbols, hierarchical ports, and off-page connectors end up in unexpected places when dragging in a group on a schematic page.
+</B> Do not include hierarchical ports, off-page connectors, power symbols, and ground symbols in a group you want to drag on a schematic page. If you group them with a set of objects on a schematic page using the Group command on the Edit menu and then drag the group, the power and ground symbols, ports, and off-page connectors detach from the group and drag along in an unpredictable manner.</LI>
+<P><!--SCR10672-->
+	<LI><B>You cannot edit a part reference while placing a part.
+</B> If you right-click while placing a part and choose Edit Properties from the pop-up menu, the Edit Part Properties dialog box appears. You will get an error message if you try to use the Packaging section of the Edit Properties dialog box to change the part reference. Instead, you must select the package from the Part drop-down list in the Place Part dialog box before you click OK.</LI>
+<P><!--SCR10083-->
+	<LI><B>You cannot place a part created by Generate Part if the part is added to an existing library.
+</B> You cannot place a part created by the Capture command Generate Part in a PSpice project if the part is added to an existing .OLB file. You will receive a message that the symbol library could not be loaded and Capture must be restarted before the symbol can be placed.</LI>
+<P><!--SCR10354-->
+	<LI><B>Capture doesn't detect or make connection changes when you rotate or mirror an object.
+</B> For example, if you select and then rotate an object on your schematic page, Capture does not detect any connectivity changes. You will not receive any connectivity warnings or alerts, and any connection changes will not take effect until the next editing operation. The next time you edit an object, connectivity change markers will appear at the rotated object and the cursor will change to an alert. If you complete the current editing operation, Capture makes the connection changes at the rotated object.</LI>
+<P><!--SCR14284-->
+	<LI><B>Changes to some fonts in the Design Properties dialog box don't affect all designs.
+</B> The font settings in the Design Properties dialog box are meant to globally control the font size and type of all the different types of text in any new designs that you create. In Release 9, these settings don't affect the fonts displayed on hierarchical blocks, border text, or net names. The pin names in hierarchical blocks and net names are always displayed in Arial 7. Border text is always set to Arial, and it will scale up and down in size with the width of the border.</LI>
+<P>
+	<LI><B>Pin numbers of four or more characters will appear too close to the part border on the bottom of the part.
+</B> Pin numbers of four or more characters may appear too close to the part border on the bottom of the part. When you place a part in a design that has vertically placed pins on the bottom of the part, long pin numbers displayed and printed on top of the part border can obscure them.</LI><BR><BR>To avoid this problem, place the pins with the shortest pin numbers on the bottom of the part when you place pins on your part.
+<P></LI>
+<P>
+</UL>
+<P><A name="PartAndSymbol"><FONT face="Arial" color="990000"><H3>Known part and symbol editor problems
+</H3></FONT></A></P>
+<UL><!--SCR4873-->
+	<LI><B>Moving the first vertex of a polyline reveals another segment.
+</B> If you want to edit the shape of a polyline, use any vertex except the first one placed. When you try to move the first vertex, you will find that another segment is drawn. This can be confusing. Avoid this by using the other vertices to change the shape of the polyline or redraw it.</LI>
+<P>
+</UL>
+<P><A name="Translate"><FONT face="Arial" color="990000"><H3>Known translation problems
+</H3></FONT></A></P>
+<UL>
+	<LI><B>Before translating a MicroSim Schematic v8.0  design, set grid spacing to either 0.10 inch or 2.50 mm.
+</B> If you translate a MicroSim Schematics design with a grid spacing other than 0.10 inch or 2.50 mm into Capture Release 9, everything will be translated in off-grid. The resulting translated schematic pages preserve all connectivity, but when you try to edit the objects, they will snap to grid. To avoid this, either change the grid spacing in your Schematics design before translation and move everything on grid, or after translation select all the objects on the page and move them together to make them snap to grid. Set the grid spacing before translation to be 0.10 inch or 2.50 mm in your Schematics design.</LI>
+<P>
+	<LI><B>Capture can't find the SDT library if the file uses the same name as the associated schematic file.
+</B> If the SDT library (*.LIB) is the same name as the schematic file (.SCH) that you are trying to translate into Capture, then you must rename the .SCH file and try to translate again.</LI>
+</UL>
+<P><A name="Misc"><FONT face="Arial" color="990000"><H3>Miscellaneous problems
+</H3></FONT></A></P>
+<UL><!--SCR10221-->
+	<LI><B>Slower performance with large designs under Windows 2000 platform.
+</B>	Large schematic designs (20 MB and larger) take much longer to load under Windows 2000.</LI>
+<P><!--SCR11438-->
+	<LI><B>PSpice netlister subcircuit mode doesn't work for bussed interface ports.
+</B>	When you select subcircuit mode on the PSpice netlister on a design that has one or more interface ports connected to a bus, Capture produces endless Duplicate Sequence Property... messages.</LI>
+<P><!--SCR11481-->
+	<LI><B>Net name source won't change in property editor.
+</B>This only occurs in multiple-page designs that contain different name sources for nets on some of the pages. If you double-click on a wire attached to a name source to open the property editor, select another name in the Name property drop-down list, then click Apply, the name reverts to what it showed as the default. Note that the name value default selection is alphabetical.
+<P>Instead, you can find and change all the name values in the design to the one you want. For example, say you have three globals named VCC, DVDD, CVDD in your design and you want to change them all to VCC. If you select an occurrence of each on a page and choose Edit Properties from the pop-up menu, the Name property will default to CVDD. If you delete CVDD from your design and repeat the process, the default Name property will be DVDD.  Delete DVDD to make the default VCC. Alternatively, you can double-click on each name type in your design and change it to VCC in the Display Properties dialog box.
+<!--SCR16227-->
+<P>	<LI><B>Hierarchy Report output can get misplaced when more than one design is open.
+</B>If you have more than one design open when you run the Hierarchy Report command, Capture places the <em>projectname</em>_treelist.txt file into the Outputs directory in the first design that was opened, rather than the active project manager.</LI>
+</UL>
+<P align="CENTER">
+<HR align="CENTER" noshade width="500" size="3"></HR></CENTER>
+<P>
+<CENTER><FONT face="Arial" size="3" color="#990000">
+<H2><A name="notes">General notes
+</A></FONT></H2></CENTER>
+<P><FONT face="Arial"><FONT size="-1">
+<UL>
+	<LI>Hidden pins no longer connect to wires or other pins in Capture Release 9.2. If you have existing designs from earlier versions of Capture, this code change could alter the netlist output to match the new rule in Capture Release 9.2.</LI>
+</UL>
+<UL>
+	<LI>Many of the macros in Capture are temporarily not functional.</LI>
+</UL>
+<UL>
+	<LI>The property filter names in the property editor's Filter by drop-down list have changed. Filters are now in a vendor-product naming convention, such as Orcad-Capture and Cadence-Allegro. A new Synplicity-Synplify filter is available, and all Express filters have changed to listing by vendor and product, such as Xilinx-Alliance.</LI>
+</UL>
+<UL>
+	<LI>Cadence Design Systems PCB Systems Division will continue to support and maintain both Capture and Concept HDL for the foreseeable future. Because of the dramatic differences in data architecture and interaction style between Capture and Concept HDL, Cadence does not anticipate direct translation between libraries and schematics soon. Third-party migration tools can provide some portability by way of graphical EDIF. See the <A href="http://www.orcad.com/Partner/Solution/Solution.asp">Solution Partners
+</A>	page on orcad.com for links to industry partner sites.</LI>
+</UL>
+<UL>
+	<LI>Intersheet references are not supported in a complex hierarchy in a Capture design as it would result in multiple intersheet references for each off-page connector.</LI>
+</UL></FONT></FONT></P>
+</TABLE>
+<P align="Left">
+<CENTER>
+<TABLE align="CENTER" cellspacing="0" border="0" cellpadding="7" width="600">
+	<TR align="LEFT">
+		<TD width="100%" valign="TOP">
+<P>
+			<TABLE width="600">
+				<TR align="LEFT">
+					<TD align="LEFT">
+<P>
+<P><A name="newname"><FONT face="Arial" color="990000"><H3> </H3></FONT></A></P><FONT face="Arial" size="2">
+</FONT>
+					</TD>
+				</TR>
+			</TABLE></CENTER>
+<P>&nbsp;
+<P>
+</BODY>
+</HTML>

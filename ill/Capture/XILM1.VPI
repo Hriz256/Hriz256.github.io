@@ -1,0 +1,472 @@
+(VPIFile 980122
+	(Vendor "Xilinx M1")
+	(CompileDefaults
+		(Speed None)
+		(WireLoad None)
+		(MaxFanout 10)
+		(AddIOPads 1)
+		(GlobalBuffers 1)
+		(WriteEQNSymbols 1)
+		(WriteFMAPSymbol 1)
+		(WriteFMAPHMAPSymbols 1)
+		(GenerateTimeSpec 1)
+		(IORegisters 1)
+		(PackLogicToCLBs 1)
+		(WriteCLBs 1)
+		(FastOutputBuffers 1)
+		(UseF5MAPSymbols 1)
+		(AssignGSR Auto)
+		(XmplrStateEncoding OneHot)
+		(PreserveHierarchy 0)
+		(OptimizeSingleHierarchy 0)
+		(ExtendOptEffort 0)
+		(ExtendedEffortPass1 1)
+		(ExtendedEffortPass2 1)
+		(ExtendedEffortPass3 1)
+		(ExtendedEffortPass4 1)
+		(ModuleGenerationCheck 1)
+		(OperatorSelect Auto)
+		(OperatorExtractClockEnables 1)
+		(OperatorExtractDecoders 1)
+		(OperatorExtractCounters 1)
+		(OperatorExtractRAMs 1)
+		(NetlistFormat EDIF)
+	)
+	(Family "XC3x00A/L Family"
+		(SimLib "\xil_m1\xc3x00\x3k_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc3x00\x3k.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X3K_Misc.olb")
+		(SynthLib "\xil_m1\xc3x00\x3syn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_3000)
+				(ExemplarLib xi3)
+				(Choices:Speed None -70 -100 -125)
+				(Note: "Multiple sections to the Part choice below because we combine")
+				(Note: "3000, 3000A, and 3000L parts together."  )
+				(Choices:Part         "None"   "3020PC68"     "3020PC84"    "3020PG84"    "3020CB100" 
+					"3020PQ100"   "3030PC44"   "3030PC68"     "3030PC84"    "3030PG84"    "3030PQ100" 
+					"3030TQ100"   "3042PC84"   "3042PG84"     "3042CB100"   "3042PQ100"   "3042TQ100" 
+					"3042PG132"   "3042PP132"  "3064PC84"     "3064PG132"   "3064PP132"   "3064PQ160"
+					"3090PC84"    "3090PQ160"  "3090CB164"    "3090PG175"   "3090PP175"   "3090PQ208" 
+
+					"3020APC68"   "3020APC84"   "3020APG84"   "3020APQ100" 
+					"3030APC44"   "3030AVQ64"   "3030APC68"   "3030APC84"   "3030APG84"   "3030APQ100" 
+					"3030AVQ100"  "3042APC84"   "3042APG84"   "3042APQ100"  "3042AVQ100"  "3042APG132" 
+					"3042APP132"  "3042ATQ144"  "3064APC84"   "3064APG132"  "3064APP132"  "3064ATQ144" 
+					"3064APQ160"  "3090APC84"   "3090APQ160"  "3090APG175"  "3090APP175"  "3090ATG175" 
+					"3090APQ208"  
+
+					"3020LPC68"   "3030LVQ64"   "3030LPC84"   "3030LVQ100" 
+					"3042LPC84"   "3042LVQ100"  "3042LTQ144"  "3064LPC84"   "3064LTQ144"  "3090LPC84"  
+					"3090LTG176"  
+				)
+			)
+		)
+	)
+	(Family "XC4000E Family"
+		(SimLib "\xil_m1\xc4000e\x4ke_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc4000e\x4ke.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X4K_Misc.olb")
+		(SynthLib "\xil_m1\xc4000e\x4esyn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000)
+				(ExemplarLib xi4e)
+				(Choices:Speed None -1 -2 -3 -4)
+				(Choices:Part "None" "4003ePC84"     "4003ePQ100"    "4003eVQ100"  
+					 "4003ePG120"    "4005ePC84"     "4005ePQ100"    "4005eTQ144"  
+					 "4005ePG156"    "4005ePQ160"    "4005eCB164"    "4005ePQ208"   
+					 "4005ePC84"     "4005ePQ208"    "4006ePC84"     "4006eTQ144"   
+					 "4006ePG156"    "4006ePQ160"    "4006ePQ208"    "4008ePC84"  
+					 "4008ePQ160"    "4008ePG191"    "4008ePQ208"    "4010ePC84"   
+					 "4010ePQ160"    "4010ePG191"    "4010eCB196"    "4010ePQ208"   
+					 "4010eHQ208"    "4010eBG225"    "4010ePC84"     "4010lTQ176"   
+					 "4010ePQ208"    "4013ePQ160"    "4013ePQ208"    "4013eHQ208"    "4013ePG223"   
+					 "4013eBG225"    "4013eCB228"    "4013eHQ240"    "4013ePQ240"    "4013ePQ208"  
+					 "4013eBG225"    "4013ePQ240"    "4020eHQ208"    "4020ePG223"    "4020eHQ240"   
+					 "4025ePG223"    "4025eCB228"    "4025eHQ240"    "4025ePG299"   
+					 "4025eHQ304"    "4025eBG352"  )
+				(Choices:WireLoad  
+					"4003e-3_avg"		"4003e-3_wc"
+					"4003e-4_avg"		"4003e-4_wc"
+					"4005e-3_avg"		"4005e-3_wc"
+					"4005e-4_avg"		"4005e-4_wc"
+					"4006e-3_avg"		"4006e-3_wc"
+					"4006e-4_avg"		"4006e-4_wc"
+					"4008e-3_avg"		"4008e-3_wc"
+					"4008e-4_avg"		"4008e-4_wc"
+					"4010e-3_avg"		"4010e-3_wc"
+					"4010e-4_avg"		"4010e-4_wc"
+					"4013e-3_avg"		"4013e-3_wc"
+					"4013e-4_avg"		"4013e-4_wc"
+					"4020e-3_avg"		"4020e-3_wc"
+					"4020e-4_avg"		"4020e-4_wc"
+					"4025e-3_avg"		"4025e-3_wc"
+					"4025e-4_avg"		"4025e-4_wc"
+					"None")
+			)
+		)
+	)
+	(Family "XC4000EX Family"
+		(SimLib "\xil_m1\xc4000x\x4kx_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc4000x\x4kx.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X4K_Misc.olb")
+		(SynthLib "\xil_m1\xc4000x\x4xsyn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000)
+				(ExemplarLib xi4ex)
+				(Choices:Speed None -2 -3 -4)
+				(Choices:Part "None"	  "4028exHQ208"    "4028exHQ240"    "4028exHQ304"   
+						 "4028exPG299"    "4028exBG352"    "4036exHQ240"    "4036exHQ304"  
+						 "4036exHQ352"    "4036exBG432"    "4036exPG411"  )
+				(Choices:WireLoad
+					"4028ex-2_avg"		"4028ex-2_wc"
+					"4028ex-3_avg"		"4028ex-3_wc"
+					"4028ex-4_avg"		"4028ex-4_wc"
+					"4036ex-2_avg"		"4036ex-2_wc"
+					"4036ex-3_avg"		"4036ex-3_wc"
+					"4036ex-4_avg"		"4036ex-4_wc"
+					"4044ex-3_avg"		"4044ex-3_wc"
+					"4052ex-3_avg"		"4052ex-3_wc"
+					"None")
+			)
+		)
+	)
+	(Family "XC4000XL Family"
+		(SimLib "\xil_m1\xc4000x\x4kx_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc4000x\x4kx.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X4K_Misc.olb")
+		(SynthLib "\xil_m1\xc4000x\x4xsyn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000)
+				(ExemplarLib xi4xl)
+				(Choices:Speed None -09 -1 -2 -3)
+				(Choices:Part "None"  "4005xlPC84"    "4005xlPQ100"    "4005xlVQ100" 
+					"4005xlTQ144"    "4005xlPQ160"    "4005xlPQ208"    "4010xlPC84"    "4010xlPQ100"  
+					"4010xlTQ144"    "4010xlTQ176"    "4010xlPQ160"    "4010xlPQ208"  
+					"4010xlBG256"    "4013xlPQ160"    "4013xlPQ208"    "4013xlHT144"  
+					"4013xlHT176"    "4013xlPQ240"    "4013xlBG256"    "4020xlHT144"   
+					"4020xlHT176"    "4020xlPQ160"    "4020xlPQ208"    "4020xlPQ240"   
+					"4020xlBG256"    "4028xlBG256"    "4028xlBG352"    "4028xlHQ208"   
+					"4028xlHQ240"    "4028xlPG299"    "4036xlBG352"    "4036xlBG432"  
+					"4036xlPG411"    "4036xlHQ208"    "4036xlHQ240"    "4044xlBG352"  
+					"4044xlBG432"    "4044xlHQ240"    "4044xlPG411"    "4052xlBG432"  
+					"4052xlBG560"    "4052xlHQ240"    "4052xlPG411"    "4062xlBG432"   
+					"4062xlBG560"    "4062xlHQ240"    "4062xlPG475"    "4062xlPG559"   
+					"4085xlPG559" )
+				(Choices:WireLoad
+					"4000xl-default"
+					"4005xl-09_avg"			"4005xl-09_wc"
+					"4005xl-1_avg"			"4005xl-1_wc"
+					"4005xl-2_avg"			"4005xl-2_wc"
+					"4005xl-3_avg"			"4005xl-3_wc"
+					"4010xl-09_avg"			"4010xl-09_wc"
+					"4010xl-1_avg"			"4010xl-1_wc"
+					"4010xl-2_avg"			"4010xl-2_wc"
+					"4010xl-3_avg"			"4010xl-3_wc"
+					"4013xl-09_avg"			"4013xl-09_wc"
+					"4013xl-1_avg"			"4013xl-1_wc"
+					"4013xl-2_avg"			"4013xl-2_wc"
+					"4013xl-3_avg"			"4013xl-3_wc"
+					"4020xl-09_avg"			"4020xl-09_wc"
+					"4020xl-1_avg"			"4020xl-1_wc"
+					"4020xl-2_avg"			"4020xl-2_wc"
+					"4020xl-3_avg"			"4020xl-3_wc"
+					"4028xl-09_avg"			"4028xl-09_wc"
+					"4028xl-1_avg"			"4028xl-1_wc"
+					"4028xl-2_avg"			"4028xl-2_wc"
+					"4028xl-3_avg"			"4028xl-3_wc"
+					"4036xl-09_avg"			"4036xl-09_wc"
+					"4036xl-1_avg"			"4036xl-1_wc"
+					"4036xl-2_avg"			"4036xl-2_wc"
+					"4036xl-3_avg"			"4036xl-3_wc"
+					"4044xl-09_avg"			"4044xl-09_wc"
+					"4044xl-1_avg"			"4044xl-1_wc"
+					"4044xl-2_avg"			"4044xl-2_wc"
+					"4044xl-3_avg"			"4044xl-3_wc"
+					"4052xl-09_avg"			"4052xl-09_wc"
+					"4052xl-1_avg"			"4052xl-1_wc"
+					"4052xl-2_avg"			"4052xl-2_wc"
+					"4052xl-3_avg"			"4052xl-3_wc"
+					"4062xl-09_avg"			"4062xl-09_wc"
+					"4062xl-1_avg"			"4062xl-1_wc"
+					"4062xl-2_avg"			"4062xl-2_wc"
+					"4062xl-3_avg"			"4062xl-3_wc"
+					"4085xl-09_avg"			"4085xl-09_wc"
+					"4085xl-1_avg"			"4085xl-1_wc"
+					"4085xl-2_avg"			"4085xl-2_wc"
+					"4085xl-3_avg"			"4085xl-3_wc"
+					"None")
+			)
+		)
+	)
+	(Family "XC4000XV Family"
+		(SimLib "\xil_m1\xc4000x\x4kx_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc4000x\x4kx.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X4K_Misc.olb")
+		(SynthLib "\xil_m1\xc4000x\x4xsyn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000HXV)
+				(ExemplarLib xi4xv)
+				(Choices:Speed None -1 -2)
+				(Choices:Part  "None"  "40125xvBG560"  "40125xvPG559"  "40150xvBG560"  "40150xvPG559" )
+			)
+		)
+	)
+	(Family "XC5200 Family"
+		(SimLib "\xil_m1\xc5200\x5k_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc5200\x5k.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X5K_Misc.olb")
+		(SynthLib "\xil_m1\xc5200\x5syn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_5200)
+				(ExemplarLib xi5)
+				(Choices:Speed None -5 -6)
+				(Choices:Part "None"    "5202PC84"     "5202PQ100"    "5202VQ100"   
+						 "5202TQ144"    "5202PG156"    "5204PC84"     "5204PQ100"    "5204VQ100"  
+						 "5204TQ144"    "5204PG156"    "5204PQ160"    "5206PC84"     "5206PQ100"   
+						 "5206VQ100"    "5206TQ144"    "5206PQ160"    "5206PQ208"    "5206PG191"  
+						 "5210PC84"     "5210TQ144"    "5210PQ160"    "5210PQ208"    "5210PG223"  
+						 "5210PQ240"    "5210BG225"    "5215PQ208"    "5215PQ240"    "5215PG299"  
+						 "5215HQ304"   )
+				(Choices:WireLoad  "5202-5"  "5202-6"  "5204-5"  "5204-6"  
+								   "5206-5"  "5206-6"  "5210-5"  "5210-6"
+								   "None" )
+			)
+		)
+	)
+	(Family "XC9500 Family"
+		(SimLib "\xil_m1\xc9500\x9k_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc9500\x9k.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SynthLib "\xil_m1\xc9500\x9syn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_7200A)
+				(ExemplarLib xi95)
+				(Choices:Speed None -5 -7 -10 -15 -20)
+				(Choices:Part  "None"    "9536PC44"    "9536VQ44"    "9536FPC44"  
+						 "9536FVQ44"     "9572PC44"    "9572PC84"    "9572PQ100"    "9572TQ100"  
+						 "9572FPC44"     "9572FPC84"   "9572FPQ100"  "95108PC84"    "95108PQ100"  
+						 "95108TQ100"    "95108PQ160"  "95108FPC84"  "95108FPQ100"  "95108FPQ160"  
+						 "95144PQ100"    "95144PQ160"  "95216PQ160"  "95216HQ208"   "95216BG352"  
+						 "95288HQ208"    "95288BG352"  )
+			)
+		)
+	)
+	(Family "Spartan Family"
+		(SimLib "\xil_m1\xc4000e\x4ke_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc4000e\x4ke.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X4K_Misc.olb")
+		(SynthLib "\xil_m1\xc4000e\x4esyn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000HXV)
+				(ExemplarLib xis)
+				(Choices:Speed  None -3 -4)
+				(Choices:Part  "None"  "S05PC84"   "S05VQ100"  "S10PC84"  
+						 "S10VQ100"    "S10TQ144"  "S20VQ100"  "S20TQ144"  "S20PQ208"  "S30VQ100"  "S30TQ144" 
+						 "S30PQ208"    "S30PQ240"  "S30BG256"  "S40PQ208"  "S40PQ240"  "S40BG256"   )
+			)
+		)
+	)
+	(Family "Spartan XL Family"
+		(SimLib "\xil_m1\xc4000e\x4ke_m.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\xc4000e\x4ke.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(SymbolLib "\xil_m1\XUnified.olb")
+		(SymbolLib "\xil_m1\X4K_Misc.olb")
+		(SynthLib "\xil_m1\xc4000e\x4esyn_m.vhd")
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000HXV)
+				(ExemplarLib xisxl)
+				(Choices:Speed  None -3 -4)
+				(Choices:Part   "None" "S05xlPC84"   "S05xlVQ100"  "S10xlPC84"  
+						 "S10xlVQ100"  "S10xlTQ144"  "S20xlVQ100"  "S20xlTQ144"  "S20xlPQ208"  "S30xlVQ100"  "S30xlTQ144" 
+						 "S30xlPQ208"  "S30xlPQ240"  "S30xlBG256"  "S40xlPQ208"  "S40xlPQ240"  "S40xlBG256"   )
+			)
+		)
+	)
+	(Family "Virtex Family"
+		(SimLib "\xil_m1\logiblox.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlarith.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\mvlutil.vhd"
+			(Folder IC))
+		(SimLib "\xil_m1\simpVcom.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVitl.vhd"
+			(Folder T))
+		(SimLib "\xil_m1\simpVpkg.vhd"
+			(Folder T))
+	
+		(Processing
+			(SynthEng
+				(CompileSetupTechnology	IDD_XMP_XILINX_4000HXV)
+				(ExemplarLib xcv)
+				(Plus True)
+				(Choices:Speed  None -4 -5)
+				(Choices:Part   "None"	 "xcv1500PQ240"	   "xcv2400PQ240"   "xcv3500PQ240"  
+						"xcv3500BG352"	 "xcv4700PQ240"    "xcv4700BG352"   "xcv6100PQ240"   "xcv6100BG352"  
+						"xcv6100BG432"	 "xcv9600BG352"    "xcv9600BG432"   "xcv9600BG560"   "xcv13800BG432"  
+						"xcv13800BG560"  "xcv13800xv13800" "xcv18800BG432"  "xcv18800BG560"  "xcv18800xv18800"  
+						"xcv24600BG560"  "xcv24600xv24600"   )
+			)
+		)
+	)
+	(Processing
+		(CompiledNetlistPath root)
+		(SynthEng
+			(NeedIOs	True)
+			(SuppressPins "timespec timegrp")
+		)
+	)
+)

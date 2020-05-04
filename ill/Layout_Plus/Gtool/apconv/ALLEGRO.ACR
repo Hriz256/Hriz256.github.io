@@ -1,0 +1,22 @@
+# Aperture converter for Allegro
+
+NAME Allegro
+VERSION 1.2
+EXTENSION txt 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 3
+SKIP   $
+
+FORMAT_ROUND:CIRCLE +$xsize +D$dcode
+FORMAT_ROUND:LINE +$xsize +D$dcode
+FORMAT_SQUARE:SQUARE +$xsize +$skip +D$dcode
+FORMAT_SQUARE:SQUARE +$xsize +D$dcode
+FORMAT_RECT:RECTANGLE +$xsize +$ysize +$skip +D$dcode
+FORMAT_RECT:RECTANGLE +$xsize +$ysize +D$dcode
+FORMAT_OBLONG:OBLONG +$xsize +$ysize +$skip +D$dcode
+FORMAT_CUSTOM:FLASH +$custom +$skip +D$dcode
+FORMAT_CUSTOM:FLASH +$custom +D$dcode

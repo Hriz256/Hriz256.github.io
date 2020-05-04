@@ -1,0 +1,20 @@
+# Aperture converter for Cadstar
+# $Revision:   1.0  $
+
+NAME Cadstar
+VERSION 1.0
+EXTENSION rep 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 5
+SKIP   $
+
+FORMAT_ROUND CIRCLE +$xsize +D$dcode
+FORMAT_ROUND LINE +$xsize +D$dcode
+FORMAT_SQUARE SQUARE +$xsize +$skip +D$dcode
+FORMAT_RECT RECTANGLE +$xsize +$ysize +$skip +D$dcode
+FORMAT_OBLONG OBLONG +$xsize +$ysize +$skip +D$dcode
+FORMAT_CUSTOM FLASH +$custom +$skip +D$dcode

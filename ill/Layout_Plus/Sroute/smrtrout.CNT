@@ -1,0 +1,96 @@
+:Base smrtrout.HLP
+1 SmartRoute work environment
+2 Starting SmartRoute=Starting_SmartRoute
+2 Viewing boards=Viewing_Boards
+2 Highlighting nets=Highlighting_nets
+2 Zoom functions=Zoom_Functions
+2 Commands
+3 Shortcut keys=Shortcut_keys
+3 File menu
+4 Open Design File command=Open_Design_File
+4 Save As command=Save_As
+4 Restore AutoSave command=Restore_AutoSave
+4 Make AutoSave command=Make_AutoSave
+4 AutoSave Interval command=AutoSave_Interval
+4 Add to Batch command=Add_to_Batch
+4 Start Batch command=Start_Batch
+4 Exit command=Exit
+3 View menu
+4 Zoom In command=Zoom_In
+4 Zoom Out command=Zoom_Out
+4 Pan/Wnd command=Pan_Wnd
+4 Full Fit command=Full_Fit
+4 Redraw Screen command=Redraw_Screen
+4 Erase Screen command=Erase_Screen
+4 Display Density command=Density_Display
+4 Find command=Find
+4 Highlight Net command=highlight_net
+4 Identify Net command=Find_Identify
+4 Identify Pin command=identify_pin
+3 Setup menu
+4 Net Attributes command=HELP_ID_NET_ATTR
+4 Parameters command=HELP_ID_PARAMETERS
+4 Routing Passes command=HELP_ID_PASSES
+4 Hints command=HELP_ID_HINTS
+3 RoutEdit menu
+4 Undo command=Undo_command_RoutEdit_menu
+4 Redo command=Redo_command_RoutEdit_menu
+4 AutoRouteOne command=AutoRoute_One_Autorouter
+4 AutoRouteNet command=AutoRoute_Net
+4 AutoRouteComp command=AutoComponent
+4 AutoRouteArea command=Auto_Area
+4 Manual Route command=Manual_Route
+4 SketchATrack command=SmartSketch_Autorouter
+4 Unroute All Nets command=Unroute_All_Nets
+4 Unroute Conflicts command=Unroute_Conflicts
+4 Unroute One Net command=Unroute_One_Net
+4 Unroute Connection command=Unroute_Connection
+4 Unroute Segment command=Unroute_Segment
+3 AutoRouter
+4 Pre-Route Synopsis command=HELP_ID_SYNOPSIS
+4 Start command=Start
+4 Stop command=Stop_command
+4 Pause command=Pause_command
+4 Restart command=Restart_command
+3 Help menu
+4 Help Topics command=Help_Topics
+4 About SmartRoute command=About_SmartRoute_command
+2 Dialog boxes
+3 AutoSave Interval dialog box=AutoSave_Interval_db
+3 Batch Design File dialog box=Batch_Design_File_dialog_box
+3 Find dialog box=HELP_ID_FIND
+3 Highlight Net dialog box=HELP_ID_HIGHLIGHT_NET
+3 Hints dialog box=Hints_dialog_box
+3 Net Attributes dialog box=Net_Attributes_dialog_box
+3 Parameters dialog box=Parameters_dialog_box
+3 Routing Passes dialog box=Routing_Passes_dialog_box
+3 Save Routed Design File As dialog box=Save_Routed_Design_File_As
+3 Start Batch dialog box=Start_Batch_dialog_box
+1 Setting up the board for routing
+2 Setting up the board for routing=Setting_up_the_board_for_routing
+2 Working with mounting holes in SmartRoute=Mounting_holes_in_SmartRoute
+2 Using the density map=density_map
+2 Design preparation checklist and common design errors=Database_Preparation_Checklist_and_Common_Database_Errors
+2 Routing and placement strategies for dense boards=area_component_autoroute
+1 Routing the board in SmartRoute
+2 Autorouting=AutoRouting
+2 Using SketchATrack autorouting=Using_SmartSketch
+2 Routing the board manually=Manual_Routing
+2 Troubleshooting: If the design doesn't route successfully=If_it_Doesn_t_Route_WHY
+2 Contention=Contentions
+1 Reference
+2 Shortcut keys=Shortcut_keys
+1 Product support
+2 How to reach OrCAD
+3 OrCAD technical support=technical_support
+3 OrCAD's 24-hour bulletin board system=bulletin_board_system
+3 OrCAD corporate offices=Administration
+3 OrCAD fax=fax
+3 OrCAD Direct sales=sales
+3 OrCAD Maintenance sales=maintenance_sales
+3 OrCAD international sales and service=international
+2 OrCAD web site
+3 Changing your default web browser=changing_your_default_web_browser
+3 OrCAD home page=!inet("http://www.orcad.com"):exit()
+3 SmartRoute frequently asked technical questions=!inet("http://www.orcad.com/techserv/faq/srtqu701.htm"):exit()
+3 Technical Support request form=!inet("http://www.orcad.com/asp/form/techsupp.htm"):exit()

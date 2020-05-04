@@ -1,0 +1,21 @@
+# Aperture converter for Tango
+# Also converts newer Tango Pro
+
+NAME Tango
+VERSION 1.2
+EXTENSION rep 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 8
+
+FORMAT_ROUND: *D$dcode +Ellipse +$xsize +$ysize
+FORMAT_SQUARE: *D$dcode +Sq Rect +$xsize +$ysize
+FORMAT_RECT: *D$dcode +Rectangle +$xsize +$ysize
+FORMAT_RECT: *D$dcode +Rounded Rectangle +$xsize +$ysize
+FORMAT_OBLONG: *D$dcode +Oval +$xsize +$ysize
+FORMAT_TARGET: *D$dcode +Target +$xsize +$ysize
+FORMAT_THERMAL: *D$dcode +Thermal +$xsize +$ysize
+FORMAT_ROUND: *D$dcode +Mounting Hole +$xsize +$ysize

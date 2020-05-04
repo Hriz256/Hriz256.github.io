@@ -1,0 +1,288 @@
+*version 8.0 1760420088
+u 164
+C? 4
+EAMP? 2
+X? 5
+V? 2
+R? 3
+@libraries
+@analysis
+@targets
+@attributes
+@translators
+a 0 u 13 0 0 0 hln 100 TANGO=PCB
+a 0 u 13 0 0 0 hln 100 SCICARDS=PCB
+a 0 u 13 0 0 0 hln 100 PROTEL=PCB
+a 0 u 13 0 0 0 hln 100 PCBOARDS=PCB
+a 0 u 13 0 0 0 hln 100 PCAD=PCB
+a 0 u 13 0 0 0 hln 100 PADS=PCB
+a 0 u 13 0 0 0 hln 100 ORCAD=PCB
+a 0 u 13 0 0 0 hln 100 EDIF=PCB
+a 0 u 13 0 0 0 hln 100 CADSTAR=PCB
+a 0 u 13 0 0 0 hln 100 PSPICE=DEFAULT
+a 0 u 13 0 0 0 hln 100 XILINX=XILINX
+a 0 u 13 0 0 0 hln 100 POLARIS=PCB
+@setup
+unconnectedPins 0
+connectViaLabel 0
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 4281 
+@status
+c 97:08:25:10:34:50;875208890
+c 97:08:25:10:34:50;875208890
+c 97:08:25:10:34:50;875208890
+c 97:08:25:10:34:50;875208890
+c 97:08:25:10:34:50;875208890
+*page 1 0 970 720 iA
+@ports
+port 5 INTERFACE 580 310 u
+a 1 s 3 0 21 8 hcn 100 LABEL=OUT
+port 6 INTERFACE 90 460 h
+a 1 s 3 0 9 -4 hcn 100 LABEL=CLK[0-3]
+port 7 INTERFACE 60 290 h
+a 1 s 3 0 19 8 hcn 100 LABEL=IN
+port 9 FOFFPAGE 450 100 v
+a 1 s 3 0 23 50 hcn 100 LABEL=CP[0-3]
+port 10 FOFFPAGE 240 100 v
+a 1 s 3 0 23 28 hcn 100 LABEL=CP[0-3]
+port 30 AGND 340 510 h
+port 71 FOFFPAGE 150 460 u
+a 1 s 3 0 9 8 hcn 100 LABEL=CP[0-3]
+port 107 AGND 290 120 h
+port 121 AGND 410 120 h
+port 163 BUBBLE 470 430 d
+a 1 x 14 0 0 -14 hcn 100 LABEL=N5
+port 153 BUBBLE 220 330 v
+a 1 x 14 0 -2 12 hcn 100 LABEL=N5
+@parts
+part 1 C 120 290 h
+a 0 u 13 0 15 25 hln 100 value=@C1VAL
+a 0 ap 9 0 15 0 hln 100 REFDES=C1
+a 0 s 0 0 0 0 hln 100 PKGREF=C1
+part 2 C 350 60 h
+a 0 u 13 0 15 25 hln 100 value=@C2VAL
+a 0 ap 9 0 15 0 hln 100 REFDES=C2
+a 0 s 0 0 0 0 hln 100 PKGREF=C2
+part 3 C 270 240 h
+a 0 u 13 0 15 25 hln 100 value=@CaVAL
+a 0 xp 9 0 15 0 hln 100 REFDES=Ca
+a 0 s 0 0 0 0 hln 100 PKGREF=Ca
+part 4 EAMP 240 330 U
+a 0 u 0 0 12 80 hln 100 EXPR=V(0,%-)*V(0,%+)*@GAIN
+a 0 u 13 13 82 18 hln 100 GAIN=5000
+a 0 s 0 0 36 68 hln 100 PART=EAMP
+a 1 xp 9 0 46 42 hln 100 REFDES=EAMP1
+a 0 s 0 0 0 0 hln 100 PKGREF=EAMP1
+part 28 VSRC 340 440 h
+a 1 u 13 13 -30 40 hcn 100 DC=1V
+a 1 xp 9 0 -26 26 hcn 100 REFDES=VSCALEV1
+a 0 s 0 0 0 0 hln 100 PKGREF=VSCALEV1
+part 143 ISWPAIR 230 40 h
+a 0 s 0 0 0 80 hln 100 PART=ISWPAIR
+a 0 ap 9 0 14 8 hln 100 REFDES=X3
+a 0 s 0 0 0 0 hln 100 PKGREF=X3
+part 148 ISWPAIRB 410 40 h
+a 0 s 0 0 0 80 hln 100 PART=ISWPAIRB
+a 1 ap 9 0 14 8 hln 100 REFDES=X4
+a 0 s 0 0 0 0 hln 100 PKGREF=X4
+part 29 R 400 480 v
+a 0 u 13 0 9 57 hln 100 value=1MEG
+a 0 xp 9 0 21 64 hln 100 REFDES=RSCALE
+a 0 s 0 0 0 0 hln 100 PKGREF=RSCALE
+part 162 r 420 430 h
+a 0 sp 0 0 0 10 hlb 100 PART=r
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 ap 9 0 15 0 hln 100 REFDES=R2
+a 0 u 13 0 15 25 hln 100 VALUE=1m
+a 0 a 0:13 0 0 0 hln 100 PKGREF=R2
+@conn
+w 14
+s 60 290 120 290 13
+w 18
+a 0 s 3 0 185 288 hln 100 LABEL=N1
+s 200 290 220 290 101
+a 0 s 3 0 185 288 hln 100 LABEL=N1
+s 150 290 200 290 17
+s 220 290 240 290 79
+s 220 290 220 240 76
+s 220 240 270 240 80
+s 220 60 200 60 95
+s 200 60 200 290 98
+w 23
+s 220 330 240 330 25
+w 51
+s 340 510 340 490 56
+s 400 480 400 490 53
+s 340 490 340 480 62
+s 400 490 340 490 59
+w 84
+a 0 s 0 0 415 308 hln 100 LABEL=OUT
+s 340 310 540 310 133
+a 0 s 3 0 415 308 hln 100 LABEL=OUT
+s 300 240 340 240 83
+s 340 240 340 310 86
+s 340 310 320 310 88
+s 540 310 540 60 135
+s 470 60 540 60 137
+s 540 310 580 310 139
+w 103
+a 0 s 0 0 320 58 hln 100 LABEL=N2
+s 290 60 350 60 102
+a 0 s 3 0 320 58 hln 100 LABEL=N2
+w 109
+s 260 100 260 110 108
+s 260 110 290 110 111
+s 290 110 290 120 113
+w 117
+a 0 s 0 0 390 58 hln 100 LABEL=N3
+s 380 60 400 60 116
+a 0 s 3 0 380 56 hln 100 LABEL=N3
+w 123
+s 410 120 410 110 122
+s 410 110 430 110 125
+s 430 110 430 100 127
+w 156
+s 460 430 470 430 155
+w 64
+s 340 440 340 430 63
+s 340 430 400 430 157
+s 400 430 420 430 161
+s 400 440 400 430 159
+b 73
+a 0 s 3 0 102 454 hln 100 LABEL=CP[0-3]
+s 90 460 150 460 72
+a 0 s 3 0 102 454 hln 100 LABEL=CP[0-3]
+@junction
+j 120 290
++ p 1 1
++ w 14
+j 60 290
++ s 7
++ w 14
+j 150 290
++ p 1 2
++ w 18
+j 240 290
++ p 4 -
++ w 18
+j 240 330
++ p 4 +
++ w 23
+j 340 510
++ s 30
++ w 51
+j 400 480
++ p 29 1
++ w 51
+j 340 480
++ p 28 -
++ w 51
+j 340 490
++ w 51
++ w 51
+j 340 440
++ p 28 +
++ w 64
+j 220 290
++ w 18
++ w 18
+j 270 240
++ p 3 1
++ w 18
+j 300 240
++ p 3 2
++ w 84
+j 320 310
++ p 4 OUT
++ w 84
+j 340 310
++ w 84
++ w 84
+j 200 290
++ w 18
++ w 18
+j 350 60
++ p 2 1
++ w 103
+j 290 120
++ s 107
++ w 109
+j 380 60
++ p 2 2
++ w 117
+j 410 120
++ s 121
++ w 123
+j 580 310
++ s 5
++ w 84
+j 540 310
++ w 84
++ w 84
+j 240 100
++ P 143 CLK0,CLK1,CLK2,CLK3
+ CLK0
+ CLK1
+ CLK2
+ CLK3
++ S 10
+ CP[0]
+ CP[1]
+ CP[2]
+ CP[3]
+j 220 60
++ p 143 IN
++ w 18
+j 290 60
++ p 143 OUT
++ w 103
+j 260 100
++ p 143 AGND
++ w 109
+j 450 100
++ P 148 CLK0,CLK1,CLK2,CLK3
+ CLK0
+ CLK1
+ CLK2
+ CLK3
++ S 9
+ CP[0]
+ CP[1]
+ CP[2]
+ CP[3]
+j 470 60
++ p 148 IN
++ w 84
+j 400 60
++ p 148 OUT
++ w 117
+j 430 100
++ p 148 AGND
++ w 123
+j 220 330
++ s 153
++ w 23
+j 400 440
++ p 29 2
++ w 64
+j 400 430
++ w 64
++ w 64
+j 460 430
++ p 162 2
++ w 156
+j 420 430
++ p 162 1
++ w 64
+j 470 430
++ s 163
++ w 156
+@attributes
+a 0 s 13 0 0 0 hln 100 PAGETITLE=
+a 0 s 13 0 0 0 hln 100 PAGENO=1
+a 0 s 13 0 0 0 hln 100 PAGESIZE=A
+a 0 s 13 0 0 0 hln 100 PAGECOUNT=1
+@graphics

@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Vector Sculpting</title><link rel="stylesheet" type="text/css" href="style.css"><link rel="stylesheet" href="../../fonts/adobe-clean.css"><style>.coach
+    {
+            border-radius:0;
+            border:1px solid #888;
+    }
+	html, body{overflow:hidden;}</style><script type="text/javascript" src="../../js/CSInterface.js"></script><script type="text/javascript" src="./main.js"></script><script src="../../js/lib/ResizeSensor.js"></script></head><body><div class="coach" id="popupContainer"><div><img class="img-radius" src="SmartEdit.gif"></div><div class="content"><div class="show" id="div1"><span style="font-size:16px; font-weight:bold;" data-locale="Div1Text1"></span> <span class="featureTag" data-locale="New"></span><p data-locale="Div1Text2" class="text"></p></div><div class="hide" id="div2"><span style="font-size:16px; font-weight:bold;" data-locale="Div2Text1"></span><p data-locale="Div2Text2" class="text"></p></div><div class="hide" id="div3"><span style="font-size:16px; font-weight:bold;" data-locale="Div3Text1"></span><p data-locale="Div3Text2" class="text"></p></div><div class="hide" id="div4"><span style="font-size:16px; font-weight:bold;" data-locale="Div4Text1"></span><p data-locale="Div4Text2" class="text"></p></div></div><div class="LearnMoreStyle"><p class="LearnMore" data-locale="LearnMore" onclick="window.cep.util.openURLInDefaultBrowser('https://helpx.adobe.com/illustrator/using/global-edit.html')"></p></div><div class="actions"><p class="skip" data-locale="SkipTour" onclick="skipTourClickHandler()"></p><button class="button" onclick="gotItClickHandler()"><label data-locale="OkText"></label></button></div></div></body><script>var cs = new CSInterface();
+    var resourceBundle = cs.initResourceBundle();
+	function SendEvent(data, type) {
+		var rsp_event = new CSEvent("SmartEditOnBoardingEvent", "APPLICATION");
+		var jsonObj = {
+			"Data": data,
+			"Type": type
+		};
+		rsp_event.data = JSON.stringify(jsonObj);
+		cs.dispatchEvent(rsp_event);
+	}
+	var element = document.getElementById('popupContainer');
+        new ResizeSensor(element, function() {
+            SendHeightEvent("SmartEditOnBoardingCoachHeightUpdate");
+        });
+	function skipTourClickHandler() {
+		SendEvent('', 'SmartEditOnBoardingSkipTourClicked');
+		window.__adobe_cep__.closeExtension();
+	}
+
+	function gotItClickHandler() {
+		SendEvent('', 'SmartEditOnBoardingGotItButtonClicked');
+		window.__adobe_cep__.closeExtension();
+	}
+
+function SendHeightEvent(heightEventType) {
+    var frame = window.frameElement;
+    var body = element.parentElement;
+    frame.height = body.scrollHeight;
+
+    var data = body.offsetHeight;
+    SendEvent(data.toString(), heightEventType);
+}
+window.onload=function()
+{
+	setTimeout(func1, 3790);
+	setTimeout(func2, 11410);
+	setTimeout(func3, 19660);
+	setTimeout(func4, 26820);
+	
+};
+function func1()
+{
+	document.getElementById("div2").className="show";
+	document.getElementById("div1").className="hide";
+	document.getElementById("div3").className="hide";
+	document.getElementById("div4").className="hide";
+}
+function func2()
+{
+	document.getElementById("div3").className="show";
+	document.getElementById("div1").className="hide";
+	document.getElementById("div2").className="hide";
+	document.getElementById("div4").className="hide";
+}
+function func3()
+{
+	document.getElementById("div4").className="show";
+	document.getElementById("div1").className="hide";
+	document.getElementById("div2").className="hide";
+	document.getElementById("div3").className="hide";
+}
+function func4()
+{
+	document.getElementById("div4").className="hide";
+	document.getElementById("div1").className="show";
+	document.getElementById("div2").className="hide";
+	document.getElementById("div3").className="hide";
+	
+	setTimeout(func1, 3790);
+	setTimeout(func2, 11410);
+	setTimeout(func3, 19660);
+	setTimeout(func4, 26820);
+}</script></html>

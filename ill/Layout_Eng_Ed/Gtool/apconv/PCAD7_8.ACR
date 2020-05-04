@@ -1,0 +1,19 @@
+# Aperture converter for Pcad 7, 8
+# $Revision:   1.0  $
+
+NAME Pcad7_8
+VERSION 1.0
+EXTENSION apr 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+MM METRIC
+INCH ENGLISH
+
+HEADER 11
+SKIP   #
+
+FORMAT_UNITS UNIT = $units
+FORMAT_ROUND $skip +$dcode +ROUND +$xsize
+FORMAT_RECT $skip +$dcode +RECTANGLE +$xsize +$ysize +0 +0 +$rot

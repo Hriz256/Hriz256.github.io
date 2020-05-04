@@ -1,0 +1,1857 @@
+*version 9.2 21175811
+u 2183
+U? 34
+DSTM? 2
+V? 3
+R? 4
+E? 2
+? 5
+@libraries
+@analysis
+@targets
+@attributes
+@translators
+a 0 u 13 0 0 0 hln 100 PCBOARDS=PCB
+a 0 u 13 0 0 0 hln 100 PSPICE=PSPICE
+a 0 u 13 0 0 0 hln 100 XILINX=XILINX
+a 0 u 13 0 0 0 hln 100 TANGO=PCB
+a 0 u 13 0 0 0 hln 100 SCICARDS=PCB
+a 0 u 13 0 0 0 hln 100 PROTEL=PCB
+a 0 u 13 0 0 0 hln 100 PCAD=PCB
+a 0 u 13 0 0 0 hln 100 PADS=PCB
+a 0 u 13 0 0 0 hln 100 ORCAD=PCB
+a 0 u 13 0 0 0 hln 100 EDIF=PCB
+a 0 u 13 0 0 0 hln 100 CADSTAR=PCB
+a 0 u 13 0 0 0 hln 100 POLARIS=PSPICE
+@setup
+unconnectedPins 0
+connectViaLabel 0
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 33504 
+@status
+c 98:04:11:11:31:58;894911518
+a 0 98:03:24:09:21:24;893434884 e 
+*page 1 0 1520 970 iC
+@ports
+port 63 HI 330 180 h
+port 64 LO 330 230 h
+port 67 IF_IN 70 130 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=SCLK
+port 295 HI 780 580 h
+port 387 LO 160 830 h
+port 650 LO 280 690 h
+port 293 IF_IN 70 620 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=\LDAC\
+port 66 IF_IN 70 430 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=\SYNC\
+port 1377 HI 330 350 h
+port 513 HI 730 760 H
+port 1818 IF_IN 70 1230 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=SDIN
+port 775 Agnd 1200 990 h
+port 824 IF_OUT 1370 910 h
+a 1 xr 3 0 31 8 hcn 100 LABEL=VOUT
+port 593 Agnd 1060 1090 h
+port 592 Agnd 1110 1090 h
+port 1378 LO 330 400 h
+port 2177 interface 70 1060 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=VSS
+port 2178 interface 70 1100 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=GND
+port 2179 bubble 120 1060 d
+a 1 x 3 0 0 0 hcn 100 LABEL=VSS
+port 2180 bubble 120 1100 d
+a 1 x 3 0 0 0 hcn 100 LABEL=GND
+port 2181 interface 70 1020 h
+a 1 xr 3 0 19 8 hcn 100 LABEL=VDD
+port 2182 bubble 120 1020 d
+a 1 x 3 0 0 0 hcn 100 LABEL=VDD
+@parts
+part 80 NOR2 220 130 h
+a 0 sp 11 0 44 48 hln 100 PART=NOR2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U1
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U1
+part 76 INV 220 430 h
+a 0 sp 11 0 40 40 hln 100 PART=INV
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 21 43 hln 100 REFDES=U2
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U2
+part 244 OR2 620 490 h
+a 0 sp 11 0 50 48 hln 100 PART=OR2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U3
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U3
+part 296 INV 700 640 h
+a 0 sp 11 0 40 40 hln 100 PART=INV
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 21 43 hln 100 REFDES=U4
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U4
+part 689 INV 880 710 h
+a 0 sp 11 0 40 40 hln 100 PART=INV
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 21 43 hln 100 REFDES=U5
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U5
+part 693 INV 970 710 h
+a 0 sp 11 0 40 40 hln 100 PART=INV
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 21 43 hln 100 REFDES=U6
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U6
+part 697 AND2 1050 690 h
+a 0 sp 11 0 12 48 hln 100 PART=AND2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U8
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U8
+part 299 OR2 1300 560 h
+a 0 sp 11 0 50 48 hln 100 PART=OR2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U9
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U9
+part 712 AND2 1150 620 h
+a 0 sp 11 0 12 48 hln 100 PART=AND2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U10
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U10
+part 220 buf 230 510 h
+a 0 s 11 0 40 50 hln 100 PART=buf
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U11
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U11
+part 713 AND2 1150 520 h
+a 0 sp 11 0 12 48 hln 100 PART=AND2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U12
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U12
+part 923 DELAY 1140 280 d
+a 0 sp 11 0 8 16 hln 100 PART=DELAY
+a 0 u 13 0 42 28 hlb 100 DELAY=1ns
+a 1 ap 9 0 40 -2 hln 100 REFDES=U13
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U13
+part 651 INV 920 220 h
+a 0 sp 11 0 40 40 hln 100 PART=INV
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 21 43 hln 100 REFDES=U14
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U14
+part 760 INV 390 750 h
+a 0 sp 11 0 40 40 hln 100 PART=INV
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 ap 9 0 21 43 hln 100 REFDES=U19
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U19
+part 927 NOR2 740 500 h
+a 0 sp 11 0 44 48 hln 100 PART=NOR2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 ap 9 0 40 0 hln 100 REFDES=U20
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U20
+part 652 AND2 1040 220 h
+a 0 sp 11 0 12 48 hln 100 PART=AND2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U27
+a 0 ap 9 0 40 0 hln 100 REFDES=U27
+part 2066 nan3 690 210 h
+a 0 sp 11 0 2 50 hln 100 PART=nan3
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U29
+a 0 ap 9 0 40 0 hln 100 REFDES=U29
+part 2063 nor3 590 210 h
+a 0 sp 11 0 44 48 hln 100 PART=nor3
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hcn 100 IMPL=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U30
+a 0 ap 9 0 40 0 hln 100 REFDES=U30
+part 774 R 1210 910 h
+a 0 sp 0 0 0 10 hlb 100 PART=R
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=RC05
+a 0 s 0:13 0 0 0 hln 100 GATE=
+a 0 u 13 0 15 25 hln 100 VALUE=0.5
+a 0 ap 9 0 15 0 hln 100 REFDES=R1
+a 0 a 0:13 0 0 0 hln 100 PKGREF=R1
+part 773 E 1160 910 h
+a 0 s 11 0 10 34 hln 100 PART=E
+a 0 u 0 0 0 10 hln 100 GAIN=500000
+a 1 ap 9 0 10 4 hln 100 REFDES=E1
+a 0 a 0:13 0 0 0 hln 100 PKGREF=E1
+part 802 R 1300 930 d
+a 0 u 13 0 31 -1 hln 100 VALUE=1Meg
+a 0 sp 0 0 0 10 hlb 100 PART=R
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=RC05
+a 0 s 0:13 0 0 0 hln 100 GATE=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=R2
+a 0 ap 9 0 15 0 hln 100 REFDES=R2
+part 591 Vsrc 1110 1040 h
+a 1 u 13 0 27 32 hcn 100 DC=-5V
+a 1 ap 9 0 20 10 hcn 100 REFDES=V1
+a 0 a 0:13 0 0 0 hln 100 PKGREF=V1
+part 590 Vsrc 1060 1040 h
+a 1 u 13 0 24 36 hcn 100 DC=5V
+a 1 ap 9 0 20 10 hcn 100 REFDES=V2
+a 0 a 0:13 0 0 0 hln 100 PKGREF=V2
+part 604 R 1100 920 d
+a 0 sp 0 0 0 10 hlb 100 PART=R
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=RC05
+a 0 s 0:13 0 0 0 hln 100 GATE=
+a 0 u 13 0 30 2 hln 100 VALUE=1Meg
+a 0 a 0:13 0 0 0 hln 100 PKGREF=R3
+a 0 ap 9 0 15 0 hln 100 REFDES=R3
+part 62 DigClock 70 190 h
+a 0 u 0 0 0 40 hln 100 STARTVAL=1
+a 0 u 0 0 0 50 hln 100 OPPVAL=0
+a 0 u 0 0 0 20 hln 100 ONTIME=10ns
+a 0 u 0 0 0 30 hln 100 OFFTIME=100
+a 1 ap 9 0 0 -2 hln 100 REFDES=DSTM1
+a 0 u 0 0 0 10 hln 100 DELAY=10ns
+a 0 a 0:13 0 0 0 hln 100 PKGREF=DSTM1
+part 264 DFFRS 750 620 h
+a 0 sp 11 0 36 88 hln 100 PART=DFFRS
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hlb 100 IMPL=
+a 0 ap 9 0 40 8 hln 100 REFDES=U7
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U7
+part 86 DFFRS 520 490 h
+a 0 sp 11 0 36 88 hln 100 PART=DFFRS
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hlb 100 IMPL=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U26
+a 0 ap 9 0 40 8 hln 100 REFDES=U26
+part 870 dc_buf 100 130 h
+a 0 u 13 13 -58 62 hlb 100 PIO_MODEL=@IO_MODEL
+a 0 s 11 0 40 50 hln 100 PART=dc_buf
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 a 9 0 40 0 hln 100 REFDES=U15
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U15
+part 876 dc_buf 80 620 h
+a 0 s 11 0 40 50 hln 100 PART=dc_buf
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 a 9 0 40 0 hln 100 REFDES=U16
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U16
+part 873 dc_buf 80 430 h
+a 0 u 13 13 -46 70 hlb 100 PIO_MODEL=@IO_MODEL
+a 0 s 11 0 40 50 hln 100 PART=dc_buf
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 a 9 0 40 0 hln 100 REFDES=U17
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U17
+part 966 dacser_constrnt 160 620 v
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 s 11 0 56 -4 hrn 100 PART=dacser_constrnt
+a 0 u 13 13 54 125 hln 100 PSCSET=@SCSET
+a 0 u 13 13 40 144 hln 100 PSCHOLD=@SCHOLD
+a 0 u 13 13 28 112 hln 100 PSCLK=@SCLK
+a 0 u 13 13 16 116 hln 100 PMINW=@MINW
+a 0 a 9 0 70 -2 hln 100 REFDES=U18
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U18
+part 325 dc_95_2 300 830 U
+a 0 u 0:13 0 62 12 hlb 100 DATASETUP=0
+a 0 u 0:13 0 62 22 hlb 100 DATAHOLD=0
+a 0 s 11 0 40 100 hln 100 PART=dc_95_2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 1 a 9 0 1 -3 hln 100 REFDES=U21
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U21
+part 324 dc_95_2 300 980 U
+a 0 u 0:13 0 62 12 hlb 100 DATASETUP=0
+a 0 u 0:13 0 62 22 hlb 100 DATAHOLD=0
+a 0 s 11 0 40 100 hln 100 PART=dc_95_2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 1 a 9 0 1 -3 hln 100 REFDES=U22
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U22
+part 1826 dc_buf 100 1230 h
+a 0 s 11 0 40 50 hln 100 PART=dc_buf
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 x 0 0 0 10 hln 100 IMPL=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U28
+a 0 a 9 0 40 0 hln 100 REFDES=U28
+part 323 dc_95_2 300 1110 U
+a 0 u 13 13 166 4 hlb 100 DATAHOLD=@DHOLD
+a 0 s 11 0 40 100 hln 100 PART=dc_95_2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 u 13 13 168 18 hlb 100 DATASETUP=@DSET
+a 1 a 9 0 1 -3 hln 100 REFDES=U23
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U23
+part 68 dc_569 420 120 h
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 s 11 0 2 141 hln 100 PART=dc_569
+a 1 a 9 0 40 -2 hln 100 REFDES=U25
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U25
+part 1376 dc_569 420 290 h
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 s 11 0 2 141 hln 100 PART=dc_569
+a 1 a 9 0 40 -2 hln 100 REFDES=U24
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U24
+part 1799 dc_95_2 300 1240 U
+a 0 u 0:13 0 62 12 hlb 100 DATASETUP=0
+a 0 u 0:13 0 62 22 hlb 100 DATAHOLD=0
+a 0 s 11 0 40 100 hln 100 PART=dc_95_2
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 1 a 9 0 1 -3 hln 100 REFDES=U31
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U31
+part 2085 dc_dac14 940 870 h
+a 0 s 11 0 70 166 hrn 100 PART=dc_dac14
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U33
+a 0 a 9 0 12 0 hln 100 REFDES=U33
+part 2084 dc_reg14 700 830 h
+a 0 u 0:13 0 38 218 hln 100 PTHDGMN=
+a 0 u 0:13 0 38 230 hln 100 PTSUDGMN=
+a 0 s 11 0 100 198 hrn 100 PART=dc_reg14
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U32
+a 0 a 9 0 18 -2 hln 100 REFDES=U32
+part 1 titleblk 2020 1520 h
+a 1 x 13 0 180 60 hcn 100 PAGETITLE=D/A Converter - Serial Interface
+a 1 s 13 0 350 10 hcn 100 PAGESIZE=C
+a 1 s 13 0 340 95 hrn 100 PAGECOUNT=1
+a 1 s 13 0 300 95 hrn 100 PAGENO=1
+@conn
+w 194
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 330 180 370 180 8
+a 0 up 33 0 375 179 hct 100 LVL=
+s 370 180 420 180 12
+s 370 130 370 180 10
+s 420 130 370 130 13
+w 885
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 70 130 100 130 864
+a 0 up 33 0 225 129 hct 100 LVL=
+w 5
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 150 130 180 130 872
+a 0 up 33 0 185 129 hct 100 LVL=
+s 180 130 220 130 1173
+s 180 510 180 130 978
+s 170 510 180 510 976
+s 170 530 170 510 974
+w 1149
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 220 150 170 150 49
+s 170 150 170 430 53
+a 0 up 33 0 172 290 hlt 100 LVL=
+s 160 530 160 430 971
+s 160 430 130 430 973
+s 170 430 160 430 55
+s 230 510 210 510 221
+s 210 510 210 430 211
+s 220 430 210 430 77
+s 210 430 170 430 218
+w 44
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 80 430 70 430 874
+a 0 up 33 0 75 429 hct 100 LVL=
+w 313
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 80 620 70 620 877
+a 0 up 33 0 75 619 hct 100 LVL=
+w 883
+a 0 sr 0:3 0 450 448 hcn 100 LABEL=LDAC
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 520 620 160 620 1704
+a 0 sr 3 0 450 618 hcn 100 LABEL=LDAC
+s 880 710 520 710 690
+s 520 710 520 620 318
+s 750 620 520 620 291
+a 0 up 33 0 450 619 hct 100 LVL=
+s 160 620 130 620 2153
+w 202
+a 0 sr 0 0 0 0 hln 100 LABEL=GSCLK
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 700 500 740 500 273
+a 0 sr 3 0 715 498 hcn 100 LABEL=GSCLK
+s 700 500 700 640 271
+s 690 500 700 500 201
+a 0 up 33 0 715 499 hct 100 LVL=
+w 699
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1240 630 1220 630 754
+s 1240 580 1240 630 752
+s 1300 580 1240 580 750
+a 0 up 33 0 1270 579 hct 100 LVL=
+w 745
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1240 560 1300 560 748
+a 0 up 33 0 1290 559 hct 100 LVL=
+s 1240 530 1240 560 746
+s 1220 530 1240 530 744
+w 734
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1140 640 1150 640 737
+s 1140 700 1140 640 735
+a 0 up 33 0 1142 670 hlt 100 LVL=
+s 1120 700 1140 700 733
+w 717
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1150 620 810 620 724
+a 0 up 33 0 980 619 hct 100 LVL=
+w 727
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 980 540 1150 540 730
+a 0 up 33 0 1065 539 hct 100 LVL=
+s 980 640 980 540 728
+s 810 640 980 640 726
+w 701
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1030 690 1050 690 709
+s 950 680 950 710 706
+s 950 710 930 710 708
+s 970 710 950 710 694
+s 1030 680 950 680 704
+a 0 up 33 0 990 679 hct 100 LVL=
+s 1030 690 1030 680 702
+w 696
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1050 710 1020 710 698
+a 0 up 33 0 1035 709 hct 100 LVL=
+w 294
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 780 590 780 580 276
+a 0 up 33 0 782 585 hlt 100 LVL=
+w 223
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 610 490 620 490 253
+s 610 440 610 490 251
+s 310 440 610 440 249
+a 0 up 33 0 315 439 hct 100 LVL=
+s 310 440 310 510 207
+s 310 510 280 510 209
+w 178
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 620 510 580 510 177
+a 0 up 33 0 600 509 hct 100 LVL=
+w 1146
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 390 170 420 170 47
+s 390 170 390 340 45
+s 550 430 550 460 168
+s 390 430 550 430 166
+s 390 430 270 430 51
+a 0 up 33 0 280 429 hct 100 LVL=
+s 390 340 390 430 1372
+s 390 340 420 340 1370
+w 1148
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 290 140 350 140 82
+a 0 up 33 0 270 139 hct 100 LVL=
+s 350 140 420 140 1171
+s 350 140 350 310 197
+s 350 570 710 570 896
+a 0 up 33 0 680 569 hct 100 LVL=
+s 710 520 740 520 260
+s 710 570 710 520 258
+s 350 310 350 570 1375
+s 350 310 420 310 1373
+w 1384
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 420 320 400 320 1383
+s 400 320 400 260 1385
+s 400 260 500 260 1387
+s 500 260 500 160 1389
+a 0 up 33 0 502 210 hlt 100 LVL=
+s 500 160 480 160 1391
+w 926
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1150 520 1140 520 739
+s 1140 520 1140 340 909
+a 0 up 33 0 1142 430 hlt 100 LVL=
+w 916
+a 0 sr 0:3 0 1105 158 hcn 100 LABEL=DLT2
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1140 230 1110 230 743
+a 0 sr 3 0 1105 228 hcn 100 LABEL=DLT2
+a 0 up 33 0 1105 229 hct 100 LVL=
+s 1140 280 1140 230 925
+w 665
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1040 220 970 220 664
+a 0 up 33 0 1005 219 hct 100 LVL=
+w 1821
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 150 1230 300 1230 1813
+a 0 up 33 0 225 1229 hct 100 LVL=
+w 1817
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 70 1230 100 1230 1816
+a 0 up 33 0 135 1229 hct 100 LVL=
+w 376
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 250 830 160 830 384
+s 250 830 300 830 379
+s 250 980 250 830 1523
+s 300 980 250 980 381
+s 250 1110 250 980 377
+a 0 up 33 0 252 900 hlt 100 LVL=
+s 300 1110 250 1110 375
+s 250 1240 300 1240 1716
+s 250 1110 250 1240 1985
+w 629
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 300 790 280 790 647
+s 280 790 280 690 649
+s 280 940 280 790 1527
+s 300 940 280 940 640
+s 280 1070 280 940 630
+a 0 up 33 0 282 860 hlt 100 LVL=
+s 300 1070 280 1070 628
+s 300 760 300 770 1703
+s 300 910 300 920 1706
+s 300 1040 300 1050 1708
+s 300 1200 280 1200 1726
+s 300 1170 300 1180 1801
+s 280 1070 280 1200 1987
+s 300 780 300 790 2154
+s 300 770 300 780 2155
+s 300 930 300 940 2156
+s 300 920 300 930 2157
+s 300 1060 300 1070 2158
+s 300 1050 300 1060 2159
+s 300 1190 300 1200 2160
+s 300 1180 300 1190 2161
+w 2020
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 480 220 590 220 1996
+a 0 up 33 0 535 219 hct 100 LVL=
+w 1993
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 590 230 480 230 1994
+a 0 up 33 0 535 229 hct 100 LVL=
+w 1486
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 920 220 880 220 653
+s 880 450 880 250 155
+s 880 250 1010 250 658
+s 880 450 490 450 170
+a 0 up 33 0 685 449 hct 100 LVL=
+s 1010 250 1010 240 660
+s 490 450 490 510 172
+s 1010 240 1040 240 662
+s 490 510 520 510 149
+s 880 250 880 220 2030
+s 760 220 880 220 1457
+w 1432
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 480 370 690 370 1431
+a 0 up 33 0 585 369 hct 100 LVL=
+s 690 370 690 230 2067
+w 2070
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 660 220 690 220 2069
+a 0 up 33 0 675 219 hct 100 LVL=
+w 2010
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 480 200 530 200 1445
+s 530 200 530 140 1447
+s 530 140 690 140 1449
+a 0 up 33 0 610 139 hct 100 LVL=
+s 690 140 690 210 2076
+w 2052
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 480 210 590 210 2078
+a 0 up 33 0 535 209 hct 100 LVL=
+w 1498
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 380 870 260 870 343
+a 0 up 33 0 320 869 hct 100 LVL=
+s 260 870 260 820 345
+s 260 820 300 820 347
+s 380 910 380 870 341
+s 360 910 380 910 339
+s 380 910 700 910 422
+w 425
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 700 900 480 900 428
+s 480 900 480 790 426
+a 0 up 33 0 482 845 hlt 100 LVL=
+s 480 790 360 790 424
+w 1501
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 700 940 360 940 1837
+a 0 up 33 0 537 995 hlt 100 LVL=
+w 1500
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 700 930 360 930 1838
+a 0 up 33 0 547 985 hlt 100 LVL=
+w 1499
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 700 920 360 920 1839
+a 0 up 33 0 557 975 hlt 100 LVL=
+w 501
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 690 760 730 760 473
+s 690 830 690 760 1087
+s 700 830 690 830 514
+w 330
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 270 970 300 970 337
+s 270 1010 270 970 335
+s 390 1010 270 1010 333
+a 0 up 33 0 330 1009 hct 100 LVL=
+s 390 1040 390 1010 331
+s 360 1040 390 1040 329
+s 390 950 700 950 1892
+s 390 1010 390 950 1894
+w 1884
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 360 1050 400 1050 1877
+s 400 1050 400 960 1897
+s 400 960 700 960 1899
+a 0 up 33 0 550 959 hct 100 LVL=
+w 1896
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 360 1060 410 1060 1883
+s 410 1060 410 970 1901
+s 410 970 700 970 1903
+a 0 up 33 0 555 969 hct 100 LVL=
+w 1906
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 360 1070 420 1070 1905
+s 420 1070 420 980 1907
+s 420 980 700 980 1909
+a 0 up 33 0 560 979 hct 100 LVL=
+w 431
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 700 890 490 890 434
+s 490 890 490 780 432
+a 0 up 33 0 492 835 hlt 100 LVL=
+s 490 780 360 780 430
+w 1605
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 990 940 990 1604
+a 0 up 33 0 875 989 hct 100 LVL=
+w 1599
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 980 940 980 1598
+a 0 up 33 0 875 979 hct 100 LVL=
+w 1597
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 950 940 950 1596
+a 0 up 33 0 875 949 hct 100 LVL=
+w 1595
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 960 940 960 1594
+a 0 up 33 0 875 959 hct 100 LVL=
+w 1593
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 970 940 970 1592
+a 0 up 33 0 875 969 hct 100 LVL=
+w 1589
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 910 940 910 1588
+a 0 up 33 0 875 909 hct 100 LVL=
+w 777
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1200 910 1210 910 776
+a 0 up 33 0 1205 909 hct 100 V=
+w 783
+a 0 sr 0:3 0 1085 768 hcn 100 LABEL=VOUT
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1270 910 1300 910 2100
+a 0 sr 3 0 1285 908 hcn 100 LABEL=VOUT
+s 1250 910 1270 910 782
+a 0 up 33 0 1285 909 hct 100 V=
+s 1270 950 1150 950 786
+s 1150 950 1150 920 788
+s 1150 920 1160 920 790
+s 1270 910 1270 950 805
+s 1300 910 1300 930 809
+s 1300 910 1370 910 822
+w 603
+a 0 sr 0 0 0 0 hln 100 LABEL=DACout
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1020 910 1100 910 605
+a 0 sr 3 0 1045 908 hcn 100 LABEL=DACout
+a 0 up 33 0 1045 909 hct 100 V=
+s 1100 910 1100 920 772
+s 1160 910 1100 910 778
+w 595
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1060 1090 1060 1080 594
+a 0 up 33 0 1062 1085 hlt 100 V=
+w 610
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1110 1080 1110 1090 596
+a 0 up 33 0 1112 1085 hlt 100 V=
+w 1625
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1110 990 1110 1040 1626
+s 1020 990 1110 990 1624
+a 0 up 33 0 1065 989 hct 100 V=
+w 1629
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1060 970 1060 1040 1630
+a 0 up 33 0 1062 1005 hlt 100 V=
+s 1020 970 1060 970 1628
+w 816
+a 0 up 0:33 0 0 0 hln 100 V=
+s 1200 920 1200 970 780
+s 1100 970 1200 970 800
+a 0 up 33 0 1150 969 hct 100 V=
+s 1200 990 1200 980 1868
+s 1200 980 1200 970 2093
+s 1300 980 1200 980 817
+s 1300 970 1300 980 815
+s 1100 960 1100 970 798
+w 195
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 330 230 360 230 39
+a 0 up 33 0 375 229 hct 100 LVL=
+s 360 220 360 230 35
+s 360 230 420 230 37
+a 0 up 33 0 390 229 hct 100 LVL=
+s 360 210 360 220 29
+s 360 220 420 220 33
+a 0 up 33 0 390 219 hct 100 LVL=
+s 420 210 360 210 27
+a 0 up 33 0 405 209 hct 100 LVL=
+s 360 200 360 210 31
+s 360 150 360 200 23
+s 420 200 360 200 25
+a 0 up 33 0 415 199 hct 100 LVL=
+s 360 150 410 150 21
+a 0 up 33 0 395 149 hct 100 LVL=
+s 360 120 360 150 74
+s 410 160 410 150 17
+s 410 150 420 150 19
+s 420 120 360 120 72
+a 0 up 33 0 385 119 hct 100 LVL=
+s 410 160 420 160 15
+a 0 up 33 0 415 159 hct 100 LVL=
+w 1327
+s 330 350 370 350 1328
+a 0 up 33 0 375 349 hct 100 LVL=
+s 370 350 420 350 1332
+s 370 300 370 350 1330
+s 420 300 370 300 1333
+w 2121
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 420 330 340 330 2120
+s 340 490 340 400 118
+s 330 400 340 400 1335
+a 0 up 33 0 375 399 hct 100 LVL=
+s 340 400 360 400 1368
+s 340 490 520 490 107
+a 0 up 33 0 430 489 hct 100 LVL=
+s 360 400 420 400 1340
+a 0 up 33 0 390 399 hct 100 LVL=
+s 360 390 360 400 1346
+s 360 380 360 390 1342
+s 360 390 420 390 1344
+a 0 up 33 0 390 389 hct 100 LVL=
+s 420 380 360 380 1347
+a 0 up 33 0 405 379 hct 100 LVL=
+s 360 370 360 380 1355
+s 360 290 360 370 1351
+s 420 370 360 370 1353
+a 0 up 33 0 415 369 hct 100 LVL=
+s 420 290 360 290 1364
+a 0 up 33 0 385 289 hct 100 LVL=
+s 340 330 340 400 2122
+w 2130
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 360 1200 440 1200 2129
+s 440 1000 700 1000 1921
+a 0 up 33 0 570 999 hct 100 LVL=
+s 440 1200 440 1000 2131
+w 2128
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 270 1140 380 1140 1831
+s 270 1100 270 1140 1829
+s 300 1100 270 1100 1827
+s 360 1190 380 1190 2133
+s 430 990 700 990 1915
+a 0 up 33 0 565 989 hct 100 LVL=
+s 430 1190 430 990 2135
+s 380 1190 430 1190 2139
+s 380 1140 380 1190 2137
+w 443
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 450 870 450 750 769
+a 0 up 33 0 452 815 hlt 100 LVL=
+s 450 750 440 750 767
+s 700 870 450 870 2147
+w 437
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 500 880 500 770 438
+a 0 up 33 0 502 825 hlt 100 LVL=
+s 500 770 360 770 436
+s 700 880 500 880 2148
+w 538
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 890 940 890 2151
+a 0 up 33 0 875 889 hct 100 LVL=
+w 536
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 880 940 880 2162
+a 0 up 33 0 875 879 hct 100 LVL=
+w 2116
+a 0 sr 0:3 0 237 201 hcn 100 LABEL=AClear
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 240 190 190 190 2119
+a 0 sr 3 0 237 201 hcn 100 LABEL=AClear
+s 420 360 240 360 2115
+s 420 190 240 190 58
+a 0 up 33 0 335 189 hct 100 LVL=
+s 190 190 70 190 1175
+s 190 550 190 190 101
+s 470 840 470 680 1081
+s 780 680 780 670 269
+s 470 680 550 680 267
+s 550 680 780 680 1188
+s 550 550 550 680 265
+s 550 550 190 550 99
+s 550 540 550 550 97
+s 240 360 240 190 2117
+s 700 840 470 840 2163
+w 1603
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 1000 940 1000 2164
+a 0 up 33 0 875 999 hct 100 LVL=
+w 1587
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 920 940 920 2165
+a 0 up 33 0 875 919 hct 100 LVL=
+w 1591
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 940 940 940 2166
+a 0 up 33 0 875 939 hct 100 LVL=
+w 2169
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 870 940 870 2168
+a 0 up 33 0 875 869 hct 100 LVL=
+w 1585
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 930 940 930 2167
+a 0 up 33 0 875 929 hct 100 LVL=
+w 1755
+a 0 sr 0:3 0 835 508 hcn 100 LABEL=BCLK
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 510 860 510 262
+a 0 up 33 0 835 509 hct 100 LVL=
+a 0 sr 3 0 835 508 hcn 100 LABEL=BCLK
+s 230 1210 230 1220 1765
+s 300 1220 230 1220 1767
+s 300 1210 230 1210 1770
+s 230 960 230 1080 1539
+s 300 960 230 960 363
+s 230 950 230 960 1541
+s 230 810 230 950 365
+s 300 950 230 950 366
+s 230 800 230 810 374
+s 300 810 230 810 369
+s 300 800 230 800 372
+s 860 730 230 730 351
+a 0 up 33 0 545 729 hct 100 LVL=
+s 860 510 860 730 349
+s 300 1080 230 1080 360
+s 230 1210 230 1090 1983
+s 230 1090 230 1080 2113
+s 300 1090 230 1090 2111
+s 230 730 230 800 2125
+w 762
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 380 750 390 750 765
+s 380 760 380 750 763
+s 360 760 380 760 2127
+a 0 up 33 0 370 759 hct 100 LVL=
+w 905
+a 0 sr 0:3 0 1395 398 hcn 100 LABEL=DLT
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 1370 570 1420 570 321
+a 0 sr 3 0 1395 568 hcn 100 LABEL=DLT
+a 0 up 33 0 1395 569 hct 100 LVL=
+s 1420 570 1420 740 756
+s 680 740 1420 740 920
+s 680 850 700 850 467
+s 680 850 680 740 2141
+w 540
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 810 900 940 900 2170
+a 0 up 33 0 875 899 hct 100 LVL=
+w 2172
+s 70 1060 120 1060 2171
+w 2174
+s 70 1100 120 1100 2173
+w 2176
+s 70 1020 120 1020 2175
+@junction
+j 370 180
++ w 194
++ w 194
+j 410 150
++ w 195
++ w 195
+j 360 200
++ w 195
++ w 195
+j 360 210
++ w 195
++ w 195
+j 360 220
++ w 195
++ w 195
+j 360 230
++ w 195
++ w 195
+j 360 150
++ w 195
++ w 195
+j 220 150
++ p 80 I1
++ w 1149
+j 330 180
++ s 63
++ w 194
+j 330 230
++ s 64
++ w 195
+j 70 130
++ s 67
++ w 885
+j 220 130
++ p 80 I0
++ w 5
+j 290 140
++ p 80 O
++ w 1148
+j 750 640
++ p 296 O
++ p 264 CLK
+j 350 140
++ w 1148
++ w 1148
+j 180 130
++ w 5
++ w 5
+j 160 430
++ w 1149
++ w 1149
+j 230 510
++ p 220 I0
++ w 1149
+j 220 430
++ p 76 I0
++ w 1149
+j 170 430
++ w 1149
++ w 1149
+j 210 430
++ w 1149
++ w 1149
+j 70 430
++ s 66
++ w 44
+j 70 620
++ s 293
++ w 313
+j 880 710
++ p 689 I0
++ w 883
+j 750 620
++ p 264 D
++ w 883
+j 520 620
++ w 883
++ w 883
+j 700 640
++ p 296 I0
++ w 202
+j 690 500
++ p 244 O
++ w 202
+j 740 500
++ p 927 I0
++ w 202
+j 700 500
++ w 202
++ w 202
+j 740 520
++ p 927 I1
++ w 1148
+j 390 750
++ p 760 I0
++ w 762
+j 1220 630
++ p 712 O
++ w 699
+j 1300 580
++ p 299 I1
++ w 699
+j 1300 560
++ p 299 I0
++ w 745
+j 1220 530
++ p 713 O
++ w 745
+j 1150 640
++ p 712 I1
++ w 734
+j 1120 700
++ p 697 O
++ w 734
+j 810 620
++ p 264 Q
++ w 717
+j 1150 620
++ p 712 I0
++ w 717
+j 1150 540
++ p 713 I1
++ w 727
+j 810 640
++ p 264 \Q\
++ w 727
+j 1050 690
++ p 697 I0
++ w 701
+j 950 710
++ w 701
++ w 701
+j 930 710
++ p 689 O
++ w 701
+j 970 710
++ p 693 I0
++ w 701
+j 1020 710
++ p 693 O
++ w 696
+j 1050 710
++ p 697 I1
++ w 696
+j 780 590
++ p 264 \S\
++ w 294
+j 780 580
++ s 295
++ w 294
+j 620 490
++ p 244 I0
++ w 223
+j 280 510
++ p 220 O
++ w 223
+j 620 510
++ p 244 I1
++ w 178
+j 580 510
++ p 86 \Q\
++ w 178
+j 550 460
++ p 86 \S\
++ w 1146
+j 270 430
++ p 76 O
++ w 1146
+j 390 430
++ w 1146
++ w 1146
+j 370 350
++ w 1327
++ w 1327
+j 340 400
++ w 2121
++ w 2121
+j 360 390
++ w 2121
++ w 2121
+j 360 380
++ w 2121
++ w 2121
+j 360 370
++ w 2121
++ w 2121
+j 360 400
++ w 2121
++ w 2121
+j 390 340
++ w 1146
++ w 1146
+j 350 310
++ w 1148
++ w 1148
+j 330 350
++ s 1377
++ w 1327
+j 1150 520
++ p 713 I0
++ w 926
+j 1140 340
++ p 923 OUT
++ w 926
+j 920 220
++ p 651 I0
++ w 1486
+j 1110 230
++ p 652 O
++ w 916
+j 1140 280
++ p 923 IN
++ w 916
+j 970 220
++ p 651 O
++ w 665
+j 1040 220
++ p 652 I0
++ w 665
+j 520 510
++ p 86 CLK
++ w 1486
+j 1040 240
++ p 652 I1
++ w 1486
+j 880 250
++ w 1486
++ w 1486
+j 880 220
++ w 1486
++ w 1486
+j 590 220
++ p 2063 I1
++ w 2020
+j 590 230
++ p 2063 I2
++ w 1993
+j 760 220
++ p 2066 O
++ w 1486
+j 690 230
++ p 2066 I2
++ w 1432
+j 660 220
++ p 2063 O
++ w 2070
+j 690 220
++ p 2066 I1
++ w 2070
+j 690 210
++ p 2066 I0
++ w 2010
+j 590 210
++ p 2063 I0
++ w 2052
+j 440 750
++ p 760 O
++ w 443
+j 390 1010
++ w 330
++ w 330
+j 1370 570
++ p 299 O
++ w 905
+j 190 190
++ w 2116
++ w 2116
+j 550 680
++ w 2116
++ w 2116
+j 550 550
++ w 2116
++ w 2116
+j 730 760
++ s 513
++ w 501
+j 380 910
++ w 1498
++ w 1498
+j 70 1230
++ s 1818
++ w 1817
+j 280 690
++ s 650
++ w 629
+j 280 790
++ w 629
++ w 629
+j 280 940
++ w 629
++ w 629
+j 280 1070
++ w 629
++ w 629
+j 160 830
++ s 387
++ w 376
+j 250 830
++ w 376
++ w 376
+j 250 980
++ w 376
++ w 376
+j 250 1110
++ w 376
++ w 376
+j 230 810
++ w 1755
++ w 1755
+j 230 800
++ w 1755
++ w 1755
+j 810 510
++ p 927 O
++ w 1755
+j 230 960
++ w 1755
++ w 1755
+j 230 950
++ w 1755
++ w 1755
+j 230 1210
++ w 1755
++ w 1755
+j 230 1080
++ w 1755
++ w 1755
+j 1210 910
++ p 774 1
++ w 777
+j 1200 910
++ p 773 3
++ w 777
+j 1200 920
++ p 773 4
++ w 816
+j 1200 990
++ s 775
++ w 816
+j 1200 970
++ w 816
++ w 816
+j 1200 980
++ w 816
++ w 816
+j 1300 970
++ p 802 2
++ w 816
+j 1250 910
++ p 774 2
++ w 783
+j 1160 920
++ p 773 2
++ w 783
+j 1270 910
++ w 783
++ w 783
+j 1300 930
++ p 802 1
++ w 783
+j 1370 910
++ s 824
++ w 783
+j 1300 910
++ w 783
++ w 783
+j 1100 920
++ p 604 1
++ w 603
+j 1160 910
++ p 773 1
++ w 603
+j 1100 910
++ w 603
++ w 603
+j 1060 1080
++ p 590 -
++ w 595
+j 1060 1090
++ s 593
++ w 595
+j 1110 1080
++ p 591 -
++ w 610
+j 1110 1090
++ s 592
++ w 610
+j 1110 1040
++ p 591 +
++ w 1625
+j 1060 1040
++ p 590 +
++ w 1629
+j 1100 960
++ p 604 2
++ w 816
+j 230 1090
++ w 1755
++ w 1755
+j 70 190
++ p 62 1
++ w 2116
+j 780 670
++ p 264 \R\
++ w 2116
+j 550 540
++ p 86 \R\
++ w 2116
+j 240 190
++ w 2116
++ w 2116
+j 520 490
++ p 86 D
++ w 2121
+j 330 400
++ s 1378
++ w 2121
+j 380 1190
++ w 2128
++ w 2128
+j 100 130
++ p 870 I0
++ w 885
+j 150 130
++ p 870 O
++ w 5
+j 80 620
++ p 876 I0
++ w 313
+j 130 620
++ p 876 O
++ w 883
+j 130 430
++ p 873 O
++ w 1149
+j 80 430
++ p 873 I0
++ w 44
+j 170 530
++ p 966 SCLK
++ w 5
+j 160 530
++ p 966 SYNC
++ w 1149
+j 160 620
++ p 966 LDAC
++ w 883
+j 300 830
++ p 325 MODE
++ w 376
+j 300 790
++ p 325 A
++ w 629
+j 300 780
++ p 325 B
++ w 629
+j 300 770
++ p 325 C
++ w 629
+j 300 760
++ p 325 D
++ w 629
+j 300 820
++ p 325 SER
++ w 1498
+j 360 790
++ p 325 QA
++ w 425
+j 360 780
++ p 325 QB
++ w 431
+j 300 810
++ p 325 CLK1
++ w 1755
+j 300 800
++ p 325 CLK2
++ w 1755
+j 360 760
++ p 325 QD
++ w 762
+j 360 770
++ p 325 QC
++ w 437
+j 300 980
++ p 324 MODE
++ w 376
+j 300 940
++ p 324 A
++ w 629
+j 300 930
++ p 324 B
++ w 629
+j 300 920
++ p 324 C
++ w 629
+j 300 910
++ p 324 D
++ w 629
+j 360 910
++ p 324 QD
++ w 1498
+j 360 940
++ p 324 QA
++ w 1501
+j 360 930
++ p 324 QB
++ w 1500
+j 360 920
++ p 324 QC
++ w 1499
+j 300 970
++ p 324 SER
++ w 330
+j 300 960
++ p 324 CLK1
++ w 1755
+j 300 950
++ p 324 CLK2
++ w 1755
+j 150 1230
++ p 1826 O
++ w 1821
+j 100 1230
++ p 1826 I0
++ w 1817
+j 300 1110
++ p 323 MODE
++ w 376
+j 300 1070
++ p 323 A
++ w 629
+j 300 1060
++ p 323 B
++ w 629
+j 300 1050
++ p 323 C
++ w 629
+j 300 1040
++ p 323 D
++ w 629
+j 360 1040
++ p 323 QD
++ w 330
+j 360 1050
++ p 323 QC
++ w 1884
+j 360 1060
++ p 323 QB
++ w 1896
+j 360 1070
++ p 323 QA
++ w 1906
+j 300 1090
++ p 323 CLK1
++ w 1755
+j 300 1080
++ p 323 CLK2
++ w 1755
+j 300 1100
++ p 323 SER
++ w 2128
+j 420 130
++ p 68 U/\D\
++ w 194
+j 420 180
++ p 68 \LOAD\
++ w 194
+j 420 170
++ p 68 \SCLR\
++ w 1146
+j 420 140
++ p 68 CLK
++ w 1148
+j 480 160
++ p 68 \RCO\
++ w 1384
+j 480 220
++ p 68 QC
++ w 2020
+j 480 230
++ p 68 QD
++ w 1993
+j 480 200
++ p 68 QA
++ w 2010
+j 480 210
++ p 68 QB
++ w 2052
+j 420 120
++ p 68 \G\
++ w 195
+j 420 150
++ p 68 \ENT\
++ w 195
+j 420 160
++ p 68 \ENP\
++ w 195
+j 420 200
++ p 68 A
++ w 195
+j 420 210
++ p 68 B
++ w 195
+j 420 220
++ p 68 C
++ w 195
+j 420 230
++ p 68 D
++ w 195
+j 420 190
++ p 68 \ACLR\
++ w 2116
+j 420 340
++ p 1376 \SCLR\
++ w 1146
+j 420 310
++ p 1376 CLK
++ w 1148
+j 420 320
++ p 1376 \ENT\
++ w 1384
+j 480 370
++ p 1376 QA
++ w 1432
+j 420 360
++ p 1376 \ACLR\
++ w 2116
+j 420 300
++ p 1376 U/\D\
++ w 1327
+j 420 350
++ p 1376 \LOAD\
++ w 1327
+j 420 290
++ p 1376 \G\
++ w 2121
+j 420 330
++ p 1376 \ENP\
++ w 2121
+j 420 370
++ p 1376 A
++ w 2121
+j 420 380
++ p 1376 B
++ w 2121
+j 420 390
++ p 1376 C
++ w 2121
+j 420 400
++ p 1376 D
++ w 2121
+j 300 1230
++ p 1799 SER
++ w 1821
+j 300 1240
++ p 1799 MODE
++ w 376
+j 300 1200
++ p 1799 A
++ w 629
+j 300 1190
++ p 1799 B
++ w 629
+j 300 1180
++ p 1799 C
++ w 629
+j 300 1170
++ p 1799 D
++ w 629
+j 300 1220
++ p 1799 CLK1
++ w 1755
+j 300 1210
++ p 1799 CLK2
++ w 1755
+j 360 1200
++ p 1799 QA
++ w 2130
+j 360 1190
++ p 1799 QB
++ w 2128
+j 940 990
++ p 2085 DB1
++ w 1605
+j 940 1000
++ p 2085 DB0
++ w 1603
+j 940 980
++ p 2085 DB2
++ w 1599
+j 940 950
++ p 2085 DB5
++ w 1597
+j 940 960
++ p 2085 DB4
++ w 1595
+j 940 970
++ p 2085 DB3
++ w 1593
+j 940 940
++ p 2085 DB6
++ w 1591
+j 940 910
++ p 2085 DB9
++ w 1589
+j 940 920
++ p 2085 DB8
++ w 1587
+j 940 930
++ p 2085 DB7
++ w 1585
+j 940 900
++ p 2085 DB10
++ w 540
+j 1020 910
++ p 2085 OUT
++ w 603
+j 1020 990
++ p 2085 GND
++ w 1625
+j 1020 970
++ p 2085 REF
++ w 1629
+j 940 880
++ p 2085 DB12
++ w 536
+j 940 890
++ p 2085 DB11
++ w 538
+j 700 910
++ p 2084 D9
++ w 1498
+j 700 900
++ p 2084 D10
++ w 425
+j 700 940
++ p 2084 D6
++ w 1501
+j 700 930
++ p 2084 D7
++ w 1500
+j 700 920
++ p 2084 D8
++ w 1499
+j 700 830
++ p 2084 PREBAR
++ w 501
+j 700 950
++ p 2084 D5
++ w 330
+j 700 960
++ p 2084 D4
++ w 1884
+j 700 970
++ p 2084 D3
++ w 1896
+j 700 980
++ p 2084 D2
++ w 1906
+j 700 890
++ p 2084 D11
++ w 431
+j 810 990
++ p 2084 Q1
++ w 1605
+j 810 1000
++ p 2084 Q0
++ w 1603
+j 810 980
++ p 2084 Q2
++ w 1599
+j 810 950
++ p 2084 Q5
++ w 1597
+j 810 960
++ p 2084 Q4
++ w 1595
+j 810 970
++ p 2084 Q3
++ w 1593
+j 810 940
++ p 2084 Q6
++ w 1591
+j 810 910
++ p 2084 Q9
++ w 1589
+j 810 920
++ p 2084 Q8
++ w 1587
+j 810 930
++ p 2084 Q7
++ w 1585
+j 810 900
++ p 2084 Q10
++ w 540
+j 700 840
++ p 2084 CLRBAR
++ w 2116
+j 700 1000
++ p 2084 D0
++ w 2130
+j 700 990
++ p 2084 D1
++ w 2128
+j 700 850
++ p 2084 GATE
++ w 905
+j 700 870
++ p 2084 D13
++ w 443
+j 700 880
++ p 2084 D12
++ w 437
+j 810 880
++ p 2084 Q12
++ w 536
+j 810 890
++ p 2084 Q11
++ w 538
+j 940 870
++ p 2085 DB13
++ w 2169
+j 810 870
++ p 2084 Q13
++ w 2169
+j 70 1060
++ s 2177
++ w 2172
+j 70 1100
++ s 2178
++ w 2174
+j 120 1060
++ s 2179
++ w 2172
+j 120 1100
++ s 2180
++ w 2174
+j 70 1020
++ s 2181
++ w 2176
+j 120 1020
++ s 2182
++ w 2176
+@attributes
+a 0 s 0:13 0 0 0 hln 100 PAGETITLE=
+a 0 s 0:13 0 0 0 hln 100 PAGENO=1
+a 0 s 0:13 0 0 0 hln 100 PAGESIZE=C
+a 0 s 0:13 0 0 0 hln 100 PAGECOUNT=1
+@graphics
+t 1093 t 5 1040 85 1151 101 0 21
+Auto-Update Circuitry
+v 1094 v 0 1030 60
+1030 120
+1160 120
+1160 60
+1030 60
+;
+v 1095 v 0 1040 70
+1040 110
+1150 110
+1150 70
+1040 70
+;
+t 1096 t 5 400 55 492 71 0 15
+Up/Down Counter
+v 1098 v 0 380 30
+380 90
+510 90
+510 30
+380 30
+;
+v 1099 v 0 390 40
+390 80
+500 80
+500 40
+390 40
+;
+t 993 t 5 1455 1109 1499 1127 0 6
+NOTES:
+t 995 t 5 1455 599 1685 620 0 22
+PARAMETER DEFINITIONS:
+t 998 t 5 1470 614 1740 770 0 246
+SCHOLD - SYNC to SCLK hold time (t3)
+SCSET - SYNC to SCLK setup time (t2)
+SCLK - SCLK cycle time (t1)
+MINW - LDAC low minmum pulse width (t7)
+DHOLD - Data hold time (t5)
+DSET - Data setup time (t4)
+IO_MODEL - Digital input model (see notes)
+t 1101 t 5 330 675 404 691 0 14
+Shift Register
+v 1107 v 0 320 670
+320 690
+410 690
+410 670
+320 670
+;
+v 1108 v 0 310 660
+310 700
+420 700
+420 660
+310 660
+;
+t 996 t 5 1460 809 1690 830 0 17
+PIN DESCRIPTIONS:
+t 997 t 6 1475 835 1850 1070 0 431
+Pins based on AD7233
+SCLK - Serial Clock; Data is clocked into the input register on each falling edge.
+
+SDIN - Serial Data In
+
+SYNC* - Data Synchronization Pulse. Drive low to initialize for new data word.
+
+LDAC* - Load DAC. DAC output is updated on the falling edge. If held low, an automatic update mode is selected whereby the DAC is updated on the nbit+4 falling SCLK pulse.
+VOUT - Analog Output Voltage (-5V to +5V)
+
+t 1100 t 5 780 785 816 801 0 5
+Latch
+t 1102 t 5 960 805 991 821 0 3
+DAC
+v 1103 v 0 950 800
+950 830
+1000 830
+1000 800
+950 800
+;
+v 1104 v 0 940 790
+940 840
+1010 840
+1010 790
+940 790
+;
+v 1105 v 0 770 780
+770 800
+820 800
+820 780
+770 780
+;
+v 1106 v 0 760 770
+760 810
+830 810
+830 770
+760 770
+;
+t 1089 t 5 1180 835 1251 851 0 13
+Output Buffer
+v 1090 v 0 1170 820
+1170 860
+1260 860
+1260 820
+1170 820
+;
+v 1091 v 0 1160 810
+1160 870
+1270 870
+1270 810
+1170 810
+;
+v 1092 v 0 1170 810
+1160 810
+;
+t 994 t 5 1465 1125 1910 1205 0 308
+1. Digital power is +5V. See the PSpice A/D User's Guide  for information on changing the digital power supplies for 3.3V power.
+2. The digital input model can be changed through the parameter IO_MODEL. Recommended models are IO_HC for CMOS input and IO_ALS for TTL input. Custom models may also be defined.

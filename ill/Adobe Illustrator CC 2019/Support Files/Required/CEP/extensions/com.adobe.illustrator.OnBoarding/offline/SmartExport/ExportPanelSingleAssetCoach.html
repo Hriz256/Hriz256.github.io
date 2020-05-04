@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../fonts/adobe-clean.css"><link rel="stylesheet" href="./style3.css"><script src="../../js/lib/ResizeSensor.js"></script><script src="../../js/lib/ElementQueries.js"></script><script type="text/javascript" src="../../js/CSInterface.js"></script><script type="text/javascript" src="./main.js"></script></head><body><div id="popupContainer" class="coach"><div data-locale="ExportPanelSingleAssetCoach" class="text"></div><div data-locale="ExportPanelSingleAssetCoachOkay" class="close" onclick="ExportPanelSingleAssetCoachDismiss()"></div></div></body><script type="text/javascript">var CSLibrary = new CSInterface();
+        var resizeSensorCall = false;        
+        var element = document.getElementById('popupContainer');
+
+        window.onload = function()
+        {
+            var resourceBundle = CSLibrary.initResourceBundle();
+            resizeSensorCall = true;
+        }
+
+        new ResizeSensor(element, function() {
+            if(resizeSensorCall){
+                SendHeightEvent("ExportPanelSingleAssetCoachHeightUpdate");
+                ResizeSensor.detach(element);
+                resizeSensorCall = false;
+            }
+        });</script></html>

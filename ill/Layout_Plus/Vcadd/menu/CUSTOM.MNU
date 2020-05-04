@@ -1,0 +1,349 @@
+POPUP "&File"
+	"&New\aCtrl+N", FileNew
+	"&Open...\aCtrl+O", FileOpen
+	"&Close", FileClose
+	SEPARATOR
+	"&Merge...", FileMerge
+	SEPARATOR
+	"&Save\aCtrl+S", FileSave
+	"Save &As...", FileSaveAs
+	SEPARATOR
+ 	WIZPROP
+	SEPARATOR
+	"&Print...\aCtrl+P", FilePrint
+	"P&rint Setup...", PrintSetup
+	"P&lot...", FilePlot
+	SEPARATOR
+	"Load St&yle...", LoadStyle
+	"Save S&tyle...", SaveStyle
+	SEPARATOR
+	"&Load Menu...", LoadMenu
+	"R&un...", FileRun
+	SEPARATOR
+	"Send...", FileSend
+	SEPARATOR
+	"E&xit", FileExit
+	
+POPUPEND
+
+POPUP "&Edit"
+	"&Undo\aCtrl+Z", Undo
+	"&Redo\aCtrl+Y", Redo
+	SEPARATOR
+	"Cu&t\aCtrl+X", CBCut
+	"&Copy\aCtrl+C", CBCopy
+	"&Paste\aCtrl+V", CBPaste
+	SEPARATOR
+	POPUP "&Select"
+		"&All", SelAll
+		"&Window", SelWin
+		"&Crossing", SelCross
+		"&Last", SelLast
+		"&Object", SelObj
+		"Ad&joining", SelAdj
+		"La&yer", Sellay
+		"&Invert List", SelInvert
+		"Cl&ear List", SelClear
+	POPUPEND
+	"Erase &Last", EraseLast
+	"Clear &Drawing", Clear
+	SEPARATOR
+	"Selection &Filter", Filter
+	POPUPEND
+
+POPUP "&Draw"
+	POPUP "&Line"
+		 "&Single", LineSingle
+		 "&Continuous", LineCont
+		 "&Double", LineDbl
+		 "&Midline", Midline		
+	POPUPEND
+	POPUP "&Rectangle"
+		 "&2-point", Rect2
+		 "&3-point", Rect3
+	POPUPEND
+	POPUP "Poly&gons"
+		 "&Center", RPolyCen
+		 "&Side", RPolySide
+		 "I&rregular", IPoly
+	POPUPEND
+	POPUP "&Circle"
+		 "&2-point (Center-Radius)", Circle2
+		 "&3-point", Circle3
+		 "&Diameter", CircDiam
+		 "&Ellipse", Ellipse
+	POPUPEND
+	POPUP "&Arc"
+		 "&Center-Start-Span", Arc2
+		 "&3-point", Arc3
+		 "Elliptical &Start-Span", EllArc
+	POPUPEND
+	POPUP "Cur&ve"
+		 "&Single Bezier", BezierSingle
+		 "&Continuous Bezier", BezierCont
+		 "S&pline Curve", Curve
+	POPUPEND
+	"&Point", Point
+	SEPARATOR
+	POPUP "&Text"
+		"&Text Line", Text
+		"Text &Editor", TextEditor
+		SEPARATOR
+		"Text &Change", TEXTCH
+	POPUPEND
+	SEPARATOR
+	POPUP "&Dimension"
+		"&Linear", DimLin
+		"&Angular", DimAng
+		"&Radial", DimRad
+		"&Diameter", DimDia
+		"&Ordinate", DimOrd
+		SEPARATOR
+		"L&eader", Leader
+		"Da&tum",Datum
+		SEPARATOR
+		"Dim &Change", DIMCH
+	POPUPEND
+	SEPARATOR
+	POPUP "&Hatch"
+		 "&Selection", HatchSel
+		 "&Boundary", HatchBnd
+		 "See&d", SeedHatch
+		 SEPARATOR
+	 	"S&ettings", HatchSet
+		SEPARATOR
+		"Hatch &Change", HATCHCH
+	POPUPEND
+	POPUP "&Fill"
+		 "&Selection", FillSel
+		 "&Boundary", FillBnd
+		 "See&d", SeedFill
+	POPUPEND
+	SEPARATOR
+	POPUP "&Reference Frame"
+		"&Create", RFCreate
+		"&Place", RFPlace
+		SEPARATOR
+		"&Display Boundary", RFDispBnd
+		"Display &Transparent", RFTrans
+   	POPUPEND
+	SEPARATOR
+	"&Properties",Properties
+POPUPEND
+
+POPUP "&Symbol"
+	"&Place Symbol", SymPlace
+	"Create S&ymbol...", SymCreate
+	"Symbol &Manager...", SymMgr
+	SEPARATOR
+	"E&xplode Symbol",SymExplode
+	"Symbol &Replace",SymReplace
+	"Symbol Remo&ve",SymRemove
+	SEPARATOR
+	"&Load Symbol...", SymOpen
+	"Sav&e Symbol...", SymSave
+	"&Symbol Count...", SymCount
+	SEPARATOR
+	POPUP "&Attributes"
+		"&Create Attribute...", AttCreate
+		"&Attach Attribute... ", AttAttach
+		"&Embed Attribute...", AttEmbed
+		"&Load Attribute...", AttOpen
+		"&Save Attribute...", AttSave
+	POPUPEND
+POPUPEND
+
+POPUP "&Insert"
+	"&Free Track", FreeTrack
+	"Copper &Area", CopperArea
+	"Copper &Pour", CopperPour
+	"A&nti-Copper", AntiCopper
+	"&Board Outline", BoardOutline
+	"&Text", Detail
+	"Comp Height Keep&in", HeightKpIn
+	"Comp Height Keep&out", HeightKpOut
+	"Comp &Group Keepin", GroupKpIn
+	"Comp Group &Keepout", GroupKpOut
+	"&Route Keepout", RouteKpOut
+	"Ro&ute Via Keepout", RtViaKpOut
+	"&Via Keepout", NoVia
+	SEPARATOR
+	POPUP "&Defaults"
+		"&Load", LDefault
+		"&Save", SDefault
+	POPUPEND
+	SEPARATOR
+	"&Set Properties", Layer
+POPUPEND
+
+POPUP "&Modify"
+	POPUP "S&hortcut Commands"
+		WINERASE
+		WINSCALE
+		WINCHANGE		
+		WinHatch
+		WinFill
+		WINMOVE
+		WINCOPY
+		WINROTATE
+		SEPARATOR
+		OBJERASE
+		OBJCHANGE
+		OBJCOPY
+		OBJMOVE
+		SEPARATOR	
+		DWGROTATE
+		DWGCHANGE
+		DWGSCALE
+	POPUPEND
+	SEPARATOR
+	POPUP "&Copy"
+		"&Linear Copy", Copy
+		"&Radial Copy", RadCopy
+		"&Array Copy", ArrayCopy
+		"&Multiple Copy", MultiCopy
+		"&Copy to Layer", CopyLay
+	POPUPEND
+	SEPARATOR
+	"&Offset", Offset
+	"&Erase", Erase
+	"Mo&ve", Move
+	"Move &Point", MovePt
+	"&Stretch", Stretch
+	"Sc&ale", Scale
+	"&Fit Scale", FitScale
+	"&Rotate", Rotate
+	"Ali&gn", Align
+	"M&irror", Mirror
+	"E&xplode", Explode
+	"C&hange", Change
+	SEPARATOR
+	"&Break", Break
+	POPUP "Exten&d"
+		"&Single", Extend
+		"&Multiple", MExtend
+	POPUPEND
+	POPUP "&Trim"
+		"&Single", Trim
+		"&Multiple", MTrim
+		"&Intersectio&n", IntTrim
+	POPUPEND
+	"Fi&llet", Fillet
+	"Cha&mfer", Chamfer
+	SEPARATOR
+	"&Boolean", 2262
+	
+	
+POPUPEND
+
+POPUP "S&naps"
+	"&Object", SnObject
+	"&Midpoint", SnMidPt
+	"&Intersection", SnIntersect
+	"Perpendic&ular", SnPerp
+	"&Tangent", SnTangent
+	"Paralle&l", SnPara
+	"&Closest", SnClosestPt
+	"&Percentage", SnPercent
+	"Ce&nter", SnCenter
+	"&Quadrant", SnQuad
+	SEPARATOR          
+	"O&rtho Mode", OrthoMode
+	"Ortho &Angle...", OrthoSet
+	"Cursor Fre&e", CursorFree
+	"Incr &Snap", IncSnap
+	SEPARATOR
+	"Trac&k", Track
+	"Trac&k End", Track
+	SEPARATOR
+	POPUP "Manual Entr&y"
+		"&Absolute", Absolute
+		"&Relative", Relative
+		"&Basepoint", Basepoint
+	 	SEPARATOR
+	 	"&Set Basepoint", SetBasePt
+	POPUPEND
+	POPUP "&Grid"
+	 	"&Grid Display", GridDisp
+	 	"&Snap Grid", SnapGrid
+	 	"Grid Si&ze", GridSize
+	 	"Grid &Origin", GridOrg
+	POPUPEND
+POPUPEND
+
+POPUP "&Zooms"
+	"&Redraw", Regen
+	"Re&draw Window", RegenArea
+	"&Backward Redraw", BackRD
+	SEPARATOR
+	"&All", ZmAll
+	"&Window", ZmArea
+	"&In", ZmIn
+	"&Out", ZmOut
+	"&Pan", ZmPan
+	"&Selected", ZmSel
+	"Previo&us", ZmPrev
+	"&Value...", ZmValue
+	SEPARATOR
+	"&Zoom View...", ZmView
+	"&Name View...", NameView
+	SEPARATOR
+	Popup "&Multiple Views"
+		"&New View", NewView
+		"&Zoom All Views", ZmAllView
+		"&Redraw All Views", RegenAllView
+	PopupEnd
+	SEPARATOR
+	"&Birds Eye View",BirdsEye
+POPUPEND
+
+POPUP "&Utilities"
+	"Se&ttings...", TabOptions
+	"&Import/Export...", TabImpExp
+	SEPARATOR
+	POPUP "&Measure "
+		"Measure &Distance && Angles", MeasDist
+		"Measure &Area", MeasArea
+	POPUPEND
+	SEPARATOR
+	"La&yer Manager...", LayMgr
+	"Te&xt Editor...", TextEditor
+	SEPARATOR
+	"Match &Entity", MatchEnt
+	"Match Too&l", MatchTool
+	SEPARATOR
+	POPUP "&Tools"
+		"&Pack Data...", PackData
+		"Assign S&cript...", ScriptAssign
+		"&Object Info...", ObjInfo
+		"&Font Converter...", FontConv
+	POPUPEND
+	SEPARATOR
+  	"Toolbars...", 2570
+	SEPARATOR
+	POPUP "&Digitizer"
+		"&Tablet Mode", DigMode
+		"&Align Drawing", DigAlign
+		"&Dig Scale...", DigScale
+	POPUPEND
+POPUPEND
+
+POPUP "&Window"
+  MENUITEM "Tile &Vertical", WinVert
+  MENUITEM "Tile &Horizontal", WinHoriz
+  MENUITEM "&Cascade", WinCascade
+  MENUITEM "&Arrange Icons", WinArrange
+	SEPARATOR
+	"&Close All Windows", CloseAll
+POPUPEND
+
+POPUP "&Help"
+	"OrCAD Visual CADD 7.1 &Help...", HelpIndex
+	SEPARATOR
+	"&Text Wizard", WIZTEXT
+	"&Dimension Wizard", WIZDIM
+	"Drawing &Wizard", WIZDRAW
+	SEPARATOR
+	MENUITEM "&About OrCAD Visual CADD 7.1", HelpAbout
+POPUPEND
+

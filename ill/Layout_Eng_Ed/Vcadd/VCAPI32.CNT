@@ -1,0 +1,87 @@
+:Base VCAPI32.HLP
+:Title Visual CADD API Help
+1 Introduction
+2 Overview=Overview
+2 Development Requirements=Development_Requirements
+2 Developing Applications=Developing_Visual_CADD_Applications
+1 Common Task Guide
+2 Common Development Tasks=Common_Development_Tasks
+2 API Conventions
+3 Declarations=Declarations
+3 Parameter Detail=Parameter_Detail
+2 Adding Entities
+3 Adding Entities to the Database=Adding_Entities_to_the_Database
+3 Adding a Single Entity=Adding_a_Single_Entity
+3 Adding a Continuous Entity=Adding_a_Continuous_Entity
+3 Adding a Hatch/Fill Entity=Adding_a_Hatch_Fill_Entity
+3 Adding a Text Entity=Adding_a_Text_Entity
+3 Adding a Reference Frame Entity=Adding_a_Reference_Frame_Entity
+2 Symbol Operations
+3 Symbol Operations=Symbol_Operations
+3 Loading a Symbol=Loading_a_Symbol
+3 Placing a Symbol=Placing_a_Symbol
+3 Creating a Symbol=Creating_a_Symbol
+3 Modifying a Symbol Definition=Modifying_a_Symbol_Definition
+3 Parsing a Symbol Definition=Parsing_a_Symbol_Definition
+3 Retrieving a Symbol Count=Retrieving_a_Symbol_Count
+2 Interface Design
+3 Utilizing a Custom Interface=Utilizing_a_Custom_Interface
+3 Creating a User Tool=Creating_a_User_Tool
+3 Using the Visual CADD Interface=Using_the_Visual_CADD_Interface
+2 Attribute Operations
+3 Attribute Manipulation=Attribute_Manipulation
+3 Retrieving Attributes=Retrieving_Attributes
+3 Creating Attributes=Creating_Attributes
+2 User Data Tasks
+3 User Data Tasks=User_Data_Tasks
+3 Attaching User Data=Attaching_User_Data
+3 Retrieving User Data=User_Data_Retrieval
+3 Adding User Data to a Drawing Header=Adding_User_Data_to_a_Drawing_Header
+2 Command Line Interaction
+3 Command Line Interaction=Command_Line_Interaction
+2 Error Checking
+3 Version checking=Version_checking
+3 Valid World Checking=Valid_World_Checking
+3 Initialization Check=Initialization_Check
+2 Database Operations
+3 Database Operations=Database_Operations
+3 Parsing the Database=Parsing_the_Database
+3 Parsing a Filtered Entity List=Parsing_a_Filtered_Entity_List
+3 Parsing an On Screen List=Parsing_an_On_Screen_List
+3 Parsing an Expanded List=Parsing_an_Expanded_List
+3 Retrieving Entity Properties=Retrieving_Entity_Properties
+3 Parsing a Hatch/ Fill Boundary=Parsing_a_Hatch_Fill_Boundary
+2 Modifying Entities
+3 Modifying Existing Entities=Modifying_Existing_Entities
+3 Changing Entity Properties Using Eattr=Changing_Entity_Properties_Using_Eattr
+3 Applying Settings to an Entity=Applying_Settings_to_an_Entity
+3 Duplicating an Entity=Duplicating_an_Entity
+3 Duplicating an Entity with Transformation=Duplicating_an_Entity_with_Transformation
+1 API Reference
+2 API Conventions
+3 Declarations=Declarations
+3 Parameter Details=Parameter_Detail
+2 Alphabetical Listing
+3 A-C=VCAbortOperation
+3 D-F=VCDeleteCurrentEntityUserData
+3 G=VCGeneratePointsFromCurrentEntity
+3 H-P=VCIncrementWidthOnAllEntities
+3 Q-Z=VCRButtonDown
+2 Dialog Reference
+3 Dialog Reference=Dialog_Reference
+2 Tool Reference
+3 Tool Reference=Tool_Reference
+2 Definitions
+3 Tool IDs=Visual_CADD_Tool_IDs
+3 Entity Types=Visual_CADD_Entity_Type_Numbers
+3 User Defined Types=Common_User_Defined_Types
+1 Development Guidlines
+2 Registry Settings=Registry_Settings
+1 Customizing Visual CADD
+2 Custom Commands=Custom_Commands
+2 Creating Command Aliases=Creating_Command_Aliases
+2 Creating Custom Menus=Custom_Menus
+2 Custom Mouse Menus=Custom_Mouse_Menus
+2 Creating Custom Toolbars=Custom_Toolbars
+1 Version Information
+2 Version=Version

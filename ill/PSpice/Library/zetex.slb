@@ -1,0 +1,10134 @@
+*version 9.2 4251613559
+@index
+symloc 2N2222A/ZTX 0 666
+symloc 2N6715/ZTX 666 666
+symloc 2N6727/ZTX 1332 666
+symloc 2N7000/ZTX 1998 855
+symloc 2N7002/ZTX 2853 855
+symloc BC807-16/ZTX 3708 651
+symloc BC808-16/ZTX 4359 651
+symloc BCX38B/ZTX 5010 646
+symloc BS170/ZTX 5656 848
+symloc BSS84/ZTX 6504 848
+symloc FMMT38B/ZTX 7352 649
+symloc FMMT597Q/ZTX 8001 448
+symloc FZT604/ZTX 8449 646
+symloc FZT605/ZTX 9095 646
+symloc FZT705/ZTX 9741 646
+symloc M2N7000/ZTX 10387 810
+symloc M2N7002/ZTX 11197 810
+symloc MPS-A20/ZTX 12007 648
+symloc VN10LF/ZTX 12655 807
+symloc ZTX601B/ZTX 13462 649
+symloc ZTX604/ZTX 14111 646
+symloc ZTX605/ZTX 14757 646
+symloc ZTX614/ZTX 15403 646
+symloc ZTX704/ZTX 16049 646
+symloc ZTX705/ZTX 16695 646
+symloc ZVN0124A/ZTX 17341 860
+symloc ZVN2106A/ZTX 18201 813
+symloc ZVN2106G/ZTX 19014 813
+symloc ZVN3306A/ZTX 19827 813
+symloc ZVN3306F/ZTX 20640 813
+symloc ZVN3310A/ZTX 21453 813
+symloc ZVN3310F/ZTX 22266 813
+symloc ZVN4106F/ZTX 23079 813
+symloc ZVN4210A/ZTX 23892 813
+symloc ZVN4210G/ZTX 24705 813
+symloc ZVN4306A/ZTX 25518 813
+symloc ZVN4306G/ZTX 26331 813
+symloc ZVN4310A/ZTX 27144 813
+symloc ZVN4310G/ZTX 27957 813
+symloc ZVN4424A/ZTX 28770 813
+symloc ZVP2106A/ZTX 29583 813
+symloc ZVP2106G/ZTX 30396 813
+symloc ZVP3306A/ZTX 31209 813
+symloc ZVP4424A/ZTX 32022 813
+symloc ZC5800/ZTX 32835 390
+symloc ZVP3310A/ZTX 33225 813
+symloc FMMTA13/ZTX 34038 638
+symloc FMMT634/ZTX 34676 638
+symloc BAL74/ZTX 35314 376
+symloc BAL99/ZTX 35690 376
+symloc BAR74/ZTX 36066 376
+symloc BAR99/ZTX 36442 376
+symloc BAS16/ZTX 36818 376
+symloc BAS19/ZTX 37194 376
+symloc BAS20/ZTX 37570 376
+symloc BAS21/ZTX 37946 376
+symloc BAV70/ZTX 38322 376
+symloc BAV74/ZTX 38698 376
+symloc BAV99/ZTX 39074 376
+symloc BAW56/ZTX 39450 376
+symloc BBY31/ZTX 39826 376
+symloc BBY40/ZTX 40202 376
+symloc BC107BP/ZTX 40578 442
+symloc BC108BP/ZTX 41020 442
+symloc BC109BP/ZTX 41462 442
+symloc BC177AP/ZTX 41904 442
+symloc BC178AP/ZTX 42346 442
+symloc BC182BP/ZTX 42788 442
+symloc BC183BP/ZTX 43230 442
+symloc BC184BP/ZTX 43672 442
+symloc BC212AP/ZTX 44114 442
+symloc BC213AP/ZTX 44556 442
+symloc BC237BP/ZTX 44998 442
+symloc BC238BP/ZTX 45440 442
+symloc BC239BP/ZTX 45882 442
+symloc BC307AP/ZTX 46324 442
+symloc BC308AP/ZTX 46766 442
+symloc BC337AP/ZTX 47208 442
+symloc BC338AP/ZTX 47650 442
+symloc BC413BP/ZTX 48092 442
+symloc BC414BP/ZTX 48534 442
+symloc BC415AP/ZTX 48976 442
+symloc BC416AP/ZTX 49418 442
+symloc BC546BP/ZTX 49860 442
+symloc BC547BP/ZTX 50302 442
+symloc BC548BP/ZTX 50744 442
+symloc BC549BP/ZTX 51186 442
+symloc BC550BP/ZTX 51628 442
+symloc BC556AP/ZTX 52070 442
+symloc BC557AP/ZTX 52512 442
+symloc BC558AP/ZTX 52954 442
+symloc BC559AP/ZTX 53396 442
+symloc BC560AP/ZTX 53838 442
+symloc BC80716/ZTX 54280 442
+symloc BC80816/ZTX 54722 442
+symloc BC846B/ZTX 55164 440
+symloc BC847B/ZTX 55604 440
+symloc BC848B/ZTX 56044 440
+symloc BC849B/ZTX 56484 440
+symloc BC850B/ZTX 56924 440
+symloc BC856A/ZTX 57364 440
+symloc BC857A/ZTX 57804 440
+symloc BC858A/ZTX 58244 440
+symloc BC859A/ZTX 58684 440
+symloc BC860A/ZTX 59124 440
+symloc BCV72/ZTX 59564 438
+symloc BCW29/ZTX 60002 438
+symloc BCW32/ZTX 60440 438
+symloc BCW60C/ZTX 60878 440
+symloc BCW61A/ZTX 61318 440
+symloc BCW65A/ZTX 61758 440
+symloc BCW66F/ZTX 62198 440
+symloc BCW67A/ZTX 62638 440
+symloc BCW68F/ZTX 63078 440
+symloc BCW69/ZTX 63518 438
+symloc BCW72/ZTX 63956 438
+symloc BCW89/ZTX 64394 438
+symloc BCX70J/ZTX 64832 440
+symloc BCX71G/ZTX 65272 440
+symloc BFQ31/ZTX 65712 438
+symloc BFS17/ZTX 66150 438
+symloc BPW41/ZTX 66588 376
+symloc BZX84C10/ZTX 66964 382
+symloc BZX84C11/ZTX 67346 382
+symloc BZX84C12/ZTX 67728 382
+symloc BZX84C13/ZTX 68110 382
+symloc BZX84C15/ZTX 68492 382
+symloc BZX84C16/ZTX 68874 382
+symloc BZX84C18/ZTX 69256 382
+symloc BZX84C20/ZTX 69638 382
+symloc BZX84C22/ZTX 70020 382
+symloc BZX84C24/ZTX 70402 382
+symloc BZX84C27/ZTX 70784 382
+symloc BZX84C2V7/ZTX 71166 384
+symloc BZX84C30/ZTX 71550 382
+symloc BZX84C33/ZTX 71932 382
+symloc BZX84C36/ZTX 72314 382
+symloc BZX84C39/ZTX 72696 382
+symloc BZX84C3V0/ZTX 73078 384
+symloc BZX84C3V3/ZTX 73462 384
+symloc BZX84C3V6/ZTX 73846 384
+symloc BZX84C3V9/ZTX 74230 384
+symloc BZX84C43/ZTX 74614 382
+symloc BZX84C47/ZTX 74996 382
+symloc BZX84C4V3/ZTX 75378 384
+symloc BZX84C4V7/ZTX 75762 384
+symloc BZX84C5V1/ZTX 76146 384
+symloc BZX84C5V6/ZTX 76530 384
+symloc BZX84C6V2/ZTX 76914 384
+symloc BZX84C6V8/ZTX 77298 384
+symloc BZX84C7V5/ZTX 77682 384
+symloc BZX84C8V2/ZTX 78066 384
+symloc BZX84C9V1/ZTX 78450 384
+symloc FCX458/ZTX 78834 440
+symloc FCX558/ZTX 79274 440
+symloc FLLD261/ZTX 79714 380
+symloc FMMD2835/ZTX 80094 382
+symloc FMMD2836/ZTX 80476 382
+symloc FMMD2837/ZTX 80858 382
+symloc FMMD2838/ZTX 81240 382
+symloc FMMD6050/ZTX 81622 382
+symloc FMMD6100/ZTX 82004 382
+symloc FMMD7000/ZTX 82386 382
+symloc FMMD914/ZTX 82768 380
+symloc FMMT489/ZTX 83148 442
+symloc FMMT491A/ZTX 83590 444
+symloc FMMT497/ZTX 84034 442
+symloc FMMT5179/ZTX 84476 444
+symloc FMMT549/ZTX 84920 442
+symloc FMMT589/ZTX 85362 442
+symloc FMMT591A/ZTX 85804 444
+symloc FMMT597/ZTX 86248 442
+symloc FMMT617/ZTX 86690 442
+symloc FMMT618/ZTX 87132 442
+symloc FMMT619/ZTX 87574 442
+symloc FMMT624/ZTX 88016 442
+symloc FMMT625/ZTX 88458 442
+symloc FMMT717/ZTX 88900 442
+symloc FMMT718/ZTX 89342 442
+symloc FMMT720/ZTX 89784 442
+symloc FMMT722/ZTX 90226 442
+symloc FMMT723/ZTX 90668 442
+symloc FMMT918/ZTX 91110 442
+symloc FMMTA20/ZTX 91552 442
+symloc FMMTA70/ZTX 91994 442
+symloc FMMTH10/ZTX 92436 442
+symloc FMMTL618/ZTX 92878 444
+symloc FMMV105G/ZTX 93322 382
+symloc FMMV109/ZTX 93704 380
+symloc FMMV2101/ZTX 94084 382
+symloc FMMV2103/ZTX 94466 382
+symloc FMMV2104/ZTX 94848 382
+symloc FMMV2105/ZTX 95230 382
+symloc FMMV2107/ZTX 95612 382
+symloc FMMV2108/ZTX 95994 382
+symloc FMMV2109/ZTX 96376 382
+symloc FMMV3102/ZTX 96758 382
+symloc FZT1047A/ZTX 97140 444
+symloc FZT1048A/ZTX 97584 444
+symloc FZT1049A/ZTX 98028 444
+symloc FZT1051A/ZTX 98472 444
+symloc FZT1053A/ZTX 98916 444
+symloc FZT1147A/ZTX 99360 444
+symloc FZT1149A/ZTX 99804 444
+symloc FZT1151A/ZTX 100248 444
+symloc FZT649/ZTX 100692 440
+symloc FZT651/ZTX 101132 440
+symloc FZT657/ZTX 101572 440
+symloc FZT658/ZTX 102012 440
+symloc FZT688B/ZTX 102452 442
+symloc FZT689B/ZTX 102894 442
+symloc FZT690B/ZTX 103336 442
+symloc FZT692B/ZTX 103778 442
+symloc FZT694B/ZTX 104220 442
+symloc FZT696B/ZTX 104662 442
+symloc FZT749/ZTX 105104 440
+symloc FZT751/ZTX 105544 440
+symloc FZT757/ZTX 105984 440
+symloc FZT758/ZTX 106424 440
+symloc FZT788B/ZTX 106864 442
+symloc FZT789A/ZTX 107306 442
+symloc FZT790A/ZTX 107748 442
+symloc FZT792A/ZTX 108190 442
+symloc FZT795A/ZTX 108632 442
+symloc FZT796A/ZTX 109074 442
+symloc FZT849/ZTX 109516 440
+symloc FZT851/ZTX 109956 440
+symloc FZT869/ZTX 110396 440
+symloc FZT948/ZTX 110836 440
+symloc FZT949/ZTX 111276 440
+symloc FZT951/ZTX 111716 440
+symloc FZT953/ZTX 112156 440
+symloc FZT955/ZTX 112596 440
+symloc FZT956/ZTX 113036 440
+symloc FZT957/ZTX 113476 440
+symloc FZT958/ZTX 113916 440
+symloc FZT968/ZTX 114356 440
+symloc HD2A/ZTX 114796 374
+symloc HD3A/ZTX 115170 374
+symloc HD4A/ZTX 115544 374
+symloc MPS5179/ZTX 115918 442
+symloc MPSA20/ZTX 116360 440
+symloc MPSH10/ZTX 116800 440
+symloc Q2N2222A/ZTX 117240 444
+symloc Q2N6715/ZTX 117684 442
+symloc Q2N6727/ZTX 118126 442
+symloc ZC820A/ZTX 118568 378
+symloc ZC821A/ZTX 118946 378
+symloc ZC822A/ZTX 119324 378
+symloc ZC823A/ZTX 119702 378
+symloc ZC824A/ZTX 120080 378
+symloc ZC825A/ZTX 120458 378
+symloc ZC826A/ZTX 120836 378
+symloc ZC830A/ZTX 121214 378
+symloc ZC831A/ZTX 121592 378
+symloc ZC832A/ZTX 121970 378
+symloc ZC833A/ZTX 122348 378
+symloc ZC834A/ZTX 122726 378
+symloc ZC835A/ZTX 123104 378
+symloc ZC836A/ZTX 123482 378
+symloc ZDX1F/ZTX 123860 376
+symloc ZDX2F/ZTX 124236 376
+symloc ZDX5/ZTX 124612 374
+symloc ZDX6/ZTX 124986 374
+symloc ZHCS1000/ZTX 125360 382
+symloc ZHCS750/ZTX 125742 380
+symloc ZSS1510/ZTX 126122 380
+symloc ZTX1047A/ZTX 126502 444
+symloc ZTX1048A/ZTX 126946 444
+symloc ZTX1049A/ZTX 127390 444
+symloc ZTX1051A/ZTX 127834 444
+symloc ZTX1053A/ZTX 128278 444
+symloc ZTX1055A/ZTX 128722 444
+symloc ZTX1056A/ZTX 129166 444
+symloc ZTX107/ZTX 129610 440
+symloc ZTX107B/ZTX 130050 442
+symloc ZTX108/ZTX 130492 440
+symloc ZTX108B/ZTX 130932 442
+symloc ZTX109/ZTX 131374 440
+symloc ZTX109B/ZTX 131814 442
+symloc ZTX1147A/ZTX 132256 444
+symloc ZTX1149A/ZTX 132700 444
+symloc ZTX1151A/ZTX 133144 444
+symloc ZTX212/ZTX 133588 440
+symloc ZTX212A/ZTX 134028 442
+symloc ZTX213/ZTX 134470 440
+symloc ZTX213A/ZTX 134910 442
+symloc ZTX214/ZTX 135352 440
+symloc ZTX214A/ZTX 135792 442
+symloc ZTX237/ZTX 136234 440
+symloc ZTX237B/ZTX 136674 442
+symloc ZTX238/ZTX 137116 440
+symloc ZTX238B/ZTX 137556 442
+symloc ZTX239/ZTX 137998 440
+symloc ZTX239B/ZTX 138438 442
+symloc ZTX320/ZTX 138880 440
+symloc ZTX321/ZTX 139320 440
+symloc ZTX325/ZTX 139760 440
+symloc ZTX327/ZTX 140200 440
+symloc ZTX337A/ZTX 140640 442
+symloc ZTX338A/ZTX 141082 442
+symloc ZTX450/ZTX 141524 440
+symloc ZTX454/ZTX 141964 440
+symloc ZTX455/ZTX 142404 440
+symloc ZTX458/ZTX 142844 440
+symloc ZTX5179/ZTX 143284 442
+symloc ZTX549/ZTX 143726 440
+symloc ZTX550/ZTX 144166 440
+symloc ZTX558/ZTX 144606 440
+symloc ZTX618/ZTX 145046 440
+symloc ZTX649/ZTX 145486 440
+symloc ZTX650/ZTX 145926 440
+symloc ZTX651/ZTX 146366 440
+symloc ZTX653/ZTX 146806 440
+symloc ZTX657/ZTX 147246 440
+symloc ZTX688B/ZTX 147686 442
+symloc ZTX689B/ZTX 148128 442
+symloc ZTX690B/ZTX 148570 442
+symloc ZTX692B/ZTX 149012 442
+symloc ZTX694B/ZTX 149454 442
+symloc ZTX696B/ZTX 149896 442
+symloc ZTX718/ZTX 150338 440
+symloc ZTX749/ZTX 150778 440
+symloc ZTX750/ZTX 151218 440
+symloc ZTX751/ZTX 151658 440
+symloc ZTX753/ZTX 152098 440
+symloc ZTX757/ZTX 152538 440
+symloc ZTX758/ZTX 152978 440
+symloc ZTX788A/ZTX 153418 442
+symloc ZTX788B/ZTX 153860 442
+symloc ZTX789A/ZTX 154302 442
+symloc ZTX790A/ZTX 154744 442
+symloc ZTX792A/ZTX 155186 442
+symloc ZTX795A/ZTX 155628 442
+symloc ZTX796A/ZTX 156070 442
+symloc ZTX849/ZTX 156512 440
+symloc ZTX851/ZTX 156952 440
+symloc ZTX853/ZTX 157392 440
+symloc ZTX857/ZTX 157832 440
+symloc ZTX869/ZTX 158272 440
+symloc ZTX948/ZTX 158712 440
+symloc ZTX949/ZTX 159152 440
+symloc ZTX951/ZTX 159592 440
+symloc ZTX953/ZTX 160032 440
+symloc ZTX955/ZTX 160472 440
+symloc ZTX956/ZTX 160912 440
+symloc ZTX957/ZTX 161352 440
+symloc ZTX958/ZTX 161792 440
+symloc ZTX968/ZTX 162232 440
+symloc BSS138/ZTX 162672 807
+symloc copyright 163479 601
+*symbol 2N2222A/ZTX
+d TRANSISTOR, SWITCHING, NPN
+@type p 8.0
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2N2222A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2N2222A/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 s 0 0 22 5 drn 100 PIN=3
+a 0 s 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 s 0 0 22 35 dln 100 PIN=1
+a 0 s 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol 2N6715/ZTX
+d TRANSISTOR, MEDIUM POWER, NPN
+@type p 8.0
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2N6715/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2N6715/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 s 0 0 22 5 drn 100 PIN=3
+a 0 s 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 s 0 0 22 35 dln 100 PIN=1
+a 0 s 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol 2N6727/ZTX
+d TRANSISTOR, MEDIUM POWER, PNP
+@type p 8.0
+@attributes
+a 0 sp 9 0 1 6 hln 100 REFDES=Q?
+a 0 sp 11 0 14 22 hln 100 PART=2N6727/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=Q2N6727/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 18 13 dln 100 C n 20 0 d
+a 0 s 0 0 22 5 drn 100 PIN=3
+a 0 s 0 0 20 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 s 0 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+p 0 18 27 drn 100 E n 20 40 v
+a 0 s 0 0 22 35 dln 100 PIN=1
+a 0 s 0 0 20 40 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol 2N7000/ZTX
+d N CHANNEL DMOS FET
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 33 21 hln 100 PART=2N7000/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=M2N7000/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=1
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 24 7 hln 100 D n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=2
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+p 0 29 37 hrn 100 S n 30 40 v
+a 0 s 1 0 25 42 hcn 100 PIN=3
+a 0 s 0 0 30 40 hln 100 ERC=x
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol 2N7002/ZTX
+d N CHANNEL DMOS FET
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 31 23 hln 100 PART=2N7002/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=M2N7002/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 24 7 hln 100 D n 30 0 d
+a 0 s 1 0 35 3 hcn 100 PIN=1
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+p 0 29 37 hrn 100 S n 30 40 v
+a 0 s 1 0 25 42 hcn 100 PIN=3
+a 0 s 0 0 30 40 hln 100 ERC=x
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol BC807-16/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 48 22 hcn 100 PART=BC807-16/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=BC80716/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BC808-16/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 48 22 hcn 100 PART=BC808-16/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=BC80816/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol BCX38B/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=BCX38B/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=BCX38B/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol BS170/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 33 22 hln 100 PART=BS170/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=BS170/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL ?VALUE/@VALUE/
+a 0 up 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 0 22 8 hln 100 D n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 0 27 36 hrn 100 S n 30 40 v
+a 0 u 1 0 25 42 hcn 100 PIN=2
+a 0 u 0 0 30 40 hln 100 ERC=x
+a 0 u 0 0 30 40 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol BSS84/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 33 22 hln 100 PART=BSS84/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS84/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL ?VALUE/@VALUE/
+a 0 up 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 13 22 hln 100 G n 0 20 h
+a 0 u 1 0 5 18 hrn 100 PIN=1
+a 0 u 0 0 0 20 hln 100 ERC=i
+a 0 u 0 0 0 20 hln 100 FLOAT=n
+p 0 22 8 hln 100 D n 30 0 d
+a 0 u 1 0 35 3 hcn 100 PIN=3
+a 0 u 0 0 30 0 hln 100 ERC=x
+a 0 u 0 0 30 0 hln 100 FLOAT=n
+p 0 27 36 hrn 100 S n 30 40 v
+a 0 u 1 0 25 42 hcn 100 PIN=2
+a 0 u 0 0 30 40 hln 100 ERC=x
+a 0 u 0 0 30 40 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 20 20
+30 20
+;
+v 0 30 20
+30 30
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 23 18
+29 20
+23 22
+;
+*symbol FMMT38B/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=FMMT38B/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=FMMT38B/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol FMMT597Q/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 sp 0:13 0 5 40 hln 100 MODEL=FMMT597Q/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 0 s 11 0 0 0 hln 100 PART=FMMT597Q/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %c %b %e @MODEL
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 10 25
+20 30
+;
+v 0 20 10
+10 15
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT604/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=FZT604/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=FZT604/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol FZT605/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=FZT605/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=FZT605/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol FZT705/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=FZT705/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=FZT705/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol M2N7000/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=M2N7000/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=M2N7000/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol M2N7002/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=M2N7002/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=M2N7002/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol MPS-A20/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=Q^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=MPS-A20/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=MPSA20/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol VN10LF/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=VN10LF/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=VN10LF/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZTX601B/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 44 22 hcn 100 PART=ZTX601B/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=ZTX601B/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol ZTX604/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=ZTX604/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=ZTX604/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol ZTX605/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=ZTX605/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=ZTX605/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol ZTX614/ZTX
+d TRANSISTOR,  NPN
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=ZTX614/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=ZTX614/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+*symbol ZTX704/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=ZTX704/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=ZTX704/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol ZTX705/ZTX
+d TRANSISTOR,  PNP
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 template=X^@refdes %C %B %E @MODEL ?VALUE/@VALUE/
+a 0 s 9 0 5 10 hcn 100 refdes=Q?
+a 0 sp 11 0 40 22 hcn 100 PART=ZTX705/ZTX
+a 0 sp 0 0 10 40 hcn 100 MODEL=ZTX705/ZTX
+a 0 u 0 0 0 10 hlb 100 VALUE=
+@pins
+p 0 15 40 hcn 100 E n 20 40 v
+a 0 u 0 0 15 42 hcn 100 pin=1
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 13 22 hln 100 B n 0 20 h
+a 0 u 0 0 5 18 hrn 100 pin=2
+a 0 u 0 0 0 0 hln 100 ERC=x
+p 0 15 10 hcn 100 C n 20 0 d
+a 0 u 0 0 25 3 hcn 100 pin=3
+a 0 u 0 0 0 0 hln 100 ERC=x
+@graphics 30 40 0 20 10
+v 0 10 10
+10 30
+;
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+*symbol ZVN0124A/ZTX
+d N CHANNEL DMOS FET
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN0124A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN0124A/ZTX
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL ?VALUE/@VALUE/
+a 0 u 0 0 0 10 hln 100 VALUE=
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN2106A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN2106A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN2106A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN2106G/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN2106G/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN2106G/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN3306A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN3306A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN3306A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN3306F/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN3306F/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN3306F/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN3310A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN3310A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN3310A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN3310F/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN3310F/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN3310F/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4106F/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4106F/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4106F/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4210A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4210A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4210A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4210G/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4210G/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4210G/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4306A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4306A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4306A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4306G/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4306G/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4306G/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4310A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4310A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4310A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4310G/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4310G/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4310G/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVN4424A/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=ZVN4424A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVN4424A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVP2106A/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 23 hrn 100 PART=ZVP2106A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVP2106A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 vln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hln 100 G n 0 20 h
+a 0 s 1 0 5 19 hcn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 25 8 hcn 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 23 18
+29 20
+23 22
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVP2106G/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 23 hrn 100 PART=ZVP2106G/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVP2106G/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 vln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hln 100 G n 0 20 h
+a 0 s 1 0 5 19 hcn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 25 8 hcn 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 23 18
+29 20
+23 22
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVP3306A/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 23 hrn 100 PART=ZVP3306A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVP3306A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 vln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hln 100 G n 0 20 h
+a 0 s 1 0 5 19 hcn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 25 8 hcn 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 23 18
+29 20
+23 22
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZVP4424A/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 23 hrn 100 PART=ZVP4424A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVP4424A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 vln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hln 100 G n 0 20 h
+a 0 s 1 0 5 19 hcn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 25 8 hcn 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 23 18
+29 20
+23 22
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol ZC5800/ZTX
+d Schottky Barrier Diode
+@type p
+@attributes
+a 0 sp 0:13 0 15 25 hln 100 MODEL=ZC5800/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 0 s 11 0 0 0 hln 100 PART=ZC5800/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %1 %2 @MODEL
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZVP3310A/ZTX
+d P CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 23 hrn 100 PART=ZVP3310A/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=ZVP3310A/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 vln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hln 100 G n 0 20 h
+a 0 s 1 0 5 19 hcn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 25 8 hcn 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 23 18
+29 20
+23 22
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 20 20
+30 20
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol FMMTA13/ZTX
+d NPN Darlington transistor
+@type p
+@attributes
+a 0 sp 0:13 0 47 34 hln 100 MODEL=FMMTA13/ZTX
+a 0 sp 9 0 -1 -3 hln 100 REFDES=Q?
+a 0 sp 11 0 0 60 hln 100 PART=FMMTA13/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %c %b %e @MODEL
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 35 10 hln 100 c n 40 0 d
+a 0 s 1 0 41 -2 hln 100 PIN=
+a 0 s 0:13 0 0 0 hln 100 ERC=x
+p 0 35 50 hln 100 e n 40 50 v
+@graphics 50 50 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 40 40
+30 35
+;
+v 0 40 20
+30 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 31 38
+38 39
+33 34
+;
+v 0 10 10
+10 30
+;
+v 0 30 20
+30 40
+;
+v 0 20 30
+30 30
+;
+v 0 40 10
+40 20
+;
+v 0 20 10
+40 10
+;
+*symbol FMMT634/ZTX
+d NPN Darlington transistor
+@type p
+@attributes
+a 0 sp 0:13 0 47 34 hln 100 MODEL=FMMT634/ZTX
+a 0 sp 9 0 -1 -3 hln 100 REFDES=Q?
+a 0 sp 11 0 0 60 hln 100 PART=FMMT634/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %c %b %e @MODEL
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 35 10 hln 100 c n 40 0 d
+a 0 s 1 0 41 -2 hln 100 PIN=
+a 0 s 0:13 0 0 0 hln 100 ERC=x
+p 0 35 50 hln 100 e n 40 50 v
+@graphics 50 50 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 40 40
+30 35
+;
+v 0 40 20
+30 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 31 38
+38 39
+33 34
+;
+v 0 10 10
+10 30
+;
+v 0 30 20
+30 40
+;
+v 0 20 30
+30 30
+;
+v 0 40 10
+40 20
+;
+v 0 20 10
+40 10
+;
+*symbol BAL74/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAL74/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 20 5
+20 15
+;
+v 0 10 10
+12 10
+;
+*symbol BAL99/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAL99/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 20 5
+20 15
+;
+v 0 10 10
+12 10
+;
+*symbol BAR74/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAR74/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAR99/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAR99/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAS16/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAS16/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAS19/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAS19/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAS20/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAS20/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAS21/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAS21/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAV70/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAV70/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAV74/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAV74/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAV99/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAV99/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BAW56/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BAW56/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BBY31/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BBY31/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BBY40/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BBY40/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BC107BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC107BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC108BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC108BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC109BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC109BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC177AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC177AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC178AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC178AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC182BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC182BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC183BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC183BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC184BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC184BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC212AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC212AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC213AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC213AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC237BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC237BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC238BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC238BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC239BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC239BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC307AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC307AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC308AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC308AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC337AP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC337AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC338AP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC338AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC413BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC413BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC414BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC414BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC415AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC415AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC416AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC416AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC546BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC546BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC547BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC547BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC548BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC548BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC549BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC549BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC550BP/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC550BP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC556AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC556AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC557AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC557AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC558AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC558AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC559AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC559AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC560AP/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC560AP/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC80716/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC80716/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC80816/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC80816/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC846B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC846B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC847B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC847B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC848B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC848B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC849B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC849B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC850B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC850B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BC856A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC856A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC857A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC857A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC858A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC858A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC859A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC859A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BC860A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BC860A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCV72/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCV72/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCW29/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW29/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCW32/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW32/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCW60C/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW60C/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCW61A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW61A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCW65A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW65A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCW66F/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW66F/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCW67A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW67A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCW68F/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW68F/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCW69/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW69/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCW72/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW72/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCW89/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCW89/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BCX70J/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCX70J/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BCX71G/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BCX71G/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BFQ31/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BFQ31/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BFS17/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=BFS17/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol BPW41/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BPW41/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C10/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C10/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C11/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C11/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C12/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C12/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C13/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C13/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C15/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C15/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C16/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C16/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C18/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C18/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C20/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C20/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C22/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C22/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C24/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C24/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C27/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C27/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C2V7/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C2V7/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C30/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C30/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C33/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C33/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C36/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C36/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C39/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C39/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C3V0/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C3V0/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C3V3/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C3V3/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C3V6/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C3V6/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C3V9/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C3V9/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C43/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C43/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C47/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C47/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C4V3/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C4V3/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C4V7/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C4V7/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C5V1/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C5V1/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C5V6/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C5V6/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C6V2/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C6V2/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C6V8/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C6V8/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C7V5/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C7V5/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C8V2/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C8V2/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol BZX84C9V1/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=BZX84C9V1/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FCX458/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FCX458/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FCX558/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FCX558/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FLLD261/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FLLD261/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD2835/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD2835/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD2836/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD2836/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD2837/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD2837/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD2838/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD2838/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD6050/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD6050/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD6100/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD6100/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD7000/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD7000/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMD914/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMD914/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMT489/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT489/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT491A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT491A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT497/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT497/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT5179/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT5179/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT549/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT549/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT589/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT589/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT591A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT591A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT597/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT597/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT617/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT617/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT618/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT618/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT619/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT619/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT624/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT624/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT625/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT625/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT717/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT717/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT718/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT718/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT720/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT720/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT722/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT722/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT723/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT723/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMT918/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMT918/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMTA20/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMTA20/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMTA70/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMTA70/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FMMTH10/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMTH10/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMTL618/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FMMTL618/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FMMV105G/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV105G/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV109/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV109/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2101/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2101/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2103/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2103/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2104/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2104/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2105/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2105/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2107/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2107/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2108/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2108/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV2109/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV2109/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FMMV3102/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=FMMV3102/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol FZT1047A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1047A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1048A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1048A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1049A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1049A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1051A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1051A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1053A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1053A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1147A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1147A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1149A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1149A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT1151A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT1151A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT649/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT649/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT651/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT651/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT657/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT657/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT658/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT658/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT688B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT688B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT689B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT689B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT690B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT690B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT692B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT692B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT694B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT694B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT696B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT696B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT749/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT749/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT751/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT751/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT757/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT757/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT758/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT758/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT788B/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT788B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT789A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT789A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT790A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT790A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT792A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT792A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT795A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT795A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT796A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT796A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT849/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT849/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT851/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT851/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT869/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT869/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol FZT948/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT948/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT949/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT949/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT951/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT951/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT953/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT953/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT955/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT955/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT956/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT956/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT957/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT957/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT958/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT958/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol FZT968/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=FZT968/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol HD2A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=HD2A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol HD3A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=HD3A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol HD4A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=HD4A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol MPS5179/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=MPS5179/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol MPSA20/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=MPSA20/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol MPSH10/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=MPSH10/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol Q2N2222A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=Q2N2222A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol Q2N6715/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=Q2N6715/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol Q2N6727/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=Q2N6727/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZC820A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC820A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC821A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC821A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC822A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC822A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC823A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC823A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC824A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC824A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC825A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC825A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC826A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC826A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC830A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC830A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC831A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC831A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC832A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC832A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC833A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC833A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC834A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC834A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC835A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC835A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZC836A/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZC836A/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZDX1F/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZDX1F/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZDX2F/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZDX2F/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZDX5/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZDX5/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZDX6/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZDX6/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZHCS1000/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZHCS1000/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZHCS750/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZHCS750/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZSS1510/ZTX
+d diode device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 15 25 hln 100 MODEL=ZSS1510/ZTX
+a 0 sp 9 0 15 0 hln 100 REFDES=D?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=D^@REFDES %1 %2 @MODEL ?AREA/@AREA/
+@pins
+p 0 5 10 hln 100 1 n 0 10 h
+p 0 25 10 hln 100 2 n 30 10 u
+@graphics 30 20 0 10 10
+v 0 12 5
+12 15
+20 10
+12 5
+;
+v 0 10 10
+12 10
+;
+v 0 20 5
+20 15
+;
+*symbol ZTX1047A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1047A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1048A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1048A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1049A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1049A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1051A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1051A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1053A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1053A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1055A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1055A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1056A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1056A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX107/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX107/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX107B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX107B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX108/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX108/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX108B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX108B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX109/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX109/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX109B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX109B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1147A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1147A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1149A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1149A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX1151A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX1151A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX212/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX212/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX212A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX212A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX213/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX213/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX213A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX213A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX214/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX214/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX214A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX214A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX237/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX237/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX237B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX237B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX238/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX238/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX238B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX238B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX239/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX239/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX239B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX239B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX320/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX320/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX321/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX321/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX325/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX325/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX327/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX327/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX337A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX337A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX338A/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX338A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX450/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX450/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX454/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX454/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX455/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX455/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX458/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX458/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX5179/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX5179/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX549/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX549/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX550/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX550/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX558/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX558/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX618/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX618/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX649/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX649/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX650/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX650/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX651/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX651/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX653/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX653/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX657/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX657/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX688B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX688B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX689B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX689B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX690B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX690B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX692B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX692B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX694B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX694B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX696B/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX696B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX718/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX718/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX749/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX749/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX750/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX750/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX751/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX751/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX753/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX753/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX757/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX757/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX758/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX758/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX788A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX788A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX788B/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX788B/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX789A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX789A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX790A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX790A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX792A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX792A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX795A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX795A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX796A/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX796A/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX849/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX849/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX851/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX851/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX853/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX853/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX857/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX857/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX869/ZTX
+d npn bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX869/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 20 30
+10 25
+;
+v 0 11 28
+18 29
+13 24
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX948/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX948/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX949/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX949/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX951/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX951/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX953/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX953/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX955/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX955/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX956/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX956/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX957/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX957/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX958/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX958/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol ZTX968/ZTX
+d pnp bipolar transistor device
+@type p
+@attributes
+a 0 u 0 0 0 0 hln 100 AREA=
+a 0 sp 13 0 5 40 hln 100 MODEL=ZTX968/ZTX
+a 0 sp 9 0 5 5 hln 100 REFDES=Q?
+a 1 sp 0 0 0 0 hln 100 TEMPLATE=Q^@REFDES %c %b %e @MODEL ?AREA/@AREA/
+@pins
+p 0 5 20 hln 100 b n 0 20 h
+p 0 15 10 hln 100 c n 20 0 d
+p 0 15 40 hln 100 e n 20 40 v
+@graphics 20 40 0 20 10
+v 0 20 10
+10 15
+;
+v 0 10 25
+20 30
+;
+v 0 19 27
+12 26
+17 31
+;
+v 0 10 10
+10 30
+;
+*symbol BSS138/ZTX
+d N CHANNEL DMOS FET
+@type p
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=M?
+a 0 sp 11 0 101 21 hrn 100 PART=BSS138/ZTX
+a 0 sp 0 0 0 0 hln 100 MODEL=BSS138/ZTX
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %D %G %S @MODEL
+@pins
+p 0 32 27 hln 100 S n 30 40 v
+a 0 s 1 0 26 39 hcn 100 PIN=1
+a 0 s 0 0 30 40 hln 100 ERC=i
+a 0 s 0 0 30 40 hln 100 FLOAT=n
+p 0 7 26 hcn 100 G n 0 20 h
+a 0 s 1 0 9 19 hrn 100 PIN=2
+a 0 s 0 0 0 20 hln 100 ERC=x
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 0 31 3 hrn 100 D n 30 0 d
+a 0 s 1 0 27 0 hrt 100 PIN=3
+a 0 s 0 0 30 0 hln 100 ERC=x
+a 0 s 0 0 30 0 hln 100 FLOAT=n
+@graphics 30 40 0 20 10
+v 0 29 22
+23 20
+29 18
+;
+v 0 20 20
+30 20
+;
+v 0 20 30
+30 30
+;
+v 0 20 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 7
+20 13
+;
+v 0 20 17
+20 23
+;
+v 0 20 27
+20 33
+;
+v 0 30 20
+30 30
+;
+*symbol copyright
+d Copyright
+@type p 9.2
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+r 0 0 0 230 60
+z 26 2 10 hln 100 43
+Copyright 2000 Cadence Design Systems, Inc.
+z 26 2 38 hln 100 41
+Neither this library, nor any part of it,
+z 26 2 47 hln 100 41
+may be copied without the express written
+z 26 2 57 hln 100 39
+consent of Cadence Design Systems, Inc.
+z 26 2 29 hln 100 35
+the PSpice Schematics program only.
+z 26 2 20 hln 100 44
+The symbols in this library are for use with

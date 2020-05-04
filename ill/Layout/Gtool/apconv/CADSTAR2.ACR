@@ -1,0 +1,33 @@
+# Aperture converter for CadStar 2
+# $Revision:   1.1  $
+
+NAME Cadstar2
+VERSION 1.1
+EXTENSION rep 
+
+CUSTOM $$NO
+XTENSION cadstar2.dll
+
+DEFAULT_UNITS $$MILL
+
+HEADER 10
+
+FORMAT_ROUND: +$dcode +1 +[BDF] +$ysize
+FORMAT_SQUARE: +$dcode +2 +[BDF] +$ysize
+FORMAT_DONUT: +$dcode +3 +[BDF] +$ysize
+FORMAT_DIAMOND: +$dcode +4 +[BDF] +$ysize
+FORMAT_OCTAGON: +$dcode +5 +[BDF] +$ysize
+FORMAT_OBLONG: +$dcode +0 +[BDF] +$ysize +$custom +$xsize
+FORMAT_RECT: +$dcode +6 +[BDF] +$ysize +$custom +$xsize
+FORMAT_RECT: +$dcode +7 +[BDF] +$ysize +$custom +$xsize
+
+# second format
+FORMAT_ROUND: +$dcode +$ysize +1
+FORMAT_RECT: +$dcode +$ysize +0 +$skip +$xsize
+FORMAT_RECT: +$dcode +$ysize +6 +$skip +$xsize
+FORMAT_RECT: +$dcode +$ysize +7 +$skip +$xsize
+FORMAT_SQUARE: +$dcode +$ysize +2
+FORMAT_DONUT: +$dcode +$od +3 +$skip +$id
+FORMAT_DIAMOND: +$dcode +$ysize +4 +$skip +$xsize
+FORMAT_OCTAGON: +$dcode +$ysize +5
+

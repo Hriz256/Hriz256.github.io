@@ -1,0 +1,18 @@
+
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2017 Adobe. All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+(window.webpackJsonp=window.webpackJsonp||[]).push([[192],{722:function(module){!function(e,t){module.exports=t()}(this,function(){"use strict";return[{locale:"fa",pluralRuleFunction:function(e,t){return t?"other":0<=e&&1>=e?"one":"other"},fields:{year:{displayName:"\u0633\u0627\u0644",relative:{0:"\u0627\u0645\u0633\u0627\u0644",1:"\u0633\u0627\u0644 \u0622\u06CC\u0646\u062F\u0647","-1":"\u0633\u0627\u0644 \u06AF\u0630\u0634\u062A\u0647"},relativeTime:{future:{one:"{0} \u0633\u0627\u0644 \u0628\u0639\u062F",other:"{0} \u0633\u0627\u0644 \u0628\u0639\u062F"},past:{one:"{0} \u0633\u0627\u0644 \u067E\u06CC\u0634",other:"{0} \u0633\u0627\u0644 \u067E\u06CC\u0634"}}},month:{displayName:"\u0645\u0627\u0647",relative:{0:"\u0627\u06CC\u0646 \u0645\u0627\u0647",1:"\u0645\u0627\u0647 \u0622\u06CC\u0646\u062F\u0647","-1":"\u0645\u0627\u0647 \u06AF\u0630\u0634\u062A\u0647"},relativeTime:{future:{one:"{0} \u0645\u0627\u0647 \u0628\u0639\u062F",other:"{0} \u0645\u0627\u0647 \u0628\u0639\u062F"},past:{one:"{0} \u0645\u0627\u0647 \u067E\u06CC\u0634",other:"{0} \u0645\u0627\u0647 \u067E\u06CC\u0634"}}},day:{displayName:"\u0631\u0648\u0632",relative:{0:"\u0627\u0645\u0631\u0648\u0632",1:"\u0641\u0631\u062F\u0627",2:"\u067E\u0633\u200C\u0641\u0631\u062F\u0627","-2":"\u067E\u0631\u06CC\u0631\u0648\u0632","-1":"\u062F\u06CC\u0631\u0648\u0632"},relativeTime:{future:{one:"{0} \u0631\u0648\u0632 \u0628\u0639\u062F",other:"{0} \u0631\u0648\u0632 \u0628\u0639\u062F"},past:{one:"{0} \u0631\u0648\u0632 \u067E\u06CC\u0634",other:"{0} \u0631\u0648\u0632 \u067E\u06CC\u0634"}}},hour:{displayName:"\u0633\u0627\u0639\u062A",relative:{0:"\u0647\u0645\u06CC\u0646 \u0633\u0627\u0639\u062A"},relativeTime:{future:{one:"{0} \u0633\u0627\u0639\u062A \u0628\u0639\u062F",other:"{0} \u0633\u0627\u0639\u062A \u0628\u0639\u062F"},past:{one:"{0} \u0633\u0627\u0639\u062A \u067E\u06CC\u0634",other:"{0} \u0633\u0627\u0639\u062A \u067E\u06CC\u0634"}}},minute:{displayName:"\u062F\u0642\u06CC\u0642\u0647",relative:{0:"\u0647\u0645\u06CC\u0646 \u062F\u0642\u06CC\u0642\u0647"},relativeTime:{future:{one:"{0} \u062F\u0642\u06CC\u0642\u0647 \u0628\u0639\u062F",other:"{0} \u062F\u0642\u06CC\u0642\u0647 \u0628\u0639\u062F"},past:{one:"{0} \u062F\u0642\u06CC\u0642\u0647 \u067E\u06CC\u0634",other:"{0} \u062F\u0642\u06CC\u0642\u0647 \u067E\u06CC\u0634"}}},second:{displayName:"\u062B\u0627\u0646\u06CC\u0647",relative:{0:"\u0627\u06A9\u0646\u0648\u0646"},relativeTime:{future:{one:"{0} \u062B\u0627\u0646\u06CC\u0647 \u0628\u0639\u062F",other:"{0} \u062B\u0627\u0646\u06CC\u0647 \u0628\u0639\u062F"},past:{one:"{0} \u062B\u0627\u0646\u06CC\u0647 \u067E\u06CC\u0634",other:"{0} \u062B\u0627\u0646\u06CC\u0647 \u067E\u06CC\u0634"}}}}},{locale:"fa-AF",parentLocale:"fa"}]})}}]);

@@ -1,0 +1,763 @@
+# To have GerbTool automatically run a macro at startup time
+# name the macro STARTUP.
+#
+#MACRO startup
+#
+# your stuf here...
+#
+#END
+
+
+MACRO BestDrill
+
+# This macro calculates an optimal drill file.  It accepst a starting
+# and ending value for the swath and a step value.  It then determines
+# which swath width in this range gives the shortest drill travel and
+# produces a drill file using these settings.
+
+	Set $mindist = 999999.9 		# just a big number
+	Set $minsort = 1 			# 0 = no sort, 1 = X sort, 2 = Y sort.
+	Set $sswath  = 0.01			# start swath default
+	Set $eswath  = 0.1			# end swath default
+	Set $step    = 0.01			# swath step default
+	Set $layer   = $$ACTIVELAYER		# drill layer default
+
+	# get paramaters from the user.
+	GetValue		"Enter drill layer:",$layer
+	GetValue		"Enter start swath:",$sswath
+	GetValue		"Enter ending swath:",$eswath
+	GetValue		"Enter step size:",$step
+
+	Set $swath = $sswath				# save initial value
+
+	DRILL			# Start of the drill command
+
+		# could send output files to a RAM drive for speed.
+		OutFile		"drill.out"
+		RepFile		"drill.rep"
+
+		Sort			1 				# X sort
+		Layer			$layer
+		WindowMode	$$NO
+
+		REPEAT $swath <= $eswath		# control loop 
+
+			Swath			$swath			# set swath with for this drill run
+
+			GO						# perform the drill with the paramaters supplied.
+
+			Set $curdist = $$DRILLTRAVEL
+			IF $curdist < $mindist			# see if this run is the best so far
+				Set $mindist = $curdist		# save values if it is
+				Set $smallswath = $sswath
+			END
+
+			Calc	$swath = $swath + $step		# calculate the next swath width
+		END		# end of repeat
+
+		Set $swath = $sswath		# restore swath width for y sort attempts
+
+		Sort			2		# Y sort
+		REPEAT $swath <= $eswath		# same as the above loop
+
+			Swath			$swath
+
+			GO				
+
+			Set $curdist = $$DRILLTRAVEL
+			IF $curdist < $mindist
+				Set $mindist = $curdist
+				Set $smallswath = $sswath
+				Set $minsort = 2
+			END
+
+			Calc	$swath = $swath + $step
+		END
+
+		# Set the paramaters to the best found and produce a final drill file.
+		Swath			$smallswath
+		Sort			$minsort
+		OutFile		"drill.out"
+		RepFile		"drill.rep"
+		GO
+
+		# report to the user
+		GetValue "total dist:",$$DRILLTRAVEL
+		GetValue "best swath:", $smallswath
+
+	END		# of drill function.
+END 			# of macro
+
+
+MACRO Step-N-Repeat
+
+# This macro performs a step and repeat of windowed objects
+
+
+	COPY
+
+		By				$$WINDOWMODE
+		Boundary 	$$YES
+		Flashes		$$YES
+		Draws			$$YES
+		Arcs			$$YES
+		Layer			0
+		Dcode			0
+
+# Get user parameters
+		GetValue		"Enter number of copies:",$copies
+		GetWindow	"Enter Copy Window",$lx,$ly,$ux,$uy
+		GetPoint		"Enter from location", $fx,$fy
+		GetPoint		"Enter to location", $tx,$ty
+
+		# Calculate the offsets
+		Calc $dx = $tx - $fx
+		Calc $dy = $ty - $fy
+
+		REPEAT $copies > 0
+			GO				$lx,$ly,$ux,$uy,  $fx,$fy, $tx, $ty 	# do the copy
+
+			Calc $tx = $tx + $dx				# add in the offsets
+			Calc $ty = $ty + $dy
+
+			Calc $copies = $copies - 1		# decrement the counter
+
+			IF $$STATUS == 0	# nothing was copied.  Stop processing
+				STOP		"copy failed..."
+			END					# end of if
+		END						# end of if
+	END							# end of copy
+END								# end of macro
+
+
+
+MACRO FillAround
+
+# This macro calculates the extent of the layers and places a box around this
+# extent filled with cross hatching, on the active layer.
+
+	Set $layer = 1 				# counter
+
+	# initialize the variables.
+	Set $minx = 999999.0
+	Set $miny = 999999.0
+	Set $maxx = -999999.0
+	Set $maxy = -999999.0
+
+	# loop through all the layers to find the largest extent
+	REPEAT $layer <= $$MAXLAYERS
+		GETEXTENTS $layer, $lx, $ly, $ux, $uy
+
+		IF $lx < $minx
+			Set $minx = $lx
+		END
+		IF $ly < $miny
+			Set $miny = $ly
+		END
+		IF $ux > $maxx
+			Set $maxx = $ux
+		END
+		IF $uy > $maxy
+			Set $maxy = $uy
+		END
+
+		Calc $layer = $layer + 1 # increment loop control
+
+	END # of repeat
+
+	# calculate the size of the inner rectangle, make 0.5 inches larger than
+	# the extent
+	Calc $iminx = $minx - 0.5
+	Calc $iminy = $miny - 0.5
+	Calc $imaxx = $maxx + 0.5
+	Calc $imaxy = $maxy + 0.5
+
+	# calculate the size of the outer rectangle, make 3.0 inches larger than
+	# the extent
+	Calc $ominx = $minx - 3.0
+	Calc $ominy = $miny - 3.0
+	Calc $omaxx = $maxx + 3.0
+	Calc $omaxy = $maxy + 3.0
+
+	POUR
+		DrawClr		0.02
+		FLashClr		0.02
+		MinArea		0.00
+
+		Type			2			# 0 == OUTLINE, 1 == SOLID, 2 == HATCHED
+
+		HatchLine	1, $$CURRENTDCODE, 0.35, 45	# current Dcode, 0.35 inch spacing, 45 deg 
+		HatchLine	2, $$CURRENTDCODE, 0.35, 135	# current Dcode, 0.35 inch spacing, 135 deg 
+		HatchLine	3, 0, 0.0, 0 		# only use 2 lines
+
+		DCODE $$CURRENTDCODE								# used for outlines
+
+		# perform the pour.  The coordinates given represent a double rectangle
+		# about the extent of the data.  These rectangles are joined in the lower
+		# left corner by a double set of lines.  This enables the fill to work on
+		# just the area between the two rectangles and not attempt to fill any
+		# areas in the actual gerber area.
+
+		GO $ominx,$ominy, $ominx,$omaxy, $omaxx,$omaxy, $omaxx,$ominy, $imaxx,$iminy, $imaxx,$imaxy, $iminx,$imaxy, $iminx,$iminy, $imaxx,$iminy, $omaxx,$ominy, $ominx,$ominy
+	END	# of pour
+END		# end of macro
+
+
+
+MACRO FlashToDraw
+
+#
+# This Macro will convert all RECTANGULAR flashes into drawn pads using
+# the Poly Fill command.
+#
+
+# request a dcode to begin the fills with
+
+	REPEAT	$$STATUS == 0
+
+		GetValue			"Enter valid Fill Dcode:", $dc
+		CurrentDcode	$dc
+
+	END
+
+# restrict the search to the active layer
+
+	SELECTCRITERIA
+
+		Layer $$ACTIVELAYER
+
+	END
+
+# now loop thru active layer looking for rectangular flashes
+
+	GetFirstItem	$layer, $seqno, $net, $dcode, $type, $x, $y, $x2, $y2, $dia, $cw, $flags
+
+	REPEAT	$$STATUS
+
+		IF	$type == $$FLASH
+
+			GetApInfo  	$layer, $dcode, $shp, $xs, $ys, $type, $tool, $toolsize, $legend
+
+			Calc	$wby2 = $xs / 2
+			Calc	$hby2 = $ys / 2
+
+			IF $shp == $$RECTANGLE
+
+				# calculate pad extremes, add fill and delete old flash
+
+				Calc	$lx = $x - $wby2
+				Calc	$ly = $y - $hby2
+				Calc	$ux = $x + $wby2
+				Calc	$uy = $y + $hby2
+
+				AddFill			$lx,$ly, $lx,$uy, $ux,$uy, $ux,$ly, $lx,$ly
+
+				DeleteItem	$layer, $seqno
+
+			END
+
+		END
+
+		GetNextItem
+
+	END
+
+	Redraw
+
+END
+
+
+MACRO PadStack1
+
+	Set 	$layer = 1
+
+	REPEAT	$$STATUS == 0
+
+		GetValue  	"Enter valid Dcode:",$dc
+		CurrentDcode	$dc
+
+	END
+
+	GetPoint  "Pad Stack",$lx,$ly
+
+	REPEAT	$layer <= $$MAXLAYERS
+
+		ActiveLayer		$layer
+
+		IF $$STATUS
+
+			AddFlash	$lx,$ly
+
+		END
+
+		Calc $layer = $layer + 1
+
+	END
+
+END
+
+MACRO pnp
+
+# This macro will locate the center of a windowed set of pads and
+# add a flash at that point. 
+
+	GetString "Enter output filename:", $filename
+
+	Strlen	$filename
+
+	IF $$STATUS > 0
+
+		FileOpen	$fd, $filename, "w"
+		Set		$writing = $$STATUS
+
+	ELSE
+
+		Set 		$writing = $$FALSE
+	END
+
+	Set $$STATUS = 0
+
+	REPEAT	$$STATUS == 0
+
+		GetValue	"Enter Existing EMPTY Scratch Layer:", $slayer
+		ActiveLayer	$slayer
+
+	END
+
+	Set $$STATUS = 0
+
+	REPEAT	$$STATUS == 0
+
+		GetValue   	"Enter Input Layer:", $layer
+		ActiveLayer	$layer
+
+	END
+
+	Set $$STATUS = 0
+
+	REPEAT	$$STATUS == 0
+
+		GetValue   	"Enter Centroid Marker Dcode:", $dc
+		CurrentDcode	$dc
+
+	END
+
+# the current dcode is now correctly set
+
+	Set $$STATUS = 0
+
+	REPEAT	$$STATUS == 0
+
+		GetValue	"Enter Centroid Marker Layer:", $olayer
+		ActiveLayer    	$olayer
+
+	END
+
+# the active layer is now correctly set
+
+	SELECTGROUP
+
+		# set the selection criteria outside of the main repeat loop
+
+		By	   $$WINDOWMODE
+		Flashes	   $$TRUE
+		Draws	   $$FALSE
+		Arcs	   $$FALSE
+		Layer	   $layer
+
+	END
+
+	REPEAT $$TRUE
+
+		GetWindow "Enter Component Window", $lx,$ly, $ux,$uy
+
+		SELECTGROUP
+
+			MODE	0
+			GO
+
+			MODE	1
+			GO  	$lx,$ly,$ux,$uy
+
+		END
+
+		IF $$SELGRPCNT > 0
+
+			COPY
+
+				By	$$GROUPMODE
+				Tolayer	$slayer
+
+				GO	0,0, 0,0
+
+			END
+
+			Set	$minx = 100000.0
+			Set	$miny = 100000.0
+			Calc	$maxx = -100000.0
+			Calc	$maxy = -100000.0
+
+			Set	$layer = $slayer	# restrict the select search to the scratch layer
+
+			GetFirstItem	$layer, $seqno, $net, $dcode, $type, $x, $y, $x2, $y2, $dia, $cw, $flags
+
+			REPEAT	$$STATUS
+
+				IF	$type == $$FLASH
+
+					IF $x < $minx
+
+						Set $minx = $x
+
+					END
+
+					IF $x > $maxx
+
+						Set $maxx = $x
+
+					END
+
+					IF $y < $miny
+
+						Set $miny = $y
+
+					END
+
+					IF $y > $maxy
+
+						Set $maxy = $y
+
+					END
+
+				END
+
+				DeleteItem	$layer, $seqno
+
+				GetNextItem
+
+			END
+
+			Calc	$d = $maxx - $minx
+			Calc	$d = $d / 2
+			Calc	$cx = $minx + $d
+
+			Calc	$d = $maxy - $miny
+			Calc	$d = $d / 2
+			Calc	$cy = $miny + $d
+
+			IF $writing
+
+				GetString	"Enter Ref Desg:", $ref
+				GetString	"Enter Part No:", $pn
+
+				FileWrite	$fd, "X%2.3nY%2.3n REF:%s PN:%s", $cx, $cy, $ref, $pn
+
+			END
+
+			AddFlash	$cx,$cy
+
+		END
+
+	END
+
+	IF $writing
+
+		FileClose $fd
+
+	END
+END
+
+
+
+MACRO bplot
+
+# This macro allows you to batch plot the visible layers
+# one layer at a time.
+
+# Since each layers netid value is used to temporarily store the original
+# visibility of the layer we must warn the user that any possible netlist
+# info will be lost.
+
+	GetYesNo  "This macro will erase any previous netlist info! Continue?",$yesno
+
+	IF $yesno == $$NO
+		STOP
+	END
+
+	SET $Layer = $$MAXLAYERS
+
+	REPEAT $Layer > 0 				# turn off all layers
+
+		ActiveLayer		$Layer		# returns bad status if layer doesn't exist
+
+		IF $$STATUS
+
+			GetLayer $Layer,$fn,$ln,$an,$vis,$fc,$dc,$type,$pol,$key,$ft,$lx,$ly,$ux,$uy,$netid
+
+			LAYERN $Layer
+				Netid		$vis	# save true visibility
+				Visibility	0
+			END
+
+		END
+		CALC $Layer = $Layer - 1
+	END
+
+	REDRAW
+
+	SET $Layer = $$MAXLAYERS
+
+	REPEAT $Layer > 0
+
+		ActiveLayer		$Layer
+
+		IF $$STATUS
+
+			GetLayer $Layer,$fn,$ln,$an,$vis,$fc,$dc,$type,$pol,$key,$ft,$lx,$ly,$ux,$uy,$netid
+
+			IF $netid > 0		# it was visible
+
+				LAYERN $Layer
+					Visibility	1
+				END
+
+				REDRAW
+
+				PLOTHPGL
+					OUTFILE "LPT1"	# change this to suit your needs...
+					SCALE 1.0
+					GO 0, 0, 0, 0
+				END
+
+				LAYERN $Layer
+					Visibility	0
+				END
+
+			END
+
+		END
+		
+		CALC $Layer = $Layer - 1
+
+	END
+
+	SET $Layer = $$MAXLAYERS
+
+	REPEAT $Layer > 0 				# turn off all layers
+
+		ActiveLayer		$Layer		# returns bad status if layer doesn't exist
+
+		IF $$STATUS
+
+			GetLayer $Layer,$fn,$ln,$an,$vis,$fc,$dc,$type,$pol,$key,$ft,$lx,$ly,$ux,$uy,$netid
+
+			IF $netid > 0		# it was visible
+
+				LAYERN $Layer
+					Visibility	$netid	# restore visibility
+					Netid		0
+				END
+
+			END
+
+		END
+
+		CALC $Layer = $Layer - 1
+	END
+
+	REDRAW
+
+END
+
+
+MACRO AlignFlashes
+
+# This macro will align flashes on all layers to a golden layer.
+# Each flash will be aligned on an individual basis.
+
+	REPEAT	$$STATUS == 0
+		GetValue    "Enter layer to snap to:", $goldLayer
+		ACTIVELAYER $goldLayer 		# validate layer
+	END
+	
+	SET $testLayer = 1
+
+	SELECTCRITERIA
+		BY 	$$ITEMMODE
+		TOLAYER	0
+		FLASHES $$YES
+		DRAWS 	$$NO
+		ARCS 	$$NO
+	END
+
+	REPEAT $testLayer < $$MAXLAYERS
+	
+		ACTIVELAYER $testLayer
+
+		IF $$STATUS != 0			# valid layer ?
+
+			IF $testLayer != $goldLayer	# don't use the snap to layer
+
+				GETFIRSTITEM $goldLayer, $seqno, $net, $dcode, $type, $x, $y, $x2, $y2, $dia, $cw, $flags
+
+				REPEAT	$$STATUS != 0
+
+					IF $type == $$FLASH
+
+						# move the corresponding flash...
+
+						MOVE
+							LAYER $testLayer
+							GO $x, $y, $x, $y
+						END
+
+					END
+
+					SELECTCRITERIA
+						# must reset select layer as
+						# GETNEXTITEM depends on it
+						# and MOVE changes it...
+
+						LAYER	$goldLayer
+
+					END
+
+					GETNEXTITEM
+
+				END
+
+			END
+
+		END
+
+		CALC $testLayer = $testLayer + 1
+
+	END
+
+END
+
+
+MACRO LaserFitToPage
+
+# This macro calculates the maximum scale to fit the current design to a single
+# page, for HP LaserJet output, and then produces the output.
+
+	Set $layer = 1 				# counter
+
+	# initialize the variables.
+	Set $minx = 999999.0
+	Set $miny = 999999.0
+	Set $maxx = -999999.0
+	Set $maxy = -999999.0
+
+	Set $mediax = 8.0
+	Set $mediay = 10.5
+
+	# loop through all the layers to find the largest extent
+	REPEAT $layer <= $$MAXLAYERS
+		GETEXTENTS $layer, $lx, $ly, $ux, $uy
+
+		IF $lx < $minx
+			Set $minx = $lx
+		END
+		IF $ly < $miny
+			Set $miny = $ly
+		END
+		IF $ux > $maxx
+			Set $maxx = $ux
+		END
+		IF $uy > $maxy
+			Set $maxy = $uy
+		END
+
+		Calc $layer = $layer + 1 # increment loop control
+
+	END # of repeat
+
+	# calculate the boards size.
+	Calc $xsize = $maxx - $minx 
+	Calc $ysize = $maxy - $miny 
+
+	# and determine the maximum scales for each direction.
+	Calc $xscale = $mediax / $xsize 
+	Calc $yscale = $mediay / $ysize 
+
+	# use the smallest scale since the largest will not fit.
+	IF $xscale < $yscale
+		SET $fscale = $xscale
+	ELSE
+		SET $fscale = $yscale
+	END
+
+	# LaserJet scaling rounds internaly to the nearest .001%.  Rounding up
+	# will make the plot too big to fit on the page, so subtract a little
+	# to prevent this.
+	Calc $fscale = $fscale - 0.0005 
+
+	PLOTLJ
+		OUTFILE "lpt1" 			# or output to a file
+		MEDIASIZE $mediax, $mediay
+		SCALE $fscale
+		OVERLAP 0.0
+		WINDOWMODE $$NO
+		GO $minx, $miny, $maxx, $maxy
+	END
+
+END		# end of macro
+
+
+MACRO SetLayerColors
+
+# This macro Sets the colors of layers 1 through 8 to user defined values.
+# Currently the best way to use this macro is to assign it to a function
+# key which is used after loading in a new design.
+#
+# If desired, other things can be done in each layer block such as setting the 
+# layer types or initial visibility.
+
+	LAYERN 1
+		FLASHCOLOR "Blue"
+		DRAWCOLOR  "Blue"
+	END
+
+	LAYERN 2
+		FLASHCOLOR "Green"
+		DRAWCOLOR  "Green"
+	END
+
+	LAYERN 3
+		FLASHCOLOR "Cyan"
+		DRAWCOLOR  "Cyan"
+	END
+
+	LAYERN 4
+		FLASHCOLOR "Red"
+		DRAWCOLOR  "Red"
+	END
+
+	LAYERN 5
+		FLASHCOLOR "Yellow"
+		DRAWCOLOR  "Yellow"
+	END
+
+	LAYERN 6
+		FLASHCOLOR "Magenta"
+		DRAWCOLOR  "Magenta"
+	END
+
+	LAYERN 7
+		FLASHCOLOR "Brown"
+		DRAWCOLOR  "Brown"
+	END
+
+	LAYERN 8
+		FLASHCOLOR "vga16Gray"
+		DRAWCOLOR  "vga16Gray"
+	END
+
+	REDRAW
+
+END		# end of macro
+
+
+

@@ -1,0 +1,18 @@
+
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2017 Adobe. All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+(window.webpackJsonp=window.webpackJsonp||[]).push([[223],{753:function(module){!function(e,t){module.exports=t()}(this,function(){"use strict";return[{locale:"bn",pluralRuleFunction:function(e,t){return t?1==e||5==e||7==e||8==e||9==e||10==e?"one":2==e||3==e?"two":4==e?"few":6==e?"many":"other":0<=e&&1>=e?"one":"other"},fields:{year:{displayName:"\u09AC\u099B\u09B0",relative:{0:"\u098F\u0987 \u09AC\u099B\u09B0",1:"\u09AA\u09B0\u09C7\u09B0 \u09AC\u099B\u09B0","-1":"\u0997\u09A4 \u09AC\u099B\u09B0"},relativeTime:{future:{one:"{0} \u09AC\u099B\u09B0\u09C7",other:"{0} \u09AC\u099B\u09B0\u09C7"},past:{one:"{0} \u09AC\u099B\u09B0 \u09AA\u09C2\u09B0\u09CD\u09AC\u09C7",other:"{0} \u09AC\u099B\u09B0 \u09AA\u09C2\u09B0\u09CD\u09AC\u09C7"}}},month:{displayName:"\u09AE\u09BE\u09B8",relative:{0:"\u098F\u0987 \u09AE\u09BE\u09B8",1:"\u09AA\u09B0\u09C7\u09B0 \u09AE\u09BE\u09B8","-1":"\u0997\u09A4 \u09AE\u09BE\u09B8"},relativeTime:{future:{one:"{0} \u09AE\u09BE\u09B8\u09C7",other:"{0} \u09AE\u09BE\u09B8\u09C7"},past:{one:"{0} \u09AE\u09BE\u09B8 \u0986\u0997\u09C7",other:"{0} \u09AE\u09BE\u09B8 \u0986\u0997\u09C7"}}},day:{displayName:"\u09A6\u09BF\u09A8",relative:{0:"\u0986\u099C",1:"\u0986\u0997\u09BE\u09AE\u09C0\u0995\u09BE\u09B2",2:"\u0986\u0997\u09BE\u09AE\u09C0 \u09AA\u09B0\u09B6\u09C1","-2":"\u0997\u09A4 \u09AA\u09B0\u09B6\u09C1","-1":"\u0997\u09A4\u0995\u09BE\u09B2"},relativeTime:{future:{one:"{0} \u09A6\u09BF\u09A8\u09C7\u09B0 \u09AE\u09A7\u09CD\u09AF\u09C7",other:"{0} \u09A6\u09BF\u09A8\u09C7\u09B0 \u09AE\u09A7\u09CD\u09AF\u09C7"},past:{one:"{0} \u09A6\u09BF\u09A8 \u0986\u0997\u09C7",other:"{0} \u09A6\u09BF\u09A8 \u0986\u0997\u09C7"}}},hour:{displayName:"\u0998\u09A8\u09CD\u099F\u09BE",relative:{0:"\u098F\u0987 \u0998\u09A3\u09CD\u099F\u09BE\u09AF\u09BC"},relativeTime:{future:{one:"{0} \u0998\u09A8\u09CD\u099F\u09BE\u09AF\u09BC",other:"{0} \u0998\u09A8\u09CD\u099F\u09BE\u09AF\u09BC"},past:{one:"{0} \u0998\u09A8\u09CD\u099F\u09BE \u0986\u0997\u09C7",other:"{0} \u0998\u09A8\u09CD\u099F\u09BE \u0986\u0997\u09C7"}}},minute:{displayName:"\u09AE\u09BF\u09A8\u09BF\u099F",relative:{0:"\u098F\u0987 \u09AE\u09BF\u09A8\u09BF\u099F"},relativeTime:{future:{one:"{0} \u09AE\u09BF\u09A8\u09BF\u099F\u09C7",other:"{0} \u09AE\u09BF\u09A8\u09BF\u099F\u09C7"},past:{one:"{0} \u09AE\u09BF\u09A8\u09BF\u099F \u0986\u0997\u09C7",other:"{0} \u09AE\u09BF\u09A8\u09BF\u099F \u09AA\u09C2\u09B0\u09CD\u09AC\u09C7"}}},second:{displayName:"\u09B8\u09C7\u0995\u09C7\u09A8\u09CD\u09A1",relative:{0:"\u098F\u0996\u09A8"},relativeTime:{future:{one:"{0} \u09B8\u09C7\u0995\u09C7\u09A8\u09CD\u09A1\u09C7",other:"{0} \u09B8\u09C7\u0995\u09C7\u09A8\u09CD\u09A1\u09C7"},past:{one:"{0} \u09B8\u09C7\u0995\u09C7\u09A8\u09CD\u09A1 \u09AA\u09C2\u09B0\u09CD\u09AC\u09C7",other:"{0} \u09B8\u09C7\u0995\u09C7\u09A8\u09CD\u09A1 \u09AA\u09C2\u09B0\u09CD\u09AC\u09C7"}}}}},{locale:"bn-IN",parentLocale:"bn"}]})}}]);

@@ -1,0 +1,20 @@
+; This Capture properties update file
+; (DCLOCK.UPD) is used by the Learning
+; Capture online tutorial.
+
+"<Value>"	"PCB Footprint"
+"10k"		"RC05"
+"9.1k"		"RC05"
+".01uF"		"CK05"
+"100uF"		"CK05"
+"47uF"		"CK05"
+"470uF"		"CK05"
+"22uF"		"CK05"
+"74LS04"	"DIP14"
+"TIL309"	"TIL309"
+"22V10"		"DIP24"
+"LM7805"	"TO220"
+"9V"		"BAT9V"
+"Mode"		"DIP8"
+"Reset"		"PBTN2PIN"
+

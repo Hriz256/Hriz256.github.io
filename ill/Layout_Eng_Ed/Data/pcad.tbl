@@ -1,0 +1,10 @@
+This is a blank file which you may want to use as your
+default PCAD padstack table, by filling it in using the
+following format.  The # sign comments out the line.
+Any lines with alpha characters are assumed to be comments.
+
+    Pintype     Tool     Hole Size
+
+#      0          1       0.0280
+#      1          6       0.0360
+

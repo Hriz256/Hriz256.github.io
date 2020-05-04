@@ -1,0 +1,21 @@
+# Aperture converter for Zuken Redac format 1
+# $Revision:   1.0  $
+
+NAME Zuken1
+VERSION 1.0
+EXTENSION out 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+HEADER 13
+SKIP   $
+
+FORMAT_ROUND  +$dcode +$xsize +$ysize +$rot +round
+FORMAT_RECT  +$dcode +$xsize +$ysize +$rot +oblong
+FORMAT_THERMAL  +$dcode +$xsize +$ysize +$rot +thermal
+FORMAT_SQUARE  +$dcode +$xsize +$ysize +$rot +square
+FORMAT_DONUT  +$dcode +$xsize +$ysize +$rot +donut
+FORMAT_TARGET  +$dcode +$xsize +$ysize +$rot +target
+

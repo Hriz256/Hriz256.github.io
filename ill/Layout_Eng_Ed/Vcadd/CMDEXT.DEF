@@ -1,0 +1,53 @@
+WINERASE,WE, ,Window &Erase,Erase by Window,HI;CS;SW;@;@;ER;HI;
+OBJERASE,OE, ,Object E&rase,Object Erase,CS;HI;SB;@;ER;HI;
+WINMOVE,WM, ,Window &Move,Place Window,CS;SW;@;@;MV;@;@;
+WINCOPY,WC, ,Window &Copy, Place Window,CS;sw;@;@;co;
+OBJCOPY,OC, ,Object C&opy, Select Object,CS;sb;@;co;
+OBJMOVE,OM, ,Object Mo&ve, Select Object,CS;SB;@;MV;@;@;
+WINROTATE,WT, ,Window &Rotate, Place Window,CS;SW;@;@;RO;
+DWGROTATE,DT, ,&Drawing Rotate, ,SA;RO;
+WINCHANGE,WG, ,Window Chan&ge, Place Window,CS;sw;@;@;cg;
+DWGCHANGE,DG, ,Drawing Change, ,sa;cg;
+WINSCALE,WZ, ,Window Sc&ale,Place Window,CS;SW;@;@;SZ;@;
+DWGSCALE,DZ, ,Drawing Scal&e,Drawing Scale,CS;SA;SZ;@;
+OBJCHANGE,OG, ,&Object Change,Select Object to Change,CS;SB;@;CG;
+WinHatch,WH, ,Window &Hatch, Window Hatch,CS;SW;@;@;HS;
+WinFill,WF, ,Window &Fill,Window Fill,CS;SW;@;@;FS;
+WIZTEXT,WIT,,Text Wizard,Text Wizard,DLLNAme;VCWiz32.dll;DLLFunName;VCWizard;DLLCmdLine;TEXT;DLLRUN;
+WIZDIM,WID,,Dimension Wizard,Dimension Wizard,DLLNAme;VCWiz32.dll;DLLFunName;VCWizard;DLLCmdLine;DIMENSION;DLLRUN;
+WIZDRAW,WIR,,Drawing Wizard,Drawing Wizard,DLLNAme;VCWiz32.dll;DLLFunName;VCWizard;DLLCmdLine;DRAWING;DLLRUN;
+WIZPROP,WIP,,&Drawing Properties,Drawing Properties,DLLNAme;VCWiz32.dll;DLLFunName;VCWizard;DLLCmdLine;PSHEET;DLLRUN;
+MidLine,ML,,Midline Tool,Midline,Dllname;tools.dll;dllfunname;MidLine;dllrun;
+CopyLay,CY,,&Copy to Layer,Copy to Current Layer,Dllname;tools.dll;dllfunname;CopyToCurLayer;dllrun;
+DXFtoMAX2
+
+FreeTrack,,,,Free Track, DLLNAME;ORCADVC.DLL;DLLFUNNAME;FreeTrack;DLLCmdLine;EdFreeTrack;DLLRUN;
+CopperArea,,,,Copper Area, DLLNAME;ORCADVC.DLL;DLLFUNNAME;CopperArea;DLLCmdLine;EdCopperArea;DLLRUN;
+CopperPour,,,,Copper Pour, DLLNAME;ORCADVC.DLL;DLLFUNNAME;CopperPour;DLLCmdLine;EdCopperPour;DLLRUN;
+AntiCopper,,,,Anti Copper, DLLNAME;ORCADVC.DLL;DLLFUNNAME;AntiCopper;DLLCmdLine;EdAntiCopper;DLLRUN;
+BoardOutline,,,,Board Outline, DLLNAME;ORCADVC.DLL;DLLFUNNAME;BoardOutline;DLLCmdLine;EdBoardOut;DLLRUN;
+Detail,,,,Detail, DLLNAME;ORCADVC.DLL;DLLFUNNAME;Detail;DLLRUN;
+HeightKpIn,,,,Height Keep In, DLLNAME;ORCADVC.DLL;DLLFUNNAME;HeightKeepIn;DLLCmdLine;EdHeightKpIn;DLLRUN;
+HeightKpOut,,,,Height Keep Out, DLLNAME;ORCADVC.DLL;DLLFUNNAME;HeightKeepOut;DLLCmdLine;EdHeightKpOu;DLLRUN;
+GroupKpIn,,,,Group Keep In, DLLNAME;ORCADVC.DLL;DLLFUNNAME;GroupKeepIn;DLLCmdLine;EdGroupKpIn;DLLRUN;
+GroupKpOut,,,,Group Keep Out, DLLNAME;ORCADVC.DLL;DLLFUNNAME;GroupKeepOut;DLLCmdLine;EdGroupKpOut;DLLRUN;
+RouteKpOut,,,,Route Keep Out, DLLNAME;ORCADVC.DLL;DLLFUNNAME;RouteKeepOut;DLLCmdLine;EdRouteKpOut;DLLRUN;
+RtViaKpOut,,,,Route Keep Out, DLLNAME;ORCADVC.DLL;DLLFUNNAME;RouteViaKeepOut;DLLCmdLine;EdRtViaKpOut;DLLRUN;
+NoVia,,,,No Via, DLLNAME;ORCADVC.DLL;DLLFUNNAME;NoVia;DLLCmdLine;EdNoVia;DLLRUN;
+EdFreeTrack,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Free Track;DllRunNested;
+EdCopperArea,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Copper Area;DllRunNested;
+EdCopperPour,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Copper Pour;DllRunNested;
+EdAntiCopper,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Anti-Copper;DllRunNested;
+EdBoardOut,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Board Outline;DllRunNested;
+EdHeightKpIn,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Height Keep In;DllRunNested;
+EdHeightKpOu,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Height Keep Out;DllRunNested;
+EdGroupKpIn,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Group Keep In;DllRunNested;
+EdGroupKpOut,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Group Keep Out;DllRunNested;
+EdRouteKpOut,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Route Keep Out;DllRunNested;
+EdRtViaKpOut,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Route Via Keep Out;DllRunNested;
+EdNoVia,,,Edit Object,Edit Object, DLLName;OrCADVC.DLL;DLLFunName;ObstacleEditDialog;DLLCmdLine;Via Keep Out;DllRunNested;
+LDefault,,,Load Defaults,Load Defaults, DLLName;OrCADVC.DLL;DLLFunName;LoadDefaultSettings;DLLCmdLine;ORCAD.STY;DllRun;
+Layer,,,Set Layer Properties,Set Layer Properties, DLLName;OrCADVC.DLL;DLLFunName;SetLayerProperties;DllRun;
+SDefault,,,Save Defaults,Save Defaults, DLLName;OrCADVC.DLL;DLLFunName;SaveDefaultSettings;DLLCmdLine;ORCAD.STY;DllRun;
+
+

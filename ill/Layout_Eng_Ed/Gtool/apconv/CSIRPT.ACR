@@ -1,0 +1,23 @@
+# Aperture converter for CSI Report
+# $Revision:   1.0  $
+
+NAME CSI Report
+VERSION 1.0
+EXTENSION tbl 
+
+CUSTOM $$YES
+
+DEFAULT_UNITS $$MILL
+
+HEADER 7
+SKIP   -
+
+FORMAT_ROUND $skip +$dcode  ROUND +$xsizex$ysize 
+FORMAT_SQUARE $skip +$dcode  SQUARE +$xsizex$ysize
+FORMAT_RECT $skip +$dcode  RECT +$xsizex$ysize
+FORMAT_OBLONG $skip +$dcode  OBLONG +$xsizex$ysize
+FORMAT_TARGET $skip +$dcode  TARGET +$xsizex$ysize
+FORMAT_THERMAL $skip +$dcode  THERMAL +$xsizex$ysize
+FORMAT_DIAMOND $skip +$dcode  DIAMOND +$xsizex$ysize
+FORMAT_DONUT $skip +$dcode  DONUT +$xsizex$ysize
+FORMAT_CUSTOM $skip +$dcode  $custom +$xsizex$ysize

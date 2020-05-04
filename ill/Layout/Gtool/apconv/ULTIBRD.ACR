@@ -1,0 +1,19 @@
+# Aperture converter for Ultiboard
+
+NAME UltiBoard
+VERSION 1.1
+EXTENSION apr 
+
+SKIP ;
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+
+FORMAT_ROUND $dcode +$xsize +GENERAL
+FORMAT_ROUND $dcode +$xsize +FLASH
+FORMAT_ROUND $dcode +$xsize +DRAW
+
+FORMAT_ROUND D$dcode +$xsize +\( *$skip *\) +Genera
+FORMAT_ROUND D$dcode +$xsize +\( *$skip *\) +Draw
+FORMAT_ROUND D$dcode +$xsize +\( *$skip *\) +Flash

@@ -1,0 +1,13 @@
+# Aperture converter for EE Designer
+# $Revision:   1.1  $
+
+NAME EED
+VERSION 1.0
+EXTENSION apt 
+
+XTENSION eed.dll
+
+# the number of apertures
+DEFAULT_UNITS $$MILL
+
+FORMAT_SPECIAL $skip,$skip,$skip,$skip

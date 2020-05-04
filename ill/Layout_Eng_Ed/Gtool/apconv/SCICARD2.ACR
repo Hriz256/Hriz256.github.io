@@ -1,0 +1,15 @@
+# Aperture converter for Scicards #2
+# $Revision:   1.1  $
+
+NAME Scicards 2
+VERSION 1.0
+EXTENSION dat 
+
+XTENSION scicard2.dll
+
+# the number of apertures
+DEFAULT_UNITS $$INCH
+
+
+FORMAT_SPECIAL  +[A-Z0-9\(\)\.\ ]
+#   7    D16     DRAW   ROUND   .020    58(B) D63    FLASH   RECT   .043X.148

@@ -1,0 +1,956 @@
+*version 9.2 162927236
+@index
+symloc MC1489,MC1489P,MC1489D 0 938
+symloc MC1489A,MC1489AP,MC1489AD 938 939
+symloc SN55114,SN55114J,SN55114W,SN55114FK 1877 1266
+symloc 75C189,SN75C189N,SN75C189D 3143 1107
+symloc MC10116,MC10116L,MC10116P,MC10116FN 4250 2053
+symloc MC10216,MC10216L,MC10216P,MC10216FN 6303 2064
+symloc MC10H116,MC10H116L,MC10H116P,MC10H116D,MC10H116FN 8367 2072
+symloc DS14C89A,DS14C89AJ,DS14C89AN,DS14C89AM 10439 790
+symloc SN55158,SN55158JG 11229 842
+symloc SN55107A,SN55107AJ,SN55107AW,SN55107AFK 12071 1165
+symloc ADM485,ADM485JN,ADM485JR,ADM485AN,ADM485AR,ADM485AQ 13236 1178
+symloc LTC485,LTC485CJ8,LTC485CN8,LTC485CS8,LTC485IN8,LTC485IS8,LTC485MJ8 14414 1193
+symloc DS14C88_1,DS14C88J,DS14C88M,DS14C88N 15607 1012
+symloc MC1488,MC1488P,MC1488D 16619 2722
+symloc SN75176A 19341 1274
+symloc SN55183 20615 1040
+symloc SN55183J 21655 1042
+symloc SN55183W 22697 1042
+symloc SN55183FK 23739 1044
+symloc copyright 24783 601
+*symbol MC1489,MC1489P,MC1489D
+d 1 Input MDTL Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 58 48 hln 100 PART=MC1489
+a 0 sp 0 0 0 0 hln 100 MODEL=MC1489
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %RC %OUT %GND %VCC @MODEL \n+
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC)=
+@pins
+p 0 68 32 hrn 100 OUT n 80 30 u
+a 0 s 1 0 73 28 hln 100 PIN=3
+a 0 s 0:13 0 80 30 hln 100 ERC=x
+p 0 12 32 hln 100 IN n 0 30 h
+a 0 s 1 0 7 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=x
+p 0 32 48 vln 100 GND n 30 60 v
+a 0 s 1 0 36 59 hrn 100 PIN=7
+a 0 s 0:13 0 30 60 hln 100 ERC=p
+p 0 18 12 dln 100 VCC n 20 0 d
+a 0 s 1 0 30 9 hrn 100 PIN=14
+a 0 s 0:13 0 20 0 hln 100 ERC=p
+p 2 24 20 hln 100 RC n 30 0 d
+a 0 s 1 0 38 9 hrn 100 PIN=2
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+@graphics 80 60 0 30 10
+a 0 40 50 60 30 40 10
+v 0 10 50
+40 50
+;
+v 0 10 10
+10 50
+;
+v 0 10 10
+40 10
+;
+c 0 63 30 3
+v 0 66 30
+70 30
+;
+*symbol MC1489A,MC1489AP,MC1489AD
+d 1 Input MDTL Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 58 48 hln 100 PART=MC1489A
+a 0 sp 0 0 0 0 hln 100 MODEL=MC1489A
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %RC %OUT %GND %VCC @MODEL
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC)=
+@pins
+p 0 68 32 hrn 100 OUT n 80 30 u
+a 0 s 1 0 73 28 hln 100 PIN=3
+a 0 s 0:13 0 80 30 hln 100 ERC=x
+p 0 12 32 hln 100 IN n 0 30 h
+a 0 s 1 0 7 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=x
+p 0 32 48 vln 100 GND n 30 60 v
+a 0 s 1 0 36 59 hrn 100 PIN=7
+a 0 s 0:13 0 30 60 hln 100 ERC=x
+p 0 18 12 dln 100 VCC n 20 0 d
+a 0 s 1 0 30 9 hrn 100 PIN=14
+a 0 s 0:13 0 20 0 hln 100 ERC=x
+p 2 24 20 hln 100 RC n 30 0 d
+a 0 s 1 0 38 9 hrn 100 PIN=2
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+@graphics 80 60 0 30 10
+a 0 40 50 60 30 40 10
+v 0 10 50
+40 50
+;
+v 0 10 10
+10 50
+;
+v 0 10 10
+40 10
+;
+c 0 63 30 3
+v 0 66 30
+70 30
+;
+*symbol SN55114,SN55114J,SN55114W,SN55114FK
+d Differential Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 90 hln 100 PART=SN55114
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55114
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %ZP %ZS %YP %YS %INA %INB %INC %GND %VCC @MODEL
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 12 42 hln 100 INA n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=5
+a 0 s 0:13 0 0 40 hln 100 ERC=x
+p 2 12 52 hln 100 INB n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=6
+a 0 s 0:13 0 0 50 hln 100 ERC=x
+p 2 12 62 hln 100 INC n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=7
+a 0 s 0:13 0 0 60 hln 100 ERC=x
+p 2 58 32 hrn 100 ZP n 70 30 u
+a 0 s 1 0 63 28 hln 100 PIN=1
+a 0 s 0:13 0 70 30 hln 100 ERC=x
+p 2 58 42 hrn 100 ZS n 70 40 u
+a 0 s 1 0 63 38 hln 100 PIN=2
+a 0 s 0:13 0 70 40 hln 100 ERC=x
+p 2 58 52 hrn 100 YP n 70 50 u
+a 0 s 1 0 63 48 hln 100 PIN=4
+a 0 s 0:13 0 70 50 hln 100 ERC=x
+p 2 58 62 hrn 100 YS n 70 60 u
+a 0 s 1 0 63 58 hln 100 PIN=3
+a 0 s 0:13 0 70 60 hln 100 ERC=x
+p 2 20 78 hln 100 GND n 30 90 v
+a 0 s 1 0 38 89 hrn 100 PIN=8
+a 0 s 0:13 0 30 90 hln 100 ERC=p
+p 2 20 20 hln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=16
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+@graphics 70 90 0 40 10
+r 0 10 10 60 80
+*symbol 75C189,SN75C189N,SN75C189D
+d Low-Power Line Receiver
+@type p 8.0
+@attributes
+a 0 sp 11 0 33 54 hln 100 PART=75C189
+a 0 sp 0 0 40 40 hln 100 MODEL=75C189
+a 0 s 9 0 30 6 hln 100 REFDES=U?
+a 0 u 0 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %A %Y %CONT %VCC %GND @model
+a 0 u 0 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 13 22 hln 100 A n 0 20 h
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+a 0 s 0 0 0 0 hln 100 ERC=i
+a 0 s 1 0 5 18 hrn 100 PIN=1
+p 0 37 22 hrn 100 Y b 50 20 u
+a 0 s 0 0 0 0 hln 100 FLOAT=n
+a 0 s 0 0 0 0 hln 100 ERC=o
+a 0 s 1 0 45 18 hln 100 PIN=3
+p 16 30 43 hln 100 GND n 33 35 v
+a 0 s 0 0 8 -5 hln 100 ERC=p
+a 0 s 0 0 28 37 hcn 100 PIN=7
+p 16 4 -2 hln 100 VCC n 25 0 d
+a 0 s 0 0 0 0 hln 100 ERC=p
+a 0 s 0 0 30 3 hcn 100 PIN=14
+p 0 13 52 hln 100 CONT n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=2
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 0 -1 hln 100 FLOAT=n
+@graphics 50 50 0 20 10
+v 0 40 20
+10 0
+;
+v 0 10 40
+40 20
+;
+v 0 10 0
+10 40
+;
+v 0 18 24
+18 16
+;
+v 0 10 50
+24 50
+;
+v 0 24 50
+24 31
+;
+v 0 14 16
+26 16
+;
+v 0 26 16
+26 24
+;
+v 0 30 24
+18 24
+;
+v 0 24 31
+25 36
+;
+v 0 24 31
+23 36
+;
+*symbol MC10116,MC10116L,MC10116P,MC10116FN
+d Triple Line Receiver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 58 122 hln 100 PART=MC10116
+a 0 sp 0 0 0 0 hln 100 MODEL=MC10116
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %\AIN\ %\AOUT\ %AOUT %AIN %\BIN\ %\BOUT\ %BOUT %BIN %\CIN\ %\COUT\ %COUT %CIN %VCC2 %VCC1 %VEE %VBB @model
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC1)=$_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC2)=$_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VEE)=$_DGND
+@pins
+p 2 12 32 hln 100 \AIN\ n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=4
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 AIN n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=5
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 \BIN\ n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=9
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 BIN n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=10
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 12 72 hln 100 \CIN\ n 0 70 h
+a 0 s 1 0 9 68 hrn 100 PIN=12
+a 0 s 0:13 0 0 70 hln 100 ERC=i
+p 2 12 82 hln 100 CIN n 0 80 h
+a 0 s 1 0 9 78 hrn 100 PIN=13
+a 0 s 0:13 0 0 80 hln 100 ERC=i
+p 2 68 32 hrn 100 \AOUT\ n 80 30 u
+a 0 s 1 0 73 28 hln 100 PIN=2
+a 0 s 0:13 0 80 30 hln 100 ERC=o
+p 2 68 42 hrn 100 AOUT n 80 40 u
+a 0 s 1 0 73 38 hln 100 PIN=3
+a 0 s 0:13 0 80 40 hln 100 ERC=o
+p 2 68 52 hrn 100 \BOUT\ n 80 50 u
+a 0 s 1 0 73 48 hln 100 PIN=6
+a 0 s 0:13 0 80 50 hln 100 ERC=o
+p 2 68 62 hrn 100 BOUT n 80 60 u
+a 0 s 1 0 73 58 hln 100 PIN=7
+a 0 s 0:13 0 80 60 hln 100 ERC=o
+p 2 68 72 hrn 100 \COUT\ n 80 70 u
+a 0 s 1 0 73 68 hln 100 PIN=14
+a 0 s 0:13 0 80 70 hln 100 ERC=o
+p 2 68 82 hrn 100 COUT n 80 80 u
+a 0 s 1 0 73 78 hln 100 PIN=15
+a 0 s 0:13 0 80 80 hln 100 ERC=o
+p 2 28 12 dln 100 VCC1 n 30 0 d
+a 0 s 1 0 38 9 hrn 100 PIN=1
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 42 108 vln 100 VEE n 40 120 v
+a 0 s 1 0 48 119 hrn 100 PIN=8
+a 0 s 0:13 0 40 120 hln 100 ERC=p
+p 2 38 12 dln 100 VCC2 n 40 0 d
+a 0 s 1 0 52 9 hrn 100 PIN=16
+a 0 s 0:13 0 40 0 hln 100 ERC=p
+p 2 12 102 hln 100 VBB n 0 100 h
+a 0 s 1 0 9 98 hrn 100 PIN=11
+a 0 s 0:13 0 0 100 hln 100 ERC=i
+@graphics 80 120 0 30 10
+r 0 10 10 70 110
+*symbol MC10216,MC10216L,MC10216P,MC10216FN
+d High Speed Triple Line Receiver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 58 122 hln 100 PART=MC10216
+a 0 sp 0 0 0 0 hln 100 MODEL=MC10216
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %\AIN\ %\AOUT\ %AOUT %AIN %\BIN\ %\BOUT\ %BOUT %BIN %\CIN\ %\COUT\ %COUT %CIN %VCC2 %VCC1 %VEE %VBB @model
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC1)=$_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC2)=$_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VEE)=$_DGND
+@pins
+p 2 12 32 hln 100 \AIN\ n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=4
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 AIN n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=5
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 \BIN\ n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=9
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 BIN n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=10
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 12 72 hln 100 \CIN\ n 0 70 h
+a 0 s 1 0 9 68 hrn 100 PIN=12
+a 0 s 0:13 0 0 70 hln 100 ERC=i
+p 2 12 82 hln 100 CIN n 0 80 h
+a 0 s 1 0 9 78 hrn 100 PIN=13
+a 0 s 0:13 0 0 80 hln 100 ERC=i
+p 2 68 32 hrn 100 \AOUT\ n 80 30 u
+a 0 s 1 0 73 28 hln 100 PIN=2
+a 0 s 0:13 0 80 30 hln 100 ERC=o
+p 2 68 42 hrn 100 AOUT n 80 40 u
+a 0 s 1 0 73 38 hln 100 PIN=3
+a 0 s 0:13 0 80 40 hln 100 ERC=o
+p 2 68 52 hrn 100 \BOUT\ n 80 50 u
+a 0 s 1 0 73 48 hln 100 PIN=6
+a 0 s 0:13 0 80 50 hln 100 ERC=o
+p 2 68 62 hrn 100 BOUT n 80 60 u
+a 0 s 1 0 73 58 hln 100 PIN=7
+a 0 s 0:13 0 80 60 hln 100 ERC=o
+p 2 68 72 hrn 100 \COUT\ n 80 70 u
+a 0 s 1 0 73 68 hln 100 PIN=14
+a 0 s 0:13 0 80 70 hln 100 ERC=o
+p 2 68 82 hrn 100 COUT n 80 80 u
+a 0 s 1 0 73 78 hln 100 PIN=15
+a 0 s 0:13 0 80 80 hln 100 ERC=o
+p 2 28 12 dln 100 VCC1 n 30 0 d
+a 0 s 1 0 38 9 hrn 100 PIN=1
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 42 108 vln 100 VEE n 40 120 v
+a 0 s 1 0 48 119 hrn 100 PIN=8
+a 0 s 0:13 0 40 120 hln 100 ERC=p
+p 2 38 12 dln 100 VCC2 n 40 0 d
+a 0 s 1 0 52 9 hrn 100 PIN=16
+a 0 s 0:13 0 40 0 hln 100 ERC=p
+p 2 12 102 hln 100 VBB n 0 100 h
+a 0 s 1 0 9 98 hrn 100 PIN=11
+a 0 s 0:13 0 0 100 hln 100 ERC=i
+@graphics 80 120 0 30 10
+r 0 10 10 70 110
+*symbol MC10H116,MC10H116L,MC10H116P,MC10H116D,MC10H116FN
+d Triple Line Receiver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 58 122 hln 100 PART=MC10H116
+a 0 sp 0 0 0 0 hln 100 MODEL=MC10H116
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %\AIN\ %\AOUT\ % AOUT %AIN %\BIN\ %\BOUT\ % BOUT %BIN %\CIN\ %\COUT\ % COUT %CIN %VCC2 %VCC1 %VEE %VBB @model
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC1)=$_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC2)=$_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VEE)=$_DGND
+@pins
+p 2 12 32 hln 100 \AIN\ n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=4
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 AIN n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=5
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 \BIN\ n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=9
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 BIN n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=10
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 12 72 hln 100 \CIN\ n 0 70 h
+a 0 s 1 0 9 68 hrn 100 PIN=12
+a 0 s 0:13 0 0 70 hln 100 ERC=i
+p 2 12 82 hln 100 CIN n 0 80 h
+a 0 s 1 0 9 78 hrn 100 PIN=13
+a 0 s 0:13 0 0 80 hln 100 ERC=i
+p 2 68 32 hrn 100 \AOUT\ n 80 30 u
+a 0 s 1 0 73 28 hln 100 PIN=2
+a 0 s 0:13 0 80 30 hln 100 ERC=o
+p 2 68 42 hrn 100 AOUT n 80 40 u
+a 0 s 1 0 73 38 hln 100 PIN=3
+a 0 s 0:13 0 80 40 hln 100 ERC=o
+p 2 68 52 hrn 100 \BOUT\ n 80 50 u
+a 0 s 1 0 73 48 hln 100 PIN=6
+a 0 s 0:13 0 80 50 hln 100 ERC=o
+p 2 68 62 hrn 100 BOUT n 80 60 u
+a 0 s 1 0 73 58 hln 100 PIN=7
+a 0 s 0:13 0 80 60 hln 100 ERC=o
+p 2 68 72 hrn 100 \COUT\ n 80 70 u
+a 0 s 1 0 73 68 hln 100 PIN=14
+a 0 s 0:13 0 80 70 hln 100 ERC=o
+p 2 68 82 hrn 100 COUT n 80 80 u
+a 0 s 1 0 73 78 hln 100 PIN=15
+a 0 s 0:13 0 80 80 hln 100 ERC=o
+p 2 28 12 dln 100 VCC1 n 30 0 d
+a 0 s 1 0 38 9 hrn 100 PIN=1
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 42 108 vln 100 VEE n 40 120 v
+a 0 s 1 0 48 119 hrn 100 PIN=8
+a 0 s 0:13 0 40 120 hln 100 ERC=p
+p 2 38 12 dln 100 VCC2 n 40 0 d
+a 0 s 1 0 52 9 hrn 100 PIN=16
+a 0 s 0:13 0 40 0 hln 100 ERC=p
+p 2 12 102 hln 100 VBB n 0 100 h
+a 0 s 1 0 9 98 hrn 100 PIN=11
+a 0 s 0:13 0 0 100 hln 100 ERC=i
+@graphics 80 120 0 30 10
+r 0 10 10 70 110
+*symbol DS14C89A,DS14C89AJ,DS14C89AN,DS14C89AM
+d Quad CMOS Receiver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 42 42 hln 100 PART=DS14C89A
+a 0 sp 0 0 0 0 hln 100 MODEL=DS14C89A
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VCC %GND @model
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0:13 0 0 10 hlb 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 12 22 hln 100 IN n 0 20 h
+a 0 s 1 0 9 18 hrn 100 PIN=1
+a 0 s 0:13 0 0 20 hln 100 ERC=i
+p 0 38 22 hrn 100 OUT b 50 20 u
+a 0 s 1 0 47 18 hln 100 PIN=2
+a 0 s 0:13 0 50 20 hln 100 ERC=o
+p 0 28 12 dln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 0 32 28 vln 100 GND n 30 40 v
+a 0 s 1 0 38 39 hrn 100 PIN=7
+a 0 s 0:13 0 30 40 hln 100 ERC=p
+@graphics 50 40 0 20 10
+v 0 10 0
+10 40
+40 20
+10 0
+;
+*symbol SN55158,SN55158JG
+d Differential Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 30 60 hln 100 PART=SN55158
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55158
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %Z %Y %A %VCC %GND
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 12 32 hln 100 A n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=3
+a 0 s 0:13 0 0 30 hln 100 ERC=x
+p 2 38 22 hrn 100 Y n 50 20 u
+a 0 s 1 0 47 18 hln 100 PIN=2
+a 0 s 0:13 0 50 20 hln 100 ERC=o
+p 2 38 42 hrn 100 Z b 50 40 u
+a 0 s 1 0 47 38 hln 100 PIN=1
+a 0 s 0:13 0 50 40 hln 100 ERC=o
+p 2 18 12 dln 100 VCC n 20 0 d
+a 0 s 1 0 28 7 hrn 100 PIN=8
+a 0 s 0:13 0 20 0 hln 100 ERC=p
+p 2 22 48 vln 100 GND n 20 60 v
+a 0 s 1 0 28 59 hrn 100 PIN=4
+a 0 s 0:13 0 20 60 hln 100 ERC=p
+@graphics 50 60 0 30 10
+r 0 10 10 40 50
+*symbol SN55107A,SN55107AJ,SN55107AW,SN55107AFK
+d Line Receivers
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 54 84 hln 100 PART=SN55107A
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55107A
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %INA %INB %OUT %G %S %VCC+ %VCC- %GND @MODEL
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC+)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 12 32 hln 100 INA n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 INB n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=2
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 62 hln 100 S n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=6
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 58 42 hrn 100 OUT n 70 40 u
+a 0 s 1 0 63 38 hln 100 PIN=4
+a 0 s 0:13 0 70 40 hln 100 ERC=o
+p 2 28 12 dln 100 VCC+ n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+p 2 32 68 vln 100 VCC- n 30 80 v
+a 0 s 1 0 40 79 hrn 100 PIN=13
+a 0 s 0:13 0 30 80 hln 100 ERC=x
+p 2 42 68 vln 100 GND n 40 80 v
+a 0 s 1 0 48 79 hrn 100 PIN=7
+a 0 s 0:13 0 40 80 hln 100 ERC=x
+p 2 12 52 hln 100 G n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=3
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+@graphics 70 80 0 30 10
+r 0 10 10 60 70
+*symbol ADM485,ADM485JN,ADM485JR,ADM485AN,ADM485AR,ADM485AQ
+d +5V Lo-Power RS-485 Transceiver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 94 hln 100 PART=ADM485
+a 0 sp 0 0 0 0 hln 100 MODEL=ADM485
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %RO %\RE\ %DE %DI %GND %A %B %VCC @MODEL
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC+)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 12 32 hln 100 \RE\ n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=2
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 DE n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=3
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 62 hln 100 A n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=6
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 58 42 hrn 100 RO n 70 40 u
+a 0 s 1 0 63 38 hln 100 PIN=1
+a 0 s 0:13 0 70 40 hln 100 ERC=o
+p 2 28 12 dln 100 VCC+ n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=8
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+p 2 42 78 vln 100 GND n 40 90 v
+a 0 s 1 0 48 89 hrn 100 PIN=5
+a 0 s 0:13 0 40 90 hln 100 ERC=x
+p 2 12 52 hln 100 DI n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=4
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 72 hln 100 B n 0 70 h
+a 0 s 1 0 9 68 hrn 100 PIN=7
+a 0 s 0:13 0 0 70 hln 100 ERC=i
+@graphics 70 90 0 30 10
+r 0 10 10 60 80
+*symbol LTC485,LTC485CJ8,LTC485CN8,LTC485CS8,LTC485IN8,LTC485IS8,LTC485MJ8
+d +5V Lo-Power RS-485 Transceiver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 50 94 hln 100 PART=LTC485
+a 0 sp 0 0 0 0 hln 100 MODEL=LTC485
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=x^@refdes %RO %\RE\ %DE %DI %GND %A %B %VCC @MODEL
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC+)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 2 12 32 hln 100 \RE\ n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=2
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 DE n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=3
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 62 hln 100 A n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=6
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 58 42 hrn 100 RO n 70 40 u
+a 0 s 1 0 63 38 hln 100 PIN=1
+a 0 s 0:13 0 70 40 hln 100 ERC=o
+p 2 28 12 dln 100 VCC+ n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=8
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+p 2 42 78 vln 100 GND n 40 90 v
+a 0 s 1 0 48 89 hrn 100 PIN=5
+a 0 s 0:13 0 40 90 hln 100 ERC=x
+p 2 12 52 hln 100 DI n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=4
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 72 hln 100 B n 0 70 h
+a 0 s 1 0 9 68 hrn 100 PIN=7
+a 0 s 0:13 0 0 70 hln 100 ERC=i
+@graphics 70 90 0 30 10
+r 0 10 10 60 80
+*symbol DS14C88_1,DS14C88J,DS14C88M,DS14C88N
+d CMOS Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 60 hln 100 PART=DS14C88_1
+a 0 sp 0 0 0 0 hln 100 MODEL=DS14C88_1
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %IN %OUT %VCC %VEE %GND @MODEL \n+
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(VEE)=$G_DPWR
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+@pins
+p 0 68 32 hrn 100 OUT n 80 30 u
+a 0 s 1 0 73 28 hln 100 PIN=3
+a 0 s 0:13 0 80 30 hln 100 ERC=x
+p 0 12 32 hln 100 IN n 0 30 h
+a 0 s 1 0 7 28 hrn 100 PIN=2
+a 0 s 0:13 0 0 30 hln 100 ERC=x
+p 0 22 48 vln 100 VEE n 20 60 v
+a 0 s 1 0 26 59 hrn 100 PIN=1
+a 0 s 0:13 0 20 60 hln 100 ERC=x
+p 0 42 48 vln 100 GND n 40 60 v
+a 0 s 1 0 48 59 hrn 100 PIN=7
+a 0 s 0:13 0 40 60 hln 100 ERC=p
+p 0 28 12 dln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+@graphics 80 60 0 30 10
+a 0 40 50 60 30 40 10
+v 0 10 50
+40 50
+;
+v 0 10 10
+10 50
+;
+v 0 10 10
+40 10
+;
+c 0 63 30 3
+v 0 66 30
+70 30
+;
+*symbol MC1488,MC1488P,MC1488D
+d Monolithic MDTL Quad Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 10 8 hln 100 REFDES=U?
+a 0 sp 11 0 64 160 hln 100 PART=MC1488
+a 0 sp 0 0 0 0 hln 100 MODEL=MC1488
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %VEE %INA %OUTA %INB1 %INB2 %OUTB %GND %OUTC %INC2 %INC1 %OUTD %IND2 %IND1 %VCC @model
+a 0 u 0:13 0 0 0 hln 100 ipin(GND)=$G_DGND
+a 0 u 0:13 0 0 0 hln 100 ipin(VCC)=$G_DPWR
+@pins
+p 0 13 32 hln 100 INA n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 -10 10 hln 100 FLOAT=n
+p 0 13 52 hln 100 INB1 n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 -10 30 hln 100 FLOAT=n
+p 0 13 72 hln 100 INB2 n 0 70 h
+a 0 s 1 0 5 68 hrn 100 PIN=5
+a 0 s 0 0 0 70 hln 100 ERC=i
+a 0 s 0 0 -10 50 hln 100 FLOAT=n
+p 0 13 82 hln 100 INC1 n 0 80 h
+a 0 s 1 0 5 78 hrn 100 PIN=10
+a 0 s 0 0 0 80 hln 100 ERC=i
+a 0 s 0 0 -10 60 hln 100 FLOAT=n
+p 0 13 102 hln 100 INC2 n 0 100 h
+a 0 s 1 0 5 98 hrn 100 PIN=9
+a 0 s 0 0 0 100 hln 100 ERC=i
+a 0 s 0 0 -10 80 hln 100 FLOAT=n
+p 0 13 112 hln 100 IND1 n 0 110 h
+a 0 s 1 0 5 108 hrn 100 PIN=13
+a 0 s 0 0 0 110 hln 100 ERC=i
+a 0 s 0 0 -10 90 hln 100 FLOAT=n
+p 0 13 132 hln 100 IND2 n 0 130 h
+a 0 s 1 0 5 128 hrn 100 PIN=12
+a 0 s 0 0 0 130 hln 100 ERC=i
+a 0 s 0 0 -10 110 hln 100 FLOAT=n
+p 0 67 32 hrn 100 OUTA n 80 30 u
+a 0 s 1 0 75 28 hln 100 PIN=3
+a 0 s 0 0 80 30 hln 100 ERC=o
+a 0 s 0 0 70 10 hln 100 FLOAT=n
+p 0 67 62 hrn 100 OUTB n 80 60 u
+a 0 s 1 0 75 58 hln 100 PIN=6
+a 0 s 0 0 80 60 hln 100 ERC=o
+a 0 s 0 0 70 40 hln 100 FLOAT=n
+p 0 67 92 hrn 100 OUTC n 80 90 u
+a 0 s 1 0 75 88 hln 100 PIN=8
+a 0 s 0 0 80 90 hln 100 ERC=o
+a 0 s 0 0 70 70 hln 100 FLOAT=n
+p 0 67 122 hrn 100 OUTD n 80 120 u
+a 0 s 1 0 75 118 hln 100 PIN=11
+a 0 s 0 0 80 120 hln 100 ERC=o
+a 0 s 0 0 70 100 hln 100 FLOAT=n
+p 2 26 18 hln 100 VCC n 40 0 d
+a 0 s 1 0 47 7 hcn 100 PIN=14
+a 0 s 0 0 40 0 hln 100 ERC=p
+p 2 42 148 hln 100 GND n 50 160 v
+a 0 s 1 0 55 160 hcn 100 PIN=7
+a 0 s 0 0 50 160 hln 100 ERC=p
+p 2 18 148 hln 100 VEE n 30 160 v
+a 0 s 1 0 35 160 hcn 100 PIN=1
+a 0 s 0 0 30 160 hln 100 ERC=p
+@graphics 80 160 0 30 10
+r 0 10 10 70 150
+v 0 10 30
+23 30
+;
+v 0 70 30
+57 30
+;
+v 0 23 108
+23 132
+;
+v 0 10 50
+23 50
+;
+v 0 10 70
+23 70
+;
+v 0 10 80
+23 80
+;
+v 0 10 100
+23 100
+;
+v 0 10 110
+23 110
+;
+v 0 10 130
+23 130
+;
+v 0 70 60
+57 60
+;
+v 0 70 90
+57 90
+;
+v 0 70 120
+57 120
+;
+a 0 40 132 51 114 40 108
+c 0 55 120 2
+v 0 23 108
+39 108
+40 108
+;
+v 0 23 132
+40 132
+;
+v 0 23 78
+23 102
+;
+a 0 40 102 51 84 40 78
+c 0 55 90 2
+v 0 23 78
+39 78
+40 78
+;
+v 0 23 102
+40 102
+;
+v 0 23 48
+23 72
+;
+a 0 40 72 51 54 40 48
+c 0 55 60 2
+v 0 23 48
+39 48
+40 48
+;
+v 0 23 72
+40 72
+;
+v 0 23 18
+23 42
+;
+a 0 40 42 51 24 40 18
+c 0 55 30 2
+v 0 23 18
+39 18
+40 18
+;
+v 0 23 42
+40 42
+;
+*symbol SN75176A
+d Differential Bus Transceivers
+@type p
+@attributes
+a 0 sp 9 0 2 8 hln 100 REFDES=U?
+a 0 sp 11 0 24 66 hln 100 PART=SN75176A
+a 0 sp 0 0 0 0 hln 100 MODEL=SN75176A
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %R %\RE\ %DE %D %GND %A %\B\ %VCC @MODEL
+@pins
+p 2 13 22 hln 70 DE n 0 20 h
+a 0 s 1 0 5 18 hrn 100 PIN=3
+a 0 s 0 0 0 20 hln 100 ERC=i
+a 0 s 0 0 -50 0 hln 100 FLOAT=n
+p 2 13 32 hln 70 \RE\ n 0 30 h
+a 0 s 1 0 5 28 hrn 100 PIN=2
+a 0 s 0 0 0 30 hln 100 ERC=i
+a 0 s 0 0 -50 10 hln 100 FLOAT=n
+p 2 13 42 hln 70 D n 0 40 h
+a 0 s 1 0 5 38 hrn 100 PIN=4
+a 0 s 0 0 0 40 hln 100 ERC=i
+a 0 s 0 0 -50 20 hln 100 FLOAT=n
+p 2 13 52 hln 70 R n 0 50 h
+a 0 s 1 0 5 48 hrn 100 PIN=1
+a 0 s 0 0 0 50 hln 100 ERC=i
+a 0 s 0 0 -50 30 hln 100 FLOAT=n
+p 2 37 32 hrn 70 A n 50 30 u
+a 0 s 1 0 45 28 hln 100 PIN=6
+a 0 s 0 0 50 30 hln 100 ERC=o
+a 0 s 0 0 0 10 hln 100 FLOAT=n
+p 2 37 42 hrn 70 \B\ n 50 40 u
+a 0 s 1 0 45 38 hln 100 PIN=7
+a 0 s 0 0 50 40 hln 100 ERC=o
+a 0 s 0 0 0 20 hln 100 FLOAT=n
+p 2 14 16 hln 70 VCC n 20 0 d
+a 0 s 1 0 25 3 hcn 100 PIN=8
+a 0 s 0 0 20 0 hln 100 ERC=p
+a 0 s 0 0 0 50 hln 100 FLOAT=e
+p 2 16 58 hln 70 GND n 20 70 v
+a 0 s 1 0 15 72 hcn 100 PIN=5
+a 0 s 0 0 22 72 hln 100 ERC=p
+a 0 s 0 0 2 122 hln 100 FLOAT=e
+@graphics 50 70 0 20 10
+r 0 10 10 40 60
+*symbol SN55183
+d Dual Differential Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 80 hln 100 PART=SN55183
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55183
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %Z %VCC %GND @MODEL
+@pins
+p 2 12 32 hln 100 A n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 B n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=2
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 C n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=3
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 D n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=4
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 38 42 hrn 100 Y n 50 40 u
+a 0 s 1 0 43 38 hln 100 PIN=5
+a 0 s 0:13 0 50 40 hln 100 ERC=o
+p 2 38 52 hrn 100 Z n 50 50 u
+a 0 s 1 0 43 48 hln 100 PIN=6
+a 0 s 0:13 0 50 50 hln 100 ERC=o
+p 2 28 12 dln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 32 68 vln 100 GND n 30 80 v
+a 0 s 1 0 38 79 hrn 100 PIN=7
+a 0 s 0:13 0 30 80 hln 100 ERC=p
+@graphics 50 80 0 30 10
+r 0 10 10 40 70
+*symbol SN55183J
+d Dual Differential Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 78 hln 100 PART=SN55183J
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55183
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %Z %VCC %GND @MODEL
+@pins
+p 2 12 32 hln 100 A n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 B n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=2
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 C n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=3
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 D n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=4
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 38 42 hrn 100 Y n 50 40 u
+a 0 s 1 0 43 38 hln 100 PIN=5
+a 0 s 0:13 0 50 40 hln 100 ERC=o
+p 2 38 52 hrn 100 Z n 50 50 u
+a 0 s 1 0 43 48 hln 100 PIN=6
+a 0 s 0:13 0 50 50 hln 100 ERC=o
+p 2 28 12 dln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 32 68 vln 100 GND n 30 80 v
+a 0 s 1 0 38 79 hrn 100 PIN=7
+a 0 s 0:13 0 30 80 hln 100 ERC=p
+@graphics 50 80 0 30 10
+r 0 10 10 40 70
+*symbol SN55183W
+d Dual Differential Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 80 hln 100 PART=SN55183W
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55183
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %Z %VCC %GND @MODEL
+@pins
+p 2 12 32 hln 100 A n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 B n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=2
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 C n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=3
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 D n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=4
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 38 42 hrn 100 Y n 50 40 u
+a 0 s 1 0 43 38 hln 100 PIN=5
+a 0 s 0:13 0 50 40 hln 100 ERC=o
+p 2 38 52 hrn 100 Z n 50 50 u
+a 0 s 1 0 43 48 hln 100 PIN=6
+a 0 s 0:13 0 50 50 hln 100 ERC=o
+p 2 28 12 dln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 32 68 vln 100 GND n 30 80 v
+a 0 s 1 0 38 79 hrn 100 PIN=7
+a 0 s 0:13 0 30 80 hln 100 ERC=p
+@graphics 50 80 0 30 10
+r 0 10 10 40 70
+*symbol SN55183FK
+d Dual Differential Line Driver
+@type p 8.0
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 52 80 hln 100 PART=SN55183FK
+a 0 sp 0 0 0 0 hln 100 MODEL=SN55183
+a 0 s 0:13 0 0 0 hln 100 TEMPLATE=X^@REFDES %A %B %C %D %Y %Z %VCC %GND @MODEL
+@pins
+p 2 12 32 hln 100 A n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=1
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+p 2 12 42 hln 100 B n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=2
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+p 2 12 52 hln 100 C n 0 50 h
+a 0 s 1 0 9 48 hrn 100 PIN=3
+a 0 s 0:13 0 0 50 hln 100 ERC=i
+p 2 12 62 hln 100 D n 0 60 h
+a 0 s 1 0 9 58 hrn 100 PIN=4
+a 0 s 0:13 0 0 60 hln 100 ERC=i
+p 2 38 42 hrn 100 Y n 50 40 u
+a 0 s 1 0 43 38 hln 100 PIN=5
+a 0 s 0:13 0 50 40 hln 100 ERC=o
+p 2 38 52 hrn 100 Z n 50 50 u
+a 0 s 1 0 43 48 hln 100 PIN=6
+a 0 s 0:13 0 50 50 hln 100 ERC=o
+p 2 28 12 dln 100 VCC n 30 0 d
+a 0 s 1 0 42 9 hrn 100 PIN=14
+a 0 s 0:13 0 30 0 hln 100 ERC=p
+p 2 32 68 vln 100 GND n 30 80 v
+a 0 s 1 0 38 79 hrn 100 PIN=7
+a 0 s 0:13 0 30 80 hln 100 ERC=p
+@graphics 50 80 0 30 10
+r 0 10 10 40 70
+*symbol copyright
+d Copyright
+@type p 9.2
+@attributes
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+a 0 sp 11 0 0 70 hln 100 PART=
+a 0 sp 0 0 0 0 hln 100 MODEL=
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=
+@pins
+@graphics 230 60 0 0 10
+r 0 0 0 230 60
+z 26 2 10 hln 100 43
+Copyright 2000 Cadence Design Systems, Inc.
+z 26 2 38 hln 100 41
+Neither this library, nor any part of it,
+z 26 2 47 hln 100 41
+may be copied without the express written
+z 26 2 57 hln 100 39
+consent of Cadence Design Systems, Inc.
+z 26 2 29 hln 100 35
+the PSpice Schematics program only.
+z 26 2 20 hln 100 44
+The symbols in this library are for use with

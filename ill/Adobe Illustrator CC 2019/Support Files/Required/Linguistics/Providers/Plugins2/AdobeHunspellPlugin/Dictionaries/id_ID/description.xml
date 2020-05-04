@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2009"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <version value="2009-05-05" />
+    <identifier value="org.openoffice.id-ID.hunspell.dictionaries" />
+    <display-name>
+        <name lang="id">Bahasa Indonesia (spelling, hyphenation)</name>
+    </display-name>
+    <platform value="all" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0" />
+    </dependencies>
+    <publisher>
+        <name>Ammar Shadiq (UPI-LIPI-Bandung)</name>
+    </publisher>
+</description>
+

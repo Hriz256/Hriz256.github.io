@@ -1,0 +1,25 @@
+# Aperture converter for DCCad
+# $Revision:   1.0  $
+
+NAME DCCad
+VERSION 1.0
+EXTENSION apt 
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$MILL
+
+# HEADER 5
+# SKIP   $
+
+FORMAT_ROUND APERTURE D$dcode is DRAW, width = $xsize
+FORMAT_ROUND APERTURE D$dcode is ROUND FLASH, width = $xsize
+FORMAT_RECT APERTURE D$dcode is RECTANGLE \(width = $xsize, height = $ysize mils\) FLASH, rotation = $rot
+FORMAT_SQUARE APERTURE D$dcode is ROUND FLASH, width = $xsize
+FORMAT_OBLONG APERTURE D$dcode is OVAL \(width = $xsize, height = $ysize, ends radiused $skip mils\) FLASH, rotation = $rot
+
+FORMAT_ROUND LINE +$xsize +D$dcode
+FORMAT_SQUARE SQUARE +$xsize +$skip +D$dcode
+FORMAT_RECT RECTANGLE +$xsize +$ysize +$skip +D$dcode
+FORMAT_OBLONG OBLONG +$xsize +$ysize +$skip +D$dcode
+FORMAT_CUSTOM FLASH +$custom +$skip +D$dcode

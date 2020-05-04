@@ -1,0 +1,33 @@
+# Aperture converter for Mentor
+
+NAME Mentor
+VERSION 1.2
+EXTENSION rpt 
+
+# handle swapped X/Y columns
+XTENSION mentor.dll
+
+CUSTOM $$NO
+
+DEFAULT_UNITS $$INCH
+
+HEADER 1
+
+FORMAT_ROUND:$skip +circle +$skip +$xsize +$ysize +$rot +false +false +$dcode
+FORMAT_THERMAL:$skip +circle +$skip +$xsize +$ysize +$rot +false +true +$dcode
+FORMAT_RECT:$skip +rectangle +$skip +$xsize +$ysize +$rot +false +false +$dcode
+
+FORMAT_ROUND:$skip +circle +$skip, $skip +$xsize +$ysize +$rot +false +false +$dcode
+FORMAT_THERMAL:$skip +circle +$skip, $skip +$xsize +$ysize +$rot +false +true +$dcode
+FORMAT_RECT:$skip +rectangle +$skip, $skip +$xsize +$ysize +$rot +false +false +$dcode
+FORMAT_SPECIAL:Position +Shape
+
+# Mentor now has multiple formats
+FORMAT_ROUND: +$skip +$dcode +circle +$skip +$xsize +$ysize
+FORMAT_THERMAL: +$skip +$dcode +circle +$skip +power +$xsize +$ysize
+FORMAT_RECT: +$skip +$dcode +rectangle +$skip +$xsize +$ysize
+FORMAT_RECT: +$skip +$dcode +rectangular +$skip +$xsize +$ysize
+FORMAT_SPECIAL: Aperture Position
+FORMAT_SPECIAL:Aperture Position
+FORMAT_SPECIAL:$skip Position
+

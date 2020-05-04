@@ -1,0 +1,1354 @@
+{Program	GerbTool for Windows(tm)
+	{Version	7.0 X0}
+	{Created	Tue Oct 15 20:16:49 1996}
+}
+{Environment
+	{SketchMode	Yes}
+	{OverlayMode	No}
+	{ShowErrors	No}
+	{ViewComposites	No}
+	{GridSnap	No}
+	{GridSize	0.2500, 0.2500}
+	{GridVisible	No}
+	{OrthoSnap	No}
+	{SnapAngle	45.0000}
+	{ViewMetric	No}
+	{ActiveLayer	1}
+	{CurrentDcode	10}
+	{BkColor	black}
+	{Undo		Yes}
+	{PreviousView	-0.003, -0.001, 0.010, 0.008}
+	{FilmBox	0.007, 0.007, yellow}
+	{NetID		0}
+	{Flags		0}
+}
+{SelectCriteria
+	{Mode		Item}
+	{Boundary	Exclude}
+	{Flashes	Yes}
+	{Draws		Yes}
+	{Arcs		Yes}
+	{Vertex		No}
+	{Dcode		0}
+	{Layer		0}
+}
+{Views
+}
+{Layers
+	{Layer	1
+		{File		C1.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	On}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	2
+		{File		C2.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	3
+		{File		C3.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	4
+		{File		C5.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	5
+		{File		C6.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	6
+		{File		C7.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.002, 0.002, 0.006, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	7
+		{File		C8.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	8
+		{File		C9.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.007}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	9
+		{File		C10.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	10
+		{File		C11.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	11
+		{File		C12.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, -0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	12
+		{File		C13.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	13
+		{File		C14.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	14
+		{File		C15.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	15
+		{File		C18.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	16
+		{File		C19.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	17
+		{File		C20.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	18
+		{File		C21.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	19
+		{File		C23.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.008, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	20
+		{File		C24.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	21
+		{File		C25.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	22
+		{File		C26.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.002, 0.007, 0.007}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	23
+		{File		C27.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.002, 0.007, 0.007}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	24
+		{File		C29.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.002, 0.008, 0.007}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	25
+		{File		C30.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.002, 0.008, 0.007}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	26
+		{File		C31.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.002, 0.008, 0.007}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	27
+		{File		C36.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	28
+		{File		C37.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	29
+		{File		C38.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	30
+		{File		C48.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	31
+		{File		C50.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	32
+		{File		C51.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	33
+		{File		C53.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	34
+		{File		C54.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	35
+		{File		C56.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	36
+		{File		C57.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	37
+		{File		C63.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	38
+		{File		C64.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	39
+		{File		C66.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	40
+		{File		C67.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	41
+		{File		C68.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	42
+		{File		C71.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	43
+		{File		C75.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	44
+		{File		C79.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	45
+		{File		C80.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	46
+		{File		C81.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	47
+		{File		C82.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	48
+		{File		C83.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	49
+		{File		C97.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	50
+		{File		C98.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.007, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	51
+		{File		C100.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	52
+		{File		C101.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	53
+		{File		C103.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.006, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	54
+		{File		C105.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.002, 0.001, 0.004, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	55
+		{File		C106.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, -0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	56
+		{File		C107.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, 0.001, 0.006, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	57
+		{File		C109.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	58
+		{File		C111.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	59
+		{File		C112.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, -0.001, 0.007, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	60
+		{File		C113.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, -0.001, 0.006, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	61
+		{File		C115.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.006, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	62
+		{File		C119.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	-0.001, 0.001, 0.007, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	63
+		{File		C121.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.001, -0.001, 0.007, 0.006}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	64
+		{File		C123.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.002, 0.001, 0.005, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+	{Layer	65
+		{File		C125.GBR}
+		{LyrName	-}
+		{ApList		fonts.map}
+		{Visibility	Off}
+		{FlashColor	blue}
+		{DrawColor	green}
+		{Type		Other}
+		{Polarity	Dark}
+		{Key		0}
+		{Ftype		Gerber}
+		{Extents	0.002, 0.001, 0.005, 0.008}
+		{NetID		0}
+		{Virtual	No}
+	}
+}
+{Format	Gerber
+	{Dialect		RS274D}
+	{m.n			2.3}
+	{Mode			Absolute}
+	{ZeroSuppression	None}
+	{Terminator		0x2a, 0xd, 0xa}
+	{Metric			No}
+	{Modal			No}
+	{UserData		Yes}
+	{Nets			Yes}
+	{Gcmds			Yes}
+	{CharSet		ASCII}
+	{Arcs360		No}
+	{ArcsModal		Yes}
+	{HonorCrLf		No}
+	{Comments		Yes}
+	{Flags			0}
+}
+{Format	Drill
+	{Dialect		Excellon}
+	{m.n			2.3}
+	{Mode			Absolute}
+	{ZeroSuppression	Leading}
+	{Metric			No}
+	{Modal			No}
+	{UserData		No}
+	{Nets			No}
+	{Gcmds			No}
+	{CharSet		ASCII}
+	{Arcs360		No}
+	{ArcsModal		Yes}
+	{HonorCrLf		No}
+	{Comments		No}
+	{Flags			0}
+}
+{Format	Mill
+	{Dialect		Excellon}
+	{m.n			2.3}
+	{Mode			Absolute}
+	{ZeroSuppression	Leading}
+	{Metric			No}
+	{Modal			No}
+	{UserData		No}
+	{Nets			No}
+	{Gcmds			No}
+	{CharSet		ASCII}
+	{Arcs360		No}
+	{ArcsModal		Yes}
+	{HonorCrLf		No}
+	{Comments		No}
+	{Flags			0}
+}
+{Extensions
+	{Gerber		gbr}
+	{ApLists	map}
+	{Drill		nc}
+	{Mill		nc}
+	{Tool		tl}
+	{HPGL		plt}
+	{PostScript	ps}
+	{LaserJet	lj}
+}
+{Plot
+	{HPGL
+		{OutFile	fonts.plt}
+		{MediaSize	34.000, 22.000}
+		{Offset		0.000, 0.000}
+		{Scale		1.0000}
+		{Border	No 0}
+		{PenWidth	0.010}
+		{PenSpeed	60}
+		{Pens
+			{Layer 1	1	1}
+			{Layer 2	1	1}
+			{Layer 3	1	1}
+			{Layer 4	1	1}
+			{Layer 5	1	1}
+			{Layer 6	1	1}
+			{Layer 7	1	1}
+			{Layer 8	1	1}
+			{Layer 9	1	1}
+			{Layer 10	1	1}
+			{Layer 11	1	1}
+			{Layer 12	1	1}
+			{Layer 13	1	1}
+			{Layer 14	1	1}
+			{Layer 15	1	1}
+			{Layer 16	1	1}
+			{Layer 17	1	1}
+			{Layer 18	1	1}
+			{Layer 19	1	1}
+			{Layer 20	1	1}
+			{Layer 21	1	1}
+			{Layer 22	1	1}
+			{Layer 23	1	1}
+			{Layer 24	1	1}
+			{Layer 25	1	1}
+			{Layer 26	1	1}
+			{Layer 27	1	1}
+			{Layer 28	1	1}
+			{Layer 29	1	1}
+			{Layer 30	1	1}
+			{Layer 31	1	1}
+			{Layer 32	1	1}
+			{Layer 33	1	1}
+			{Layer 34	1	1}
+			{Layer 35	1	1}
+			{Layer 36	1	1}
+			{Layer 37	1	1}
+			{Layer 38	1	1}
+			{Layer 39	1	1}
+			{Layer 40	1	1}
+			{Layer 41	1	1}
+			{Layer 42	1	1}
+			{Layer 43	1	1}
+			{Layer 44	1	1}
+			{Layer 45	1	1}
+			{Layer 46	1	1}
+			{Layer 47	1	1}
+			{Layer 48	1	1}
+			{Layer 49	1	1}
+			{Layer 50	1	1}
+			{Layer 51	1	1}
+			{Layer 52	1	1}
+			{Layer 53	1	1}
+			{Layer 54	1	1}
+			{Layer 55	1	1}
+			{Layer 56	1	1}
+			{Layer 57	1	1}
+			{Layer 58	1	1}
+			{Layer 59	1	1}
+			{Layer 60	1	1}
+			{Layer 61	1	1}
+			{Layer 62	1	1}
+			{Layer 63	1	1}
+			{Layer 64	1	1}
+			{Layer 65	1	1}
+		}
+		{Spread	No}
+		{SpreadOffset
+		}
+		{PadsOnly	No}
+		{Mode		Sketch}
+		{Rotate		No}
+	}
+	{PostScript
+		{OutFile	fonts.ps}
+		{MediaSize	8.000, 10.500}
+		{Offset		0.000, 0.000}
+		{Scale		1.0000}
+		{PadsOnly	No}
+		{Mode		Sketch}
+		{Rotate		No}
+		{GreyScale	No}
+		{Border	No}
+	}
+}
+{Merge
+	{HPGL
+		{PlotSize	Small}
+		{Rotate		No}
+		{Pens
+			{1	D10}
+			{2	D10}
+			{3	D10}
+			{4	D10}
+			{5	D10}
+			{6	D10}
+			{7	D10}
+			{8	D10}
+		}
+	}
+}
+{Text
+	{Filename	fonts.txt}
+	{Height		0.0000}
+	{Width		0.0000}
+	{LineSpace	0.0000}
+	{CharSpace	0.0000}
+	{Rotate		No}
+	{Slant		0}
+	{Mirror		No}
+}
+{ApReport
+	{RepFile	fonts.rpt}
+	{Layer		1}
+	{SortBy		DCode}
+}
+{Rotate
+	{Degrees	90}
+	{Pivot		Center}
+}
+{Mirror
+	{Direction	Vert}
+	{Pivot		Center}
+}
+{DcodeScale
+	{Fixed		Yes}
+	{Scale		0.1000, 0.1000}
+}
+{Panelize
+	{AutoPanel		Yes}
+	{Virtual		No}
+	{Rows			0}
+	{Cols			0}
+	{TabSize		0.0000, 0.0000}
+	{AutoVent		No}
+	{VentSpacing		0.0000, 0.0000}
+	{VentBorder		0.0000}
+	{VentDCode		0}
+	{VentLayer		0}
+}
+{Spread
+	{AutoSpread		No}
+	{Rows			1}
+	{Cols			1}
+	{TabSize		0.0000, 0.0000}
+	{Layer			0}
+	{SortType		Col}
+}
+{DRC
+	{RepFile		fonts.drc}
+	{Layer			1}
+	{Pad2Pad		0.0060}
+	{Pad2Trace		0.0060}
+	{Trace2Trace		0.0060}
+	{Border		0.0250}
+	{MinFlash		0.0100}
+	{MinTrace		0.0020}
+	{MinRing		0.0000}
+	{DrillLayer		0}
+	{BorderLayer		0}
+	{HiliLayer		0}
+	{IgnoreSelGrp		No}
+	{UseToolSize		No}
+	{WellBehaved		No}
+	{WindowMode		No}
+	{Stubs		Yes}
+	{ErrorCount		0}
+	{MaxErrors		100}
+}
+{Snoman
+	{RepFile		fonts.sno}
+	{FromLayer		0}
+	{ToLayer		1}
+	{DCode			0}
+	{Pad2Pad		0.0060}
+	{Pad2Trace		0.0060}
+	{Offset			-0.0050}
+	{MinPercent		0.6000}
+	{MaxPercent		0.8000}
+	{WindowMode		No}
+}
+{TestPoints
+	{FxFile		1 fonts.fx}
+	{Dist		1 -1.0000}
+	{Thick		1 -1.0000}
+	{FxFile		2 fonts.ip2}
+	{Dist		2 -1.0000}
+	{Thick		2 -1.0000}
+	{FxFile		3 fonts.ip3}
+	{Dist		3 -1.0000}
+	{Thick		3 -1.0000}
+	{FxFile		4 fonts.ip4}
+	{Dist		4 -1.0000}
+	{Thick		4 -1.0000}
+	{FxFile		5 fonts.ip5}
+	{Dist		5 -1.0000}
+	{Thick		5 -1.0000}
+	{FxFile		6 fonts.ip6}
+	{Dist		6 -1.0000}
+	{Thick		6 -1.0000}
+	{FxFile		7 fonts.tp}
+	{Dist		7 -1.0000}
+	{Thick		7 -1.0000}
+	{NetFile	fonts.nl}
+	{MapFile	fonts.mp}
+	{ToolFile	fonts.tl}
+	{TPLayer	0}
+	{ProbeSize	0.0230}
+	{MaxDeflect	0.1300}
+	{GridSize	0.1000}
+	{Points		Ends}
+	{Isolated	Exclude}
+}
+{Stagger
+	{TPLayer	0}
+	{ProbeSpacing	0.0230}
+	{EdgeSpacing	0.0000}
+	{MaxFlash	0.0600}
+	{StaggerDir		L-U}
+	{UseMiddle	No}
+	{WindowMode	Yes}
+}
+{Drill
+	{OutFile	fonts.nc}
+	{RepFile	fonts.rpt}
+	{Swath		0.100}
+	{Sort		X}
+	{Layer		0}
+	{PreMergeLayer	0}
+	{PostMergeLayer	0}
+	{WindowMode	No}
+}
+{Mill
+	{OutFile	fonts.nc}
+	{ToolFile	fonts.tl}
+	{Layer		0}
+	{Tool		0}
+	{Compensate	No}
+	{Mode		Auto}
+	{TabSize	0.1000}
+	{OverShoot	0.0000}
+	{PlungeLine	Yes}
+	{Priority	Internal}
+	{Critical	vga16red}
+	{Int	vga16cyan}
+	{Norm	vga16green}
+	{Low	vga16blue}
+	{Clamp	vga16magenta}
+	{Plunge	red}
+	{Retract	red}
+	{Paths	0
+	}
+}
+{FixSS
+	{PadLayer	1}
+	{SilkLayer	1}
+	{WindowMode	No}
+	{Spacing	0.0000}
+}
+{PadRemoval
+	{WindowMode	No}
+	{Layer		0}
+	{DCode		0}
+}
+{Highlights
+	{Query		white}
+	{Select		white}
+	{DRC		white}
+}

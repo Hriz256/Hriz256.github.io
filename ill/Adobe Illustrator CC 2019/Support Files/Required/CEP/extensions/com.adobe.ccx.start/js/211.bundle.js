@@ -1,0 +1,18 @@
+
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2017 Adobe. All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+(window.webpackJsonp=window.webpackJsonp||[]).push([[211],{741:function(module){!function(e,n){module.exports=n()}(this,function(){"use strict";return[{locale:"cy",pluralRuleFunction:function(e,n){return n?0==e||7==e||8==e||9==e?"zero":1==e?"one":2==e?"two":3==e||4==e?"few":5==e||6==e?"many":"other":0==e?"zero":1==e?"one":2==e?"two":3==e?"few":6==e?"many":"other"},fields:{year:{displayName:"blwyddyn",relative:{0:"eleni",1:"blwyddyn nesaf","-1":"llynedd"},relativeTime:{future:{zero:"ymhen {0} mlynedd",one:"ymhen blwyddyn",two:"ymhen {0} flynedd",few:"ymhen {0} blynedd",many:"ymhen {0} blynedd",other:"ymhen {0} mlynedd"},past:{zero:"{0} o flynyddoedd yn \xF4l",one:"blwyddyn yn \xF4l",two:"{0} flynedd yn \xF4l",few:"{0} blynedd yn \xF4l",many:"{0} blynedd yn \xF4l",other:"{0} o flynyddoedd yn \xF4l"}}},month:{displayName:"mis",relative:{0:"y mis hwn",1:"mis nesaf","-1":"mis diwethaf"},relativeTime:{future:{zero:"ymhen {0} mis",one:"ymhen mis",two:"ymhen deufis",few:"ymhen {0} mis",many:"ymhen {0} mis",other:"ymhen {0} mis"},past:{zero:"{0} mis yn \xF4l",one:"{0} mis yn \xF4l",two:"{0} fis yn \xF4l",few:"{0} mis yn \xF4l",many:"{0} mis yn \xF4l",other:"{0} mis yn \xF4l"}}},day:{displayName:"dydd",relative:{0:"heddiw",1:"yfory",2:"drennydd","-2":"echdoe","-1":"ddoe"},relativeTime:{future:{zero:"ymhen {0} diwrnod",one:"ymhen diwrnod",two:"ymhen deuddydd",few:"ymhen tridiau",many:"ymhen {0} diwrnod",other:"ymhen {0} diwrnod"},past:{zero:"{0} diwrnod yn \xF4l",one:"{0} diwrnod yn \xF4l",two:"{0} ddiwrnod yn \xF4l",few:"{0} diwrnod yn \xF4l",many:"{0} diwrnod yn \xF4l",other:"{0} diwrnod yn \xF4l"}}},hour:{displayName:"awr",relative:{0:"yr awr hon"},relativeTime:{future:{zero:"ymhen {0} awr",one:"ymhen awr",two:"ymhen {0} awr",few:"ymhen {0} awr",many:"ymhen {0} awr",other:"ymhen {0} awr"},past:{zero:"{0} awr yn \xF4l",one:"awr yn \xF4l",two:"{0} awr yn \xF4l",few:"{0} awr yn \xF4l",many:"{0} awr yn \xF4l",other:"{0} awr yn \xF4l"}}},minute:{displayName:"munud",relative:{0:"y funud hon"},relativeTime:{future:{zero:"ymhen {0} munud",one:"ymhen munud",two:"ymhen {0} funud",few:"ymhen {0} munud",many:"ymhen {0} munud",other:"ymhen {0} munud"},past:{zero:"{0} munud yn \xF4l",one:"{0} munud yn \xF4l",two:"{0} funud yn \xF4l",few:"{0} munud yn \xF4l",many:"{0} munud yn \xF4l",other:"{0} munud yn \xF4l"}}},second:{displayName:"eiliad",relative:{0:"nawr"},relativeTime:{future:{zero:"ymhen {0} eiliad",one:"ymhen eiliad",two:"ymhen {0} eiliad",few:"ymhen {0} eiliad",many:"ymhen {0} eiliad",other:"ymhen {0} eiliad"},past:{zero:"{0} eiliad yn \xF4l",one:"eiliad yn \xF4l",two:"{0} eiliad yn \xF4l",few:"{0} eiliad yn \xF4l",many:"{0} eiliad yn \xF4l",other:"{0} eiliad yn \xF4l"}}}}}]})}}]);

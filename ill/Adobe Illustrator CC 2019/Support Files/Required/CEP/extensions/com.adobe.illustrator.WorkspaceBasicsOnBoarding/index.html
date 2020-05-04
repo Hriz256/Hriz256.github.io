@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="./fonts/adobe-clean.css"><link rel="stylesheet" type="text/css" href="style.css"><style>.coach {
+				border-radius: 0;
+			}</style><script type="text/javascript" src="./lib/jquery-1.9.1.js"></script><script type="text/javascript" src="./lib/CSInterface.js"></script><script type="text/javascript" src="./main.js"></script></head><body><div class="coach" id="main"><div><img class="img-radius" src="workspace.gif"></div><div class="content"><div class="show" id="div1"><p data-locale="Div1Text1"></p><p data-locale="Div1Text2"></p></div><div class="hide" id="div2"><p data-locale="Div2Text1"></p><p data-locale="Div2Text2"></p></div><div class="hide" id="div3"><p data-locale="Div3Text1"></p><p data-locale="Div3Text2"></p></div><div class="hide" id="div4"><p data-locale="Div4Text1"></p><p data-locale="Div4Text2"></p></div></div><div class="actions"><p data-locale="SkipTourText" class="skip" onclick="SkipTourClickedFromWorkspaceCard()"></p><button class="button" onclick="OkayClickedFromWorkspaceCard()"><label data-locale="OkText"></label></button></div></div><script>window.onload=function()
+		{
+			setTimeout(func1, 5050);
+			setTimeout(func2, 12090);
+			setTimeout(func3, 19790);
+			setTimeout(func4, 29490);
+		};
+		function func1()
+		{
+			document.getElementById("div1").className="hide";
+			document.getElementById("div2").className="show";
+			document.getElementById("div3").className="hide";
+			document.getElementById("div4").className="hide";
+		}
+		function func2()
+		{
+			document.getElementById("div1").className="hide";
+			document.getElementById("div2").className="hide";
+			document.getElementById("div3").className="show";
+			document.getElementById("div4").className="hide";
+		}
+		function func3()
+		{
+			document.getElementById("div1").className="hide";
+			document.getElementById("div2").className="hide";
+			document.getElementById("div3").className="hide";
+			document.getElementById("div4").className="show";
+		}
+		function func4()
+		{
+			document.getElementById("div1").className="show";
+			document.getElementById("div2").className="hide";
+			document.getElementById("div3").className="hide";
+			document.getElementById("div4").className="hide";
+			
+			setTimeout(func1, 5050);
+			setTimeout(func2, 12090);
+			setTimeout(func3, 19790);
+			setTimeout(func4, 29490);
+		}</script></body></html>

@@ -1,0 +1,1 @@
+function SendEvent(n,t){var i=new CSEvent("PDFFormatOnBoardingEvent","APPLICATION"),e={Data:n,Type:t};i.data=JSON.stringify(e),CSLibrary.dispatchEvent(i)}function DismissClicked(){SendEvent("","PDFImportFTUEDismiss")}

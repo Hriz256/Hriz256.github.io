@@ -1,0 +1,19 @@
+# Format, Version
+%IMPERIAL, X4.0
+#
+# Author: GerbTool/DOS X4.0 (c) 1991-1993 WISE Software Solutions, Inc.
+# Date:   Fri Jun 11 11:46:24 1993
+#
+#    Shape     Width  Height   Type  Tool   Tool Size   Legend   R90
+#
+D10  Round     0.0100 0.0100   TH      0    0.0000      D0        0
+D11  Round     0.0050 0.0050   TH      0    0.0000      D0        0
+D12  Round     0.0120 0.0120   TH      0    0.0000      D0        0
+D13  Round     0.0150 0.0150   TH      0    0.0000      D0        0
+D14  Round     0.0200 0.0200   TH      0    0.0000      D0        0
+D15  Round     0.0250 0.0250   TH      0    0.0000      D0        0
+D16  Round     0.0300 0.0300   TH      0    0.0000      D0        0
+D17  Round     0.0350 0.0350   TH      0    0.0000      D0        0
+D18  Round     0.0400 0.0400   TH      0    0.0000      D0        0
+D19  Round     0.0450 0.0450   TH      0    0.0000      D0        0
+D20  Round     0.0600 0.0600   TH      0    0.0000      D0        0
