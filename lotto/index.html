@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./scripts/babylon.js"></script>
+    <script src="./scripts/babylonjs.loaders.js"></script>
+    <script src="./scripts/ammo.js"></script>
+    <script src="./scripts/babylon.gui.min.js"></script>
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        #fps {
+            position: absolute;
+            background-color: black;
+            border: 2px solid red;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            top: 15px;
+            right: 10px;
+            width: 60px;
+            height: 20px;
+        }
+
+        #start {
+            position: absolute;
+            font-size: 16px;
+            top: 15px;
+            left: 15px;
+            width: 80px;
+            padding: 8px 0;
+            color: white;
+            border: none;
+            background: #5e7d00;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<button id="start">Старт</button>
+<div id="fps"></div>
+<canvas id="renderCanvas"></canvas>
+<script type="text/javascript" src="9e4b70bc202ff3199185.js"></script></body>
+</html>
+
