@@ -1,8 +1,0 @@
-
-
-.model RMOD RES( R=1 DEV=1%) 
-
-
-
-.model CMOD CAP ( C=1 DEV=5%) 
-

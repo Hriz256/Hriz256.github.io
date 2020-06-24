@@ -1,0 +1,111 @@
+{"frames": {
+
+"d0.svg":
+{
+	"frame": {"x":1,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d1.svg":
+{
+	"frame": {"x":51,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d2.svg":
+{
+	"frame": {"x":101,"y":1,"w":49,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":93},
+	"sourceSize": {"w":49,"h":93}
+},
+"d3.svg":
+{
+	"frame": {"x":152,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d4.svg":
+{
+	"frame": {"x":202,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d5.svg":
+{
+	"frame": {"x":252,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d6.svg":
+{
+	"frame": {"x":302,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d7.svg":
+{
+	"frame": {"x":352,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d8.svg":
+{
+	"frame": {"x":402,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d9.svg":
+{
+	"frame": {"x":452,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"d10.svg":
+{
+	"frame": {"x":502,"y":1,"w":48,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":93},
+	"sourceSize": {"w":48,"h":93}
+},
+"nums_background.svg":
+{
+	"frame": {"x":552,"y":1,"w":162,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":100},
+	"sourceSize": {"w":162,"h":100}
+}},
+"animations": {
+	"d": ["d0.svg","d1.svg","d2.svg","d3.svg","d4.svg","d5.svg","d6.svg","d7.svg","d8.svg","d9.svg","d10.svg"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "time.png",
+	"format": "RGBA8888",
+	"size": {"w":715,"h":102},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:33003b66cda96eab3ce88b767ffb60ca:8ad6901f0ba84b6eb2aba218a94f1292:8b9e29888db3139c1ee8974e5e691f0f$"
+}
+}

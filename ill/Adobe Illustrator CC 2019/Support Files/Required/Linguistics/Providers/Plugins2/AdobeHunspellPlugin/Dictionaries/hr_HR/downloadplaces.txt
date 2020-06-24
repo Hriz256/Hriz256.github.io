@@ -1,1 +1,0 @@
-hunspell dicitonaries:  http://www.j3e.de/hunspell/
