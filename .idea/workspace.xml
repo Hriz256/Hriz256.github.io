@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="" />
+    <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flappyBird/assets/sprites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/assets/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/d06fad4cd97598d8b6e6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/flappyBird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/fonts/FB.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/fonts/FB.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/fonts/FB.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flappyBird/vendors~main.835f4c74e4c5b0f5b789.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +72,8 @@
       <workItem from="1591696233186" duration="97000" />
       <workItem from="1593068713384" duration="129000" />
       <workItem from="1594059380490" duration="640000" />
+      <workItem from="1594061488751" duration="613000" />
+      <workItem from="1596885034369" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="Release">
       <created>1580324842868</created>
