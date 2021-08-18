@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flappyBird/assets/sprites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/assets/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/d06fad4cd97598d8b6e6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/flappyBird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/fonts/FB.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/fonts/FB.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/fonts/FB.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flappyBird/vendors~main.835f4c74e4c5b0f5b789.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="43087e10-4b7c-44e7-9611-da8349e5106c" name="Default Changelist" comment="фикс багов" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,26 +21,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lotto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/softgames" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/softgames" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,6 +62,7 @@
       <workItem from="1594059380490" duration="640000" />
       <workItem from="1594061488751" duration="613000" />
       <workItem from="1596885034369" duration="813000" />
+      <workItem from="1629328328932" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="Release">
       <created>1580324842868</created>
@@ -149,20 +138,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
